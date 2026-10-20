@@ -1,0 +1,290 @@
+[
+  {
+    "source_id": "s11",
+    "image": "images/v4-s11.webp",
+    "image_url": "https://ask.ifas.ufl.edu/image/EP159/15923320/13546696/13546696-2048.webp",
+    "image_caption": "Figure 1. Commercial production of Anthurium cultivars in a shaded greenhouse.",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://ask.ifas.ufl.edu/publication/EP159"
+  },
+  {
+    "source_id": "s12",
+    "image": "images/v4-s12.webp",
+    "image_url": "https://ask.ifas.ufl.edu/image/EP150/4422021/6959200/6959200-2048.webp",
+    "image_caption": "Figure 1. Commercial production of Philodendron 'Xanadu' in a shaded greenhouse.",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://ask.ifas.ufl.edu/publication/EP150"
+  },
+  {
+    "source_id": "s14",
+    "image": "images/v4-s14.webp",
+    "image_url": "https://hort.extension.wisc.edu/files/2015/12/monstera-houseplant.jpg",
+    "image_caption": "Split-leaf philodendron makes a goodhouseplant in the right conditions",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/"
+  },
+  {
+    "source_id": "s17",
+    "image": "images/v4-s17.webp",
+    "image_url": "https://ask.ifas.ufl.edu/publication/FP033/pdf",
+    "image_caption": "FPS 33/FP033: Alocasia spp.: Elephant's Ear, Alocasia, Taro — 原PDF首页",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://ask.ifas.ufl.edu/publication/FP033"
+  },
+  {
+    "source_id": "s22",
+    "image": "images/v4-s22.webp",
+    "image_url": "https://ask.ifas.ufl.edu/image/HS311/13323768/12908883/12908883-2048.webp",
+    "image_caption": "Figure 1. Monstera plant with fruit.",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://ask.ifas.ufl.edu/publication/HS311"
+  },
+  {
+    "source_id": "s23",
+    "image": "images/v4-s23.webp",
+    "image_url": "https://gardeningsolutions.ifas.ufl.edu/wp-content/uploads/2023/11/image-221.png",
+    "image_caption": "A suspended cluster of caladium plants with large heart shaped leaves, hot pink and edged in green, with some fern peeking out from below",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/caladiums/"
+  },
+  {
+    "source_id": "s26",
+    "image": "images/v4-s26.webp",
+    "image_url": "https://hort.extension.wisc.edu/files/2019/02/Staghorn-bifurcatum-276x300.jpg",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://hort.extension.wisc.edu/articles/staghorn-fern-platycerium-bifurcatum/"
+  },
+  {
+    "source_id": "s27",
+    "image": "images/v4-s27.webp",
+    "image_url": "https://gardeningsolutions.ifas.ufl.edu/wp-content/uploads/2023/11/image-349.png",
+    "image_caption": "Staghorn fern mounted on wall",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/staghorn-fern/"
+  },
+  {
+    "source_id": "s40",
+    "image": "images/v4-s40.webp",
+    "image_url": "https://herebutnot.com/wordpress/wp-content/uploads/2020/04/8446FD14-CD43-46EC-A68D-E15819AB8E70-1024x985.jpeg",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://herebutnot.com/aroids-anthuriums-philodendrons-care-culture-tips-for-growing-indoors/"
+  },
+  {
+    "source_id": "s47",
+    "image": "images/v4-s47.webp",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Hoya_bella_Isidro_Ma_XHuueIpDom6G.jpeg",
+    "image_caption": "Vine with lanceolate leaves and umbels of white & pink flowers.",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://plants.ces.ncsu.edu/plants/hoya-bella/"
+  },
+  {
+    "source_id": "s60",
+    "image": "images/v4-s60.webp",
+    "image_url": "https://vermonthoyas.com/cultivation/watering-and-fertilization/",
+    "image_caption": "Watering and Fertilization — 原PDF首页",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://vermonthoyas.com/cultivation/watering-and-fertilization/"
+  },
+  {
+    "source_id": "s31",
+    "image": "images/v4-s31.webp",
+    "image_url": "https://www.benary.com/print/pdf/node/6719",
+    "image_caption": "原始PDF首页",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.benary.com/print/pdf/node/6719"
+  },
+  {
+    "source_id": "s41",
+    "image": "images/v4-s41.webp",
+    "image_url": "https://www.mastergardenersd.org/wp-content/uploads/2026/03/Staghorn-Fern-Mike-Harrelson.docx.pdf",
+    "image_caption": "原始PDF首页",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.mastergardenersd.org/wp-content/uploads/2026/03/Staghorn-Fern-Mike-Harrelson.docx.pdf"
+  },
+  {
+    "source_id": "s59",
+    "image": "images/v4-s59.webp",
+    "image_url": "https://images.thdstatic.com/catalog/pdfImages/af/af336180-f425-4407-99eb-2485be88b0ae.pdf",
+    "image_caption": "原始PDF首页",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://images.thdstatic.com/catalog/pdfImages/af/af336180-f425-4407-99eb-2485be88b0ae.pdf"
+  },
+  {
+    "source_id": "s28",
+    "image": "images/v4-s28.webp",
+    "image_url": "https://www.begonias.org/wp-content/uploads/2021/09/margueriteDeCola-1.jpg",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://begonias.org/cane-like-begonias-like-bamboo-with-flowers"
+  },
+  {
+    "source_id": "s29",
+    "image": "images/v4-s29.webp",
+    "image_url": "https://www.begonias.org/wp-content/uploads/2021/09/cleopatra.jpg",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.begonias.org/rhizomatous-leaves-flower-clusters/"
+  },
+  {
+    "source_id": "s38",
+    "image": "images/v4-s38.webp",
+    "image_url": "https://www.begonias.org/wp-content/uploads/2021/09/limprichtii_A.jpg",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.begonias.org/b-limprichtii/"
+  },
+  {
+    "source_id": "s39",
+    "image": "images/v4-s39.webp",
+    "image_url": "https://www.begonias.org/wp-content/uploads/2021/08/IMG_5243-980x1307-1.jpg",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.begonias.org/soil-media/"
+  },
+  {
+    "source_id": "s45",
+    "image": "images/v4-s45.webp",
+    "image_url": "https://assets.rhs.org.uk/05836e9f-2692-012f-b4fe-e3f22d127fa9/9291e282-4527-4f06-89b0-f50a0e760115/hoya-002_800207.jpg?w=1200&fit=clip&fm=jpg&auto=format",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.rhs.org.uk/plants/hoya/how-to-grow"
+  },
+  {
+    "source_id": "s48",
+    "image": "images/v4-s48.webp",
+    "image_url": "https://apps.rhs.org.uk/plantselectorimages/detail/visi27948.jpg",
+    "image_caption": "原文配图",
+    "image_kind": "source-photo",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.rhs.org.uk/plants/8856/hoya-linearis/details"
+  },
+  {
+    "source_id": "s49",
+    "image": "images/v4-s49.webp",
+    "image_url": "https://www.rhs.org.uk/plants/83016/hoya-kerrii/details",
+    "image_caption": "来源网页实截",
+    "image_kind": "live-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.rhs.org.uk/plants/83016/hoya-kerrii/details"
+  },
+  {
+    "source_id": "s18",
+    "image": "images/v4-s18.webp",
+    "image_url": "https://www.provenwinners.com/professionals/growers/plant-culture/alocasia",
+    "image_caption": "来源网页实截",
+    "image_kind": "live-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.provenwinners.com/professionals/growers/plant-culture/alocasia"
+  },
+  {
+    "source_id": "s19",
+    "image": "images/v4-s19.webp",
+    "image_url": "https://www.oglesbytc.com/notes-alocasia",
+    "image_caption": "来源网页实截",
+    "image_kind": "live-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.oglesbytc.com/notes-alocasia"
+  },
+  {
+    "source_id": "s21",
+    "image": "images/v4-s21.webp",
+    "image_url": "https://www.provenwinners.com/professionals/growers/cultural-information/definitions",
+    "image_caption": "来源网页实截",
+    "image_kind": "live-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.provenwinners.com/professionals/growers/cultural-information/definitions"
+  },
+  {
+    "source_id": "s25",
+    "image": "images/v4-s25.webp",
+    "image_url": "https://extension.purdue.edu/extmedia/HO/HO-237-W.pdf",
+    "image_caption": "HO-237: pH and Electrical Conductivity Measurements in Soilless Substrates — 原PDF首页",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-237-w.html"
+  },
+  {
+    "source_id": "s32",
+    "image": "images/v4-s32.webp",
+    "image_url": "https://www.extension.purdue.edu/extmedia/HO/HO-286-w.pdf",
+    "image_caption": "HO-286-W: Details of Electrical Conductivity Measurements in Greenhouse Production — 原PDF首页",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.extension.purdue.edu/extmedia/HO/HO-286-w.pdf"
+  },
+  {
+    "source_id": "s13",
+    "image": "images/v4-s13.webp",
+    "image_url": "https://journals.ashs.org/downloadpdf/view/journals/hortsci/60/8/article-p1372.pdf",
+    "image_caption": "HortScience 60(8):1372–1378 (2025) — Alocasia water, nutrients and irrigation",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://journals.ashs.org/view/journals/hortsci/60/8/article-p1372.xml"
+  },
+  {
+    "source_id": "s16",
+    "image": "images/v4-s16.webp",
+    "image_url": "https://mdpi-res.com/d_attachment/plants/plants-10-00857/article_deploy/plants-10-00857.pdf",
+    "image_caption": "Plants 10(5), 857 (2021) — Anthurium light response",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://www.mdpi.com/2223-7747/10/5/857"
+  },
+  {
+    "source_id": "s20",
+    "image": "images/v4-s20.webp",
+    "image_url": "https://journals.flvc.org/fshs/article/download/138481/143693",
+    "image_caption": "Proceedings of the Florida State Horticultural Society 136:190–193 (2023)",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://journals.flvc.org/fshs/article/download/138481/143693"
+  },
+  {
+    "source_id": "s24",
+    "image": "images/v4-s24.webp",
+    "image_url": "https://www.plantgrower.org/uploads/6/5/5/4/65545169/caladium_production.pdf",
+    "image_caption": "Caladium Production — Michael Evans, John Erwin and Royal Heins; January 1991, volume 40, number 1",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "http://www.plantgrower.org/uploads/6/5/5/4/65545169/caladium_production.pdf"
+  },
+  {
+    "source_id": "s30",
+    "image": "images/v4-s30.webp",
+    "image_url": "https://www.plantgrower.org/uploads/6/5/5/4/65545169/rexbegoniaproduction.pdf",
+    "image_caption": "GPN, November 2002 — Rick Schoellhorn; original guide filename rexbegoniaproduction.pdf",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "http://www.plantgrower.org/uploads/6/5/5/4/65545169/rexbegoniaproduction.pdf"
+  },
+  {
+    "source_id": "s51",
+    "image": "images/v4-s51.webp",
+    "image_url": "https://snv63.ru/2309-4370/article/download/108333/81863",
+    "image_caption": "Samara Journal of Science 11(1):124–127 (2022) — Russian and English titles on original first page",
+    "image_kind": "pdf-first-page",
+    "image_status": "source matched; real image or original-document capture",
+    "source_url": "https://snv63.ru/2309-4370/article/view/108333"
+  }
+]
