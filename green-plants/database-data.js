@@ -1,0 +1,5333 @@
+window.PLANT_DB = {
+  "version": 3,
+  "updated": "2026-10-20",
+  "plants": {
+    "hoya": "球兰 Hoya",
+    "anthurium": "花烛",
+    "alocasia": "海芋",
+    "monstera": "龟背竹",
+    "philodendron": "蔓绿绒",
+    "caladium": "彩叶芋 · 泰彩",
+    "platycerium": "鹿角蕨",
+    "begonia": "秋海棠",
+    "orchid": "兰科植物（专项肥标签）",
+    "general": "通用 / 测量方法"
+  },
+  "kinds": {
+    "research": "研究论文",
+    "extension": "大学 / 植物园 / RHS",
+    "society": "专业学会",
+    "manufacturer": "厂家标签",
+    "grower": "种植者 / 苗圃",
+    "video": "视频 / 说明"
+  },
+  "media_types": {
+    "organic": "土 / 泥炭 / 椰糠混合",
+    "chunky": "树皮 / 粗颗粒混合",
+    "mineral": "矿物颗粒 / PON",
+    "leca": "陶粒 / LECA",
+    "sphagnum": "水苔",
+    "mounted": "上板 / 附生",
+    "hydro": "纯水培",
+    "semihydro": "半水培",
+    "unspecified": "来源未说明"
+  },
+  "fields": {
+    "light": "光照",
+    "temperature": "温度",
+    "water": "水分 / 湿度",
+    "npk": "NPK / 用肥",
+    "ec": "EC",
+    "additives": "微量肥 / 添加剂",
+    "substrate": "栽培介质"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.growthtechnology.com.au/product/fof-foliage-focus",
+      "title": "Growth Technology — Foliage Focus",
+      "type": "厂家标签",
+      "quote": "Foliage Focus is specifically formulated to encourage profuse and lush foliage growth. Suitable for all non-flowering plants, especially common and rare tropical varieties.",
+      "accessed": "2026-10-20",
+      "number": 1,
+      "kind": "manufacturer",
+      "author": "Growth Technology Australia",
+      "image": "images/0be40210083ba5f5.webp",
+      "image_url": "https://cdn.prod.website-files.com/6719d6772b6a0979c8354541/68f300e40a18ff5a21e1b045_dya9v2hyr1axzfc99e9pap3ygd8qztzm.avif",
+      "image_caption": "Foliage Focus；官网产品页包装图，未以图片小字提取成分",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s3",
+      "url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-excel-acidifier-calmag-finisher/",
+      "title": "花多多®钙镁紧凑型 | ICL（以化集团）",
+      "type": "厂家标签",
+      "quote": "13\nN\n5\nP ₂ O ₅\n20\nK ₂ O\n7.0\nCaO\n2.0\nMgO",
+      "accessed": "2026-10-20",
+      "number": 3,
+      "kind": "manufacturer",
+      "author": "花多多®钙镁紧凑型 | ICL（以化集团）",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s4",
+      "url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-excel-acidifier-calmag-grower/",
+      "title": "花多多®钙镁生长型 | ICL（以化集团）",
+      "type": "厂家标签",
+      "quote": "15\nN\n5\nP ₂ O ₅\n15\nK ₂ O\n7.0\nCaO\n3.0\nMgO",
+      "accessed": "2026-10-20",
+      "number": 4,
+      "kind": "manufacturer",
+      "author": "花多多®钙镁生长型 | ICL（以化集团）",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s5",
+      "url": "https://apogeeinstruments.com/conversion-ppfd-to-lux",
+      "title": "PPFD to Lux Reference Tables",
+      "type": "仪器厂家技术资料",
+      "quote": "| Sunlight | 54 |",
+      "accessed": "2026-10-20",
+      "number": 5,
+      "kind": "manufacturer",
+      "author": "PPFD to Lux Reference Tables",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s6",
+      "url": "https://umass.edu/agriculture-food-environment/greenhouse-floriculture/fact-sheets/soil-testing",
+      "title": "Soil Testing : Greenhouse & Floriculture : Center for Agriculture, Food, and the Environment (CAFE) at UMass Amherst",
+      "type": "大学推广",
+      "quote": "Most fertilizers (except urea) are salts and when placed in solution they conduct electricity.",
+      "accessed": "2026-10-20",
+      "number": 6,
+      "kind": "extension",
+      "author": "Soil Testing : Greenhouse & Floriculture : Center for Agriculture, Food, and the Environment (CAFE) at UMass Amherst",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s7",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants",
+      "title": "Managing insects on indoor plants | UMN Extension",
+      "type": "大学推广",
+      "quote": "If pests are detected, isolate the plant from others.",
+      "accessed": "2026-10-20",
+      "number": 7,
+      "kind": "extension",
+      "author": "Managing insects on indoor plants | UMN Extension",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s8",
+      "url": "https://growkings.com.au/cdn/shop/files/growth-tech-focus-range.pdf?v=4383388345442119798",
+      "title": "THE FOCUS RANGE",
+      "type": "厂家说明（零售商托管旧版PDF）",
+      "quote": "Do not exceed 5ml per litre and avoid spraying during the heat of \nthe day or in direct sunlight.",
+      "accessed": "2026-10-20",
+      "number": 8,
+      "kind": "manufacturer",
+      "author": "THE FOCUS RANGE",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s9",
+      "url": "https://extension.missouri.edu/publications/g7273",
+      "title": "Least-Toxic Control Methods to Manage Indoor Plant Pests | MU Extension",
+      "type": "大学推广",
+      "quote": "Apply an insecticidal soap.",
+      "accessed": "2026-10-20",
+      "number": 9,
+      "kind": "extension",
+      "author": "Least-Toxic Control Methods to Manage Indoor Plant Pests | MU Extension",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.growthtechnology.com.au/en-us/product/gtfol-gt-foliar",
+      "title": "GT Foliar — Ready-to-use, power-packed foliar solution for leaf feeding. by Growth Technology",
+      "type": "厂家标签",
+      "quote": "Spray top and underside of leaves in low ligh conditions. Avoid spraying blooms.\nUse 2-3 times per week. Spray fine mist only, do not drench.",
+      "accessed": "2026-10-20",
+      "number": 10,
+      "kind": "manufacturer",
+      "author": "Growth Technology",
+      "image": "images/71c3623686d95148.webp",
+      "image_url": "https://cdn.prod.website-files.com/6719d6772b6a0979c8354541/67d653cd100865d08a21cde0_brwadm0n3tj3z92sc9ab29e2pbvqr3v0.png",
+      "image_caption": "GT Foliar 官方产品图（en-us页面）",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s11",
+      "url": "https://ask.ifas.ufl.edu/publication/EP159",
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Anthurium",
+      "type": "大学推广",
+      "quote": "Typical light levels range from 1,000 to 2,500 foot candles or 90% to 80% shade in Florida.",
+      "accessed": "2026-10-20",
+      "number": 11,
+      "kind": "extension",
+      "author": "Cultural Guidelines for Commercial Production of Interiorscape Anthurium",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s12",
+      "url": "https://ask.ifas.ufl.edu/publication/EP150",
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Philodendron",
+      "type": "大学推广",
+      "quote": "Three-foot and taller totems should have \n10–20% coarse sand to keep plants from wind tipping.",
+      "accessed": "2026-10-20",
+      "number": 12,
+      "kind": "extension",
+      "author": "Cultural Guidelines for Commercial Production of Interiorscape Philodendron",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s13",
+      "url": "https://journals.ashs.org/view/journals/hortsci/60/8/article-p1372.xml",
+      "title": "Effects of Substrate Volumetric Water Content, Nutrient Solution Concentration, and Irrigation Method on Growth and Photosynthesis of Alocasia",
+      "type": "原始研究论文（全文）",
+      "quote": "All plants in each treatment received nutrient solution once per week, without additional watering.",
+      "accessed": "2026-10-20",
+      "number": 13,
+      "kind": "research",
+      "author": "Effects of Substrate Volumetric Water Content, Nutrient Solution Concentration, and Irrigation Method on Growth and Photosynthesis of Alocasia",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s14",
+      "url": "https://hort.extension.wisc.edu/articles/monstera-deliciosa/",
+      "title": "Swiss-Cheese Plant, Monstera deliciosa",
+      "type": "大学推广",
+      "quote": "**Monstera does best in bright light in summer and direct sun in winter**.",
+      "accessed": "2026-10-20",
+      "number": 14,
+      "kind": "extension",
+      "author": "Swiss-Cheese Plant, Monstera deliciosa",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s15",
+      "url": "https://homegarden.cahnr.uconn.edu/factsheets/monstera-deliciosa/",
+      "title": "Monstera deliciosa | Home Garden Education Office | College of Agriculture, Health and Natural Resources | University of Connecticut",
+      "type": "大学推广",
+      "quote": "Soil: A well-draining potting mix with a high organic matter content.",
+      "accessed": "2026-10-20",
+      "number": 15,
+      "kind": "extension",
+      "author": "Monstera deliciosa | Home Garden Education Office | College of Agriculture, Health and Natural Resources | University of Connecticut",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.mdpi.com/2223-7747/10/5/857",
+      "title": "Photosynthetic Responses of Anthurium × ‘Red’ under Different Light Conditions",
+      "type": "原始研究论文（全文）",
+      "quote": "resulting in three sections with daily maximum PPFDs of 550, 350, and 255 μmol·m−2·s−1 as high (H), medium (M), and low (L) levels, respectively.",
+      "accessed": "2026-10-20",
+      "number": 16,
+      "kind": "research",
+      "author": "Photosynthetic Responses of Anthurium × ‘Red’ under Different Light Conditions",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s17",
+      "url": "https://ask.ifas.ufl.edu/publication/FP033",
+      "title": "FPS 33/FP033: Alocasia spp.: Elephant's Ear, Alocasia, Taro",
+      "type": "大学推广",
+      "quote": "If Alocasia is used as a houseplant, it should be in a location with bright indirect light.",
+      "accessed": "2026-10-20",
+      "number": 17,
+      "kind": "extension",
+      "author": "FPS 33/FP033: Alocasia spp.: Elephant's Ear, Alocasia, Taro",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.provenwinners.com/professionals/growers/plant-culture/alocasia",
+      "title": "Alocasia | Proven Winners",
+      "type": "商业生产指南（非大学证据）",
+      "quote": "[EC (2:1 Extraction Method)](https://www.provenwinners.com/professionals/growers/cultural-information/definitions#ec):\n\nB (0.6 - 0.9)",
+      "accessed": "2026-10-20",
+      "number": 18,
+      "kind": "manufacturer",
+      "author": "Alocasia | Proven Winners",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s19",
+      "url": "https://www.oglesbytc.com/notes-alocasia",
+      "title": "Notes - Alocasia — Oglesby Plants International",
+      "type": "商业生产指南（非大学证据）",
+      "quote": "**Fertilizer:** Liquid feed @ 150-200ppm N 2X/week using 17-5-17 or 20-10-20.",
+      "accessed": "2026-10-20",
+      "number": 19,
+      "kind": "manufacturer",
+      "author": "Notes - Alocasia ",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s20",
+      "url": "https://journals.flvc.org/fshs/article/download/138481/143693",
+      "title": "Performance of Philodendron ‘Green Princess’ Grown Under Various Light Levels and Fertilizer Regimes",
+      "type": "原始研究论文（全文）",
+      "quote": "Average \n3.6615 DLI \n2.661 DLI",
+      "accessed": "2026-10-20",
+      "number": 20,
+      "kind": "research",
+      "author": "Performance of Philodendron ‘Green Princess’ Grown Under Various Light Levels and Fertilizer Regimes",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s21",
+      "url": "https://www.provenwinners.com/professionals/growers/cultural-information/definitions",
+      "title": "Cultural Information Definitions | Proven Winners",
+      "type": "商业生产指南（非大学证据）",
+      "quote": "Medium: 150-200 ppm Constant Liquid Feed",
+      "accessed": "2026-10-20",
+      "number": 21,
+      "kind": "manufacturer",
+      "author": "Cultural Information Definitions | Proven Winners",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s22",
+      "url": "https://ask.ifas.ufl.edu/publication/HS311",
+      "title": "Monstera Growing in the Florida Home Landscape",
+      "type": "大学推广",
+      "quote": "foliar applications of zinc, manganese, and magnesium are more efficacious for vines growing in highly calcareous with a high pH (7–8.5).",
+      "accessed": "2026-10-20",
+      "number": 22,
+      "kind": "extension",
+      "author": "Monstera Growing in the Florida Home Landscape",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s23",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/caladiums/",
+      "title": "Caladiums – UF/IFAS Gardening Solutions",
+      "type": "大学Extension",
+      "quote": "Caladiums prefer soils with high moisture and adequate drainage. The tubers should never sit in dry soil or saturated water, but in soil moist to the touch.",
+      "accessed": "2026-10-20",
+      "number": 23,
+      "kind": "extension",
+      "author": "Caladiums – UF/IFAS Gardening Solutions",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s24",
+      "url": "http://www.plantgrower.org/uploads/6/5/5/4/65545169/caladium_production.pdf",
+      "title": "Caladium Production; Evans, Erwin & Heins; Minnesota Flower Growers Bulletin 40(1), 1991",
+      "type": "大学研究者生产技术刊物（原刊PDF镜像）",
+      "quote": "Plantina tubers - Medium should be \nwell drained and high in organic matter. The \nmedia pH should be maintained from 5.5-6.5.",
+      "accessed": "2026-10-20",
+      "number": 24,
+      "kind": "extension",
+      "author": "Caladium Production; Evans, Erwin & Heins; Minnesota Flower Growers Bulletin 40(1), 1991",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s25",
+      "url": "https://ag.purdue.edu/department/hla/extension/extension-publications-library/ext-pubs/ho-237-w.html",
+      "title": "HO-237: pH and Electrical Conductivity Measurements in Soilless Substrates",
+      "type": "大学Extension",
+      "quote": "Table 1. Nutrient requirements of greenhouse crops with electrical conductivity ranges using the saturated media extract (SME) and PourThru methods.\nLight (SME EC of 0.76 to 2.0 mS/cm) (PourThru EC of 1.0 to 2.6 mS/cm)\nAfrican violets\nAgeratum\nAnemone\nAsclepias\nAster\nAstilbe\nAzalea\nBegonia (fibrous)\nBegonia (Hiemalis)\nBegonia (Rex)\nBegonia (Tuberous)\nCaladium",
+      "accessed": "2026-10-20",
+      "number": 25,
+      "kind": "extension",
+      "author": "HO-237: pH and Electrical Conductivity Measurements in Soilless Substrates",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s26",
+      "url": "https://hort.extension.wisc.edu/articles/staghorn-fern-platycerium-bifurcatum/",
+      "title": "Staghorn Fern, Platycerium bifurcatum – Wisconsin Horticulture",
+      "type": "大学Extension",
+      "quote": "**_P. veitchii_** is smaller and slower-growing than _P. bifurcatum_, with fuzzy, blue-green fronds. It is more sun tolerant, too.",
+      "accessed": "2026-10-20",
+      "number": 26,
+      "kind": "extension",
+      "author": "Staghorn Fern, Platycerium bifurcatum – Wisconsin Horticulture",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s27",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/staghorn-fern/",
+      "title": "Staghorn Fern – UF/IFAS Gardening Solutions",
+      "type": "大学Extension",
+      "quote": "Staghorn fern can benefit from the application of a fertilizer with a 1:1:1 ratio; as always, be sure to follow label instructions. While the fern is young, fertilizer should be applied monthly during warm months and every other month during the cooler months when as growth slows. Mature staghorns will thrive with a once- or twice-yearly fertilizer application.",
+      "accessed": "2026-10-20",
+      "number": 27,
+      "kind": "extension",
+      "author": "Staghorn Fern – UF/IFAS Gardening Solutions",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s28",
+      "url": "https://begonias.org/cane-like-begonias-like-bamboo-with-flowers",
+      "title": "Cane-Like Begonias: Like Bamboo with Flowers – American Begonia Society",
+      "type": "植物学会栽培指南",
+      "quote": "The best place to grow a cane-type *Begonia* is in bright light — even sunny if the sun isn’t intensely hot.",
+      "accessed": "2026-10-20",
+      "number": 28,
+      "kind": "society",
+      "author": "Cane-Like Begonias: Like Bamboo with Flowers – American Begonia Society",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s29",
+      "url": "https://www.begonias.org/rhizomatous-leaves-flower-clusters/",
+      "title": "Rhizomatous: leaves, flower clusters – American Begonia Society",
+      "type": "植物学会栽培指南",
+      "quote": "A “complete” fertilizer (one that contains all three of the main ingredients, nitrogen, phosphorus, and potassium) should be applied according to label directions unless the plant is in dormancy. During dormancy, don’t feed at all. You can tell the percentage of each ingredient by checking the formula (such as 15-30-15) on the label.",
+      "accessed": "2026-10-20",
+      "number": 29,
+      "kind": "society",
+      "author": "Rhizomatous: leaves, flower clusters – American Begonia Society",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s30",
+      "url": "http://www.plantgrower.org/uploads/6/5/5/4/65545169/rexbegoniaproduction.pdf",
+      "title": "Recycling the Rex Begonia; Rick Schoellhorn, University of Florida; GPN November 2002",
+      "type": "大学研究者生产技术文章（原刊PDF镜像）",
+      "quote": "Light levels. Approximately 1,500-2,500 foot-candles; generous spacing is key for quality plants, so don’t crowd plants on the bench.",
+      "accessed": "2026-10-20",
+      "number": 30,
+      "kind": "extension",
+      "author": "Recycling the Rex Begonia; Rick Schoellhorn, University of Florida; GPN November 2002",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s31",
+      "url": "https://www.benary.com/print/pdf/node/6719",
+      "title": "Begonia tuberhybrida F1 Nonstop Rose Picotee Technical Guide – Benary",
+      "type": "育种商一手生产技术指南",
+      "quote": "Media: Use a well-drained, growing substrate; pH 5.5-5.8; EC 1.0-1.5.",
+      "accessed": "2026-10-20",
+      "number": 31,
+      "kind": "extension",
+      "author": "Begonia tuberhybrida F1 Nonstop Rose Picotee Technical Guide – Benary",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s32",
+      "url": "https://www.extension.purdue.edu/extmedia/HO/HO-286-w.pdf",
+      "title": "HO-286-W: Details of Electrical Conductivity Measurements in Greenhouse Production",
+      "type": "大学Extension",
+      "quote": "Electrical conductivity is measured in Siemens (S) but ‘mho’s (opposite of ‘ohm’, the unit for resistance) are also occasionally used. Note that S = mho and one mS/cm = 1 dS/m = 1,000 µS/cm, where ‘m’ stands for ‘milli’, ‘d’ stands for ‘deci’ and ‘µ’ stands for ‘micro’. Figure 1. This illustration describes the concept of electrical conductivity in solutions. The solution on the left is pure water and does",
+      "accessed": "2026-10-20",
+      "number": 32,
+      "kind": "extension",
+      "author": "HO-286-W: Details of Electrical Conductivity Measurements in Greenhouse Production",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s33",
+      "url": "https://www.sydneyplantguy.com/potting-mix",
+      "title": "Potting Mix — SydneyPlantGuy",
+      "type": "first-person grower practice / commercial nursery",
+      "quote": "Equal parts of: Bark / Coco Chips / Perlite / Pumice",
+      "accessed": "2026-10-20",
+      "number": 33,
+      "kind": "grower",
+      "author": "Potting Mix ",
+      "image": "images/64e4bb60b386aee4.webp",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6494dea0b0911b7fca3af11c/a1d19ce6-5292-4289-b3d6-684750ab6449/photo-output+11.JPG",
+      "image_caption": "Sydney Plant Guy 介质文章配图",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s34",
+      "url": "https://www.sydneyplantguy.com/products-discount-codes",
+      "title": "Products & Discount Codes — SydneyPlantGuy",
+      "type": "first-person grower practice / commercial nursery",
+      "quote": "Proof is in the pudding ! I wouldn’t recommend a product if I’m not confident that it works. I have used all of below products myself & can happily pass on my recommendation. This also means that I am limited to recommending products that I was able to test in Australia. I receive a small commission when you use my discount code so I appreciate the support :)",
+      "accessed": "2026-10-20",
+      "number": 34,
+      "kind": "grower",
+      "author": "Products & Discount Codes ",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s35",
+      "url": "https://growtropicals.com/blogs/growingtropicals/using-hesi-products-with-aroids-and-other-indoor-ornamentals",
+      "title": "Hesi Products Indoors for Aroids and more",
+      "type": "first-person grower practice / commercial nursery",
+      "quote": "| **Hesi TNT Complex** | **0.5-1ml/L** |",
+      "accessed": "2026-10-20",
+      "number": 35,
+      "kind": "grower",
+      "author": "Hesi Products Indoors for Aroids and more",
+      "image": "images/5f1a7d6e75ffcb7d.webp",
+      "image_url": "https://growtropicals.com/cdn/shop/articles/using-hesi-products-with-aroids-and-other-indoor-ornamentals-800829.jpg?v=1618059285&width=1200",
+      "image_caption": "GrowTropicals Hesi 使用文章封面",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s37",
+      "url": "https://lsuagcenter.com/profiles/lblack/articles/page1784735343775",
+      "title": "Insecticidal Soaps",
+      "type": "extension / horticulture guidance",
+      "quote": "Plant sensitivity can be influenced by pest pressure, cultivar, plant vigor, environmental conditions, spray concentration, pH of spray mixture as well as the timing, number and frequency of applications.",
+      "accessed": "2026-10-20",
+      "number": 37,
+      "kind": "extension",
+      "author": "Insecticidal Soaps",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s38",
+      "url": "https://www.begonias.org/b-limprichtii/",
+      "title": "B. limprichtii | American Begonia Society",
+      "type": "specialist society / grower practice",
+      "quote": "did quite well with no water or additional fertilizer for over a year at a time.",
+      "accessed": "2026-10-20",
+      "number": 38,
+      "kind": "society",
+      "author": "B. limprichtii | American Begonia Society",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s39",
+      "url": "https://www.begonias.org/soil-media/",
+      "title": "Growing Media | American Begonia Society",
+      "type": "specialist society / grower practice",
+      "quote": "Here is one mix that may work for outdoor begonias:",
+      "accessed": "2026-10-20",
+      "number": 39,
+      "kind": "society",
+      "author": "Growing Media | American Begonia Society",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s40",
+      "url": "https://herebutnot.com/aroids-anthuriums-philodendrons-care-culture-tips-for-growing-indoors/",
+      "title": "Aroids, Anthuriums & Philodendrons Care & Culture - Tips for Growing Indoors",
+      "type": "first-person grower practice / commercial nursery",
+      "quote": "My organic fertilizers include: bloodmeal (for nitrogen) and glacial rock dust (for minerals and micro nutrients).",
+      "accessed": "2026-10-20",
+      "number": 40,
+      "kind": "grower",
+      "author": "Aroids, Anthuriums & Philodendrons Care & Culture - Tips for Growing Indoors",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s41",
+      "url": "https://www.mastergardenersd.org/wp-content/uploads/2026/03/Staghorn-Fern-Mike-Harrelson.docx.pdf",
+      "title": "Staghorn Fern Mike Harrelson.docx",
+      "type": "extension / horticulture guidance",
+      "quote": "Treat these insect pests with an\ninsecticidal soap. Avoid using oil-based\nproducts on the leaves.",
+      "accessed": "2026-10-20",
+      "number": 41,
+      "kind": "extension",
+      "author": "Staghorn Fern Mike Harrelson.docx",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s42",
+      "url": "https://homegarden.cahnr.uconn.edu/factsheets/horticultural-oils/",
+      "title": "Horticultural Oils | Home Garden Education Office | College of Agriculture, Health and Natural Resources | University of Connecticut",
+      "type": "extension / horticulture guidance",
+      "quote": "Oil sprays on wax begonia and coleus may cause pitting and speckling of the foliage.\nDo not use on ferns.",
+      "accessed": "2026-10-20",
+      "number": 42,
+      "kind": "extension",
+      "author": "Horticultural Oils | Home Garden Education Office | College of Agriculture, Health and Natural Resources | University of Connecticut",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s43",
+      "url": "https://sites.udel.edu/weeklycropupdate/?p=14763",
+      "title": "Foliar Fertilization for Vegetable Crops",
+      "type": "extension / horticulture guidance",
+      "quote": "However, younger plant tissue is also the most susceptible to potential fertilizer burn.",
+      "accessed": "2026-10-20",
+      "number": 43,
+      "kind": "extension",
+      "author": "Foliar Fertilization for Vegetable Crops",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面"
+    },
+    {
+      "id": "s45",
+      "number": 45,
+      "url": "https://www.rhs.org.uk/plants/hoya/how-to-grow",
+      "title": "How to grow hoya",
+      "kind": "society",
+      "author": "Royal Horticultural Society",
+      "type": "society",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "quote": "Hoyas shouldn’t be fed for five to six weeks after repotting."
+    },
+    {
+      "id": "s46",
+      "number": 46,
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya/",
+      "title": "Indoor Plants – Waxflowers (Hoya), HGIC 1460",
+      "kind": "extension",
+      "author": "Nicole Goodman, Clemson University Cooperative Extension",
+      "type": "extension",
+      "accessed": "2026-10-20",
+      "image": "images/c209c65110ae8f4e.webp",
+      "image_url": "https://hgic.clemson.edu/wp-content/uploads/2025/02/pretty-waxflower-hoya-bella-828x552.jpeg",
+      "image_caption": "原文 og:image：Hoya bella 照片，Clemson Extension；版权归原图权利人。",
+      "quote": "The weight test helps determine if your hoya needs water by feeling how light the pot is when the soil is dry.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s47",
+      "number": 47,
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-bella/",
+      "title": "Hoya bella — North Carolina Extension Gardener Plant Toolbox",
+      "kind": "extension",
+      "author": "NC State University / NC Cooperative Extension",
+      "type": "extension",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "quote": "It is best to allow the soil to become almost dry before watering."
+    },
+    {
+      "id": "s48",
+      "number": 48,
+      "url": "https://www.rhs.org.uk/plants/8856/hoya-linearis/details",
+      "title": "Hoya linearis — RHS Plant Finder",
+      "kind": "society",
+      "author": "Royal Horticultural Society",
+      "type": "society",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "quote": "Position in bright, indirect light with shade from hot sun."
+    },
+    {
+      "id": "s49",
+      "number": 49,
+      "url": "https://rhs.org.uk/plants/83016/hoya-kerrii/details",
+      "title": "Hoya kerrii — RHS Plant Finder",
+      "kind": "society",
+      "author": "Royal Horticultural Society",
+      "type": "society",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "quote": "Position in bright, indirect light with shade from hot sun."
+    },
+    {
+      "id": "s50",
+      "number": 50,
+      "url": "https://mrec.ifas.ufl.edu/foliage/folnotes/waxplant.htm",
+      "title": "Wax Plant (Hoya) Production Guide, RH-91-35",
+      "kind": "extension",
+      "author": "L.S. Osborne, R.W. Henley and A.R. Chase, University of Florida IFAS",
+      "type": "extension",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "quote": "An acceptable production temperature range is 68 to 90°F."
+    },
+    {
+      "id": "s51",
+      "number": 51,
+      "url": "https://snv63.ru/2309-4370/article/view/108333",
+      "title": "Some introduction aspects of genus Hoya plants in greenhouse conditions",
+      "kind": "research",
+      "author": "Irina Nikolaevna Turbina, Surgut State University",
+      "type": "research",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "quote": "Растения размещены в интерьере с окном северо-западной экспозиции и микроклиматическими параметрами: температура воздуха +18…+22°C, относительная влажность воздуха 25–35%, освещенность 1400–2000 лк."
+    },
+    {
+      "id": "s52",
+      "number": 52,
+      "url": "https://www.growthtechnology.com.au/product/cf-complete-focus",
+      "title": "Complete Focus",
+      "kind": "manufacturer",
+      "author": "Growth Technology Australia",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/b35bfa2935518f1a.webp",
+      "image_url": "https://cdn.prod.website-files.com/6719d6772b6a0979c8354541/68f30188c4ca612028cc8a36_4tzbrdwsmjt8zzvqwjr5g0m51hx4zesp.avif",
+      "image_caption": "Complete Focus；官网产品页包装图，未以图片小字提取成分",
+      "quote": "Complete Focus is the perfect all-rounder. Contains all 12 essential minerals. Suitable for use on all plants.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s53",
+      "number": 53,
+      "url": "https://www.growthtechnology.com/product/orchid-focus-grow-/",
+      "title": "Orchid Focus Grow & Bloom",
+      "kind": "manufacturer",
+      "author": "Growth Technology UK",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/3da8267a420d839d.webp",
+      "image_url": "https://www.growthtechnology.com/resources/uploads/products/Orchid_Focus_100_ml_Grow1597847303.jpg",
+      "image_caption": "Orchid Focus Grow 100ml；英国官网同产品页CSS包装图。Bloom另有对应图，见记录说明。",
+      "quote": "for the vegetative periods of Cymbidium, Dendrobium, Odontoglossum, Cambria, Brassia, Miltonia and others.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s54",
+      "number": 54,
+      "url": "https://hesi.nl/en/HousePlant-Elixir",
+      "title": "HousePlant Elixir",
+      "kind": "manufacturer",
+      "author": "HESI",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/eecf28e750b11b5c.webp",
+      "image_url": "https://hesi.nl/media/e0/e5/9f/1733311189/Group%20HPE%202.png?ts=1733311189",
+      "image_caption": "HousePlant Elixir；官网产品页包装图，未以图片小字提取成分",
+      "quote": "Therefore we developed the HousePlant Elixir, which offers the ideal nutrient supply for every indoor plant.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s55",
+      "number": 55,
+      "url": "https://hesi.nl/en/OrchiVit",
+      "title": "OrchiVit",
+      "kind": "manufacturer",
+      "author": "HESI",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/2da46c43733796ff.webp",
+      "image_url": "https://hesi.nl/media/48/0c/48/1733317217/Group%20OrchiVit.png?ts=1733317217",
+      "image_caption": "OrchiVit；官网产品页包装图，未以图片小字提取成分",
+      "quote": "Orchivit contains the nutrients of TNT Complex combined with the vitamins and other vital substances from Root Complex and SuperVit.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s56",
+      "number": 56,
+      "url": "https://hesi.nl/en/TNT-Complex",
+      "title": "TNT Complex",
+      "kind": "manufacturer",
+      "author": "HESI",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/8d0496f67e90bc40.webp",
+      "image_url": "https://hesi.nl/media/72/5f/e7/1733316512/Group%20TNT.png?ts=1733316512",
+      "image_caption": "TNT Complex；官网产品页包装图，未以图片小字提取成分",
+      "quote": "Most of the nitrogen in TNT Complex is organic, which results in low salinity and\n\ntherefore a low EC value.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s57",
+      "number": 57,
+      "url": "https://ferrymorse.com/products/superthrive-orchid-pro-7-8-6-plant-food-32-oz",
+      "title": "SUPERthrive Orchid-Pro DORC-032",
+      "kind": "manufacturer",
+      "author": "SUPERthrive / Dyna-Gro (Green Garden Products)",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/5bf096312ba8b8c4.webp",
+      "image_url": "https://ferrymorse.com/cdn/shop/files/Orchidpro1.jpg?v=1771427508&width=1946",
+      "image_caption": "Orchid-Pro 32oz DORC-032；集团品牌官方商城包装图，当前标题7-9-5但URL沿用7-8-6。",
+      "quote": "Maintenance: Mix 1/2 tsp. of Orchid-Pro per gallon of water every time you water.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s58",
+      "number": 58,
+      "url": "https://ferrymorse.com/cdn/shop/files/Orchidpro3.jpg?v=1771427508&width=1946",
+      "title": "Orchid-Pro 当前保证分析标签（实际视觉转录）",
+      "kind": "manufacturer",
+      "author": "SUPERthrive / Dyna-Gro",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/9bc93baf457798ee.webp",
+      "image_url": "https://ferrymorse.com/cdn/shop/files/Orchidpro3.jpg?v=1771427508&width=1946",
+      "image_caption": "Orchid-Pro；官网同SKU保证分析图片，已用vision_analyze实际读取。",
+      "quote": "Guaranteed Analysis\nTotal Nitrogen (N) 7.0%\n2.6% Ammoniacal Nitrogen\n4.4% Nitrate Nitrogen\nAvailable Phosphate (P₂O₅) 9.0%\nSoluble Potash (K₂O) 5.0%",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s59",
+      "number": 59,
+      "url": "https://images.thdstatic.com/catalog/pdfImages/af/af336180-f425-4407-99eb-2485be88b0ae.pdf",
+      "title": "Foliage-Pro Product Data / Foliage-Pro Sht 2014",
+      "kind": "manufacturer",
+      "author": "Dyna-Gro Nutrition Solutions",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "Dyna-Gro原厂署名资料，现托管于Home Depot；未取得可核验的官方独立包装图URL。",
+      "quote": "Foliage-Pro® 9-3-6 is a complete liquid plant nutrient developed with ten years of field and laboratory testing."
+    },
+    {
+      "id": "s69",
+      "number": 69,
+      "url": "https://www.growthtechnology.com/resources/uploads/products/Orchid_Focus_100_ml_Grow1597847303.jpg",
+      "title": "Orchid Focus Grow · UK官方标签（图片）",
+      "kind": "manufacturer",
+      "author": "Growth Technology UK",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": "https://www.growthtechnology.com/resources/uploads/products/Orchid_Focus_100_ml_Grow1597847303.jpg",
+      "image_caption": "Orchid Focus Grow 官方标签",
+      "quote": "Analysis % w/v. Nitrogen (N) 1.12. Phosphorus pentoxide (P2O5) 0.71. Potassium oxide (K2O) 1.9."
+    },
+    {
+      "id": "s70",
+      "number": 70,
+      "url": "https://www.growthtechnology.com/resources/uploads/products/Orchid_Focus_100_ml_Bloom1597847304.jpg",
+      "title": "Orchid Focus Bloom · UK官方标签（图片）",
+      "kind": "manufacturer",
+      "author": "Growth Technology UK",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": "https://www.growthtechnology.com/resources/uploads/products/Orchid_Focus_100_ml_Bloom1597847304.jpg",
+      "image_caption": "Orchid Focus Bloom 官方标签",
+      "quote": "Analysis % w/v. Nitrogen (N) 1.13. Phosphorus pentoxide (P2O5) 1.49. Potassium oxide (K2O) 2.41."
+    },
+    {
+      "id": "s60",
+      "number": 60,
+      "url": "https://vermonthoyas.com/cultivation/watering-and-fertilization/",
+      "title": "Watering and Fertilization",
+      "kind": "grower",
+      "author": "Doug Chamberlain / Vermont Hoyas",
+      "type": "grower",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "无封面；已读官网养护正文，不代表观看视频。",
+      "quote": "I do not stop fertilizing in the winter; I fertilize at 50%. Plants grown in soiless mediums need to be fertilized at most waterings."
+    },
+    {
+      "id": "s61",
+      "number": 61,
+      "url": "https://vermonthoyas.com/hoya-l-m/hoya-linearis",
+      "title": "Hoya linearis",
+      "kind": "grower",
+      "author": "Doug Chamberlain / Vermont Hoyas",
+      "type": "grower",
+      "accessed": "2026-10-20",
+      "image": "images/728df1d3cd90bf53.webp",
+      "image_url": "https://i0.wp.com/vermonthoyas.com/vhwp/wp-content/uploads/2019/10/IMG_6181.jpg?resize=625%2C417&ssl=1",
+      "image_caption": "官网物种页的真实球兰照片，用作资料卡配图；不是视频封面。",
+      "quote": "Watering the little plant once per week seemed to do the trick and the plant was actually growing!",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s62",
+      "number": 62,
+      "url": "https://unsolicitedplanttalks.com/products/hoya-rebecca",
+      "title": "Hoya 'Rebecca'",
+      "kind": "grower",
+      "author": "Unsolicited Plant Talks 专业苗圃",
+      "type": "grower",
+      "accessed": "2026-10-20",
+      "image": "images/85fc049baf6bde5c.webp",
+      "image_url": "https://unsolicitedplanttalks.com/cdn/shop/files/IMG-8439.png?v=1753139688&width=1080",
+      "image_caption": "原商品页 Hoya Rebecca 实物照片；非视频封面。",
+      "quote": "with a balanced liquid fertilizer diluted to half strength once a month.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s63",
+      "number": 63,
+      "url": "https://hoyatreasures.com/blogs/houseplant-care/hoya-fertilizer-guide",
+      "title": "How to Fertilize Hoya Plants: My Products, Schedule and Mixing Rates",
+      "kind": "grower",
+      "author": "Rebecca Baron / Hoya Treasures",
+      "type": "grower",
+      "accessed": "2026-10-20",
+      "image": "images/70690e915084a455.webp",
+      "image_url": "https://hoyatreasures.com/cdn/shop/articles/Hoya_Linearis_Mother.jpg?v=1786496441",
+      "image_caption": "原文章 og:image:secure_url；文章球兰配图，不是视频封面。",
+      "quote": "I use 1/2 teaspoon of SuperThrive Foliage-Pro per gallon of water.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s64",
+      "number": 64,
+      "url": "https://www.seramis.com/produkte/pflegemittel-duengemittel/vitalnahrung-fuer-orchideen",
+      "title": "SERAMIS® Vitalnahrung für Orchideen 200 ml",
+      "kind": "manufacturer",
+      "author": "SERAMIS",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/6c2447d858907c67.webp",
+      "image_url": "https://www.seramis.com/fileadmin/bilder/Produkte/Hero/730390_SE_Vitalnahrung_Orchidee_200ml_570x650_NEU_01.png",
+      "image_caption": "官网对应 200 ml 兰花营养液产品图；非品牌标志。",
+      "quote": "Ein Überlauf reguliert die Füllmenge, so dass sich exakt 5 ml in der Kammer befinden. Ausreichend für 1 l Gießwasser.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s65",
+      "number": 65,
+      "url": "https://www.lechuza.world/oferta-de-descuento-en-sustratos-y-fertilizantes/liquid-fertiliser-perfect-orchid-fluid-225-ml/19609.html",
+      "title": "Liquid fertiliser PERFECT ORCHID Fluid 225 ml / 19609",
+      "kind": "manufacturer",
+      "author": "LECHUZA",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/ec9afcf068e17b7b.webp",
+      "image_url": "https://media.playmobil.com/i/lechuza/le_19609_product_image/Liquid%20fertiliser%20PERFECT%20ORCHID%20Fluid%20225%20ml?locale=en-IN,en,*&$le_pdp_mainimagev2_xl$&fmt=auto&strip=true&fmt.jpeg.interlaced=true",
+      "image_caption": "官网 SKU 19609 的 data-src 主产品图，225 ml；不混用旧 250 ml 包装。已确认URL来自原页，但直接取图返回403，展示可能受防盗链限制。",
+      "quote": "Add 1 pump per 1 litre of water.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s66",
+      "number": 66,
+      "url": "https://www.compo.de/produkte/duenger-blattpflege/orchideen/compo-orchideenduenger",
+      "title": "COMPO Orchideendünger 250 ml",
+      "kind": "manufacturer",
+      "author": "COMPO",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/667ceb8d98dc7783.webp",
+      "image_url": "https://www.compo.de/dam/jcr:5ecbe3d4-9bd1-4059-ba2a-89d882a5022a/1405932004_orch_250_deat_24_01.jpg?x=50&y=50",
+      "image_caption": "原商品页 og:image；对应 250 ml 兰花浓缩肥，不是机构标志。",
+      "quote": "Organisch-mineralische NPK-Dünger Lösung 3+4,2+5 mit Spurennährstoffen, chloridarm.",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s67",
+      "number": 67,
+      "url": "https://www.compo.de/produkte/duenger-blattpflege/orchideen/compo-orchideenwasser",
+      "title": "COMPO Orchideenwasser 1 l",
+      "kind": "manufacturer",
+      "author": "COMPO",
+      "type": "manufacturer",
+      "accessed": "2026-10-20",
+      "image": "images/faa98a5ac6269454.webp",
+      "image_url": "https://www.compo.de/dam/jcr:e681fcda-2d8c-40ac-9fe6-12aa59acbb5e/corwa-1l_de_3d_2024.jpg?x=50&y=50",
+      "image_caption": "原商品页 og:image；对应 1 l 即用型兰花营养水，与浓缩肥分开。",
+      "quote": "Anwendungsfertige NPK-Dünger-Lösung: Kein weiterverdünnen notwendig!",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    },
+    {
+      "id": "s44",
+      "number": 44,
+      "url": "https://e-gro.org/pdf/E305.pdf",
+      "title": "Fertilizer Calculation Basics for Hydroponics (2018)",
+      "kind": "extension",
+      "author": "Neil Mattson · Cornell / e-GRO",
+      "type": "extension",
+      "accessed": "2026-10-20",
+      "image": null,
+      "image_url": null,
+      "image_caption": "无已核验封面",
+      "quote": "To convert P2O5 to P multiply by 0.4364\nTo convert P to P2O5 multiply by 2.2915\n\nTo convert K2O to K multiply by 0.8301\nTo convert K to K2O multiply by 1.2047"
+    },
+    {
+      "id": "s68",
+      "number": 68,
+      "url": "https://www.youtube.com/watch?v=oxqTAfG17hg",
+      "title": "Care Tips For Hoyas | Houseplant Tips & Tricks Ep. 21",
+      "kind": "video",
+      "author": "Nick Pileggi",
+      "type": "video",
+      "accessed": "2026-10-20",
+      "image": "images/9d4c3f7455d6fa30.webp",
+      "image_url": "https://i.ytimg.com/vi/oxqTAfG17hg/maxresdefault.jpg",
+      "image_caption": "Nick Pileggi · 原视频封面；只核验视频说明",
+      "quote": "My favorite bark for Hoyas:",
+      "image_status": "matched to source; contact-sheet checked, ambiguous labels checked at original resolution"
+    }
+  ],
+  "entries": [
+    {
+      "id": "db-2f69521c7537",
+      "title": "球兰 Hoya",
+      "plants": [
+        "hoya"
+      ],
+      "species": [],
+      "source_ids": [
+        "s46"
+      ],
+      "record_ids": [
+        "ha02-light",
+        "ha02-weight-water"
+      ],
+      "fields": {
+        "light": "东西窗或南窗附近；南窗直射需逐步驯化。温暖季移到户外遮阴处。",
+        "temperature": "移到户外的管理条件：above 60°F；不是最适温度或耐寒极限。",
+        "water": "介质完全干透后再浇；通过干湿盆重手感判断。没有克数阈值，与RHS“不完全干透”的建议不同。",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "盆栽土 : 树皮 : 珍珠岩 = 1 : 1 : 1；该来源未明确质量或体积口径。"
+      },
+      "scope": [
+        "美国室内植物转到夏季户外的管理条件。",
+        "美国家养球兰推广建议；示例涉及carnosa、bella、kerrii，未按种试验。"
+      ],
+      "limitations": [
+        "60°F是移到室外的管理条件，不是属级夜间最低或生长最适；没有品种分层。",
+        "称重指浇水手感而不是肥料称量/水分计量实验；和RHS不完全干透不同。没有克数干湿阈值。"
+      ],
+      "product": null,
+      "image": "images/c209c65110ae8f4e.webp",
+      "image_url": "https://hgic.clemson.edu/wp-content/uploads/2025/02/pretty-waxflower-hoya-bella-828x552.jpeg",
+      "image_caption": "原文 og:image：Hoya bella 照片，Clemson Extension；版权归原图权利人。",
+      "media_types": [
+        "organic",
+        "chunky"
+      ],
+      "references": [
+        {
+          "title": "Clemson南窗需驯化且温暖季户外遮阴",
+          "text": "建议邻近东西或南窗，南窗直射需驯化以防灼伤；较暖月份温度above 60°F时可置户外遮阴处。无PPFD、DLI或照度数值。",
+          "quote": "During the warmer months (above 60 °F), they enjoy being placed outdoors in a shaded area to maximize their growth, health and blooming potential.",
+          "source_ids": [
+            "s46"
+          ],
+          "scope": "美国室内植物转到夏季户外的管理条件。",
+          "limitations": "60°F是移到室外的管理条件，不是属级夜间最低或生长最适；没有品种分层。"
+        },
+        {
+          "title": "Clemson称盆重判断干湿不是称重施肥试验",
+          "text": "Clemson建议浇水间介质完全干透，以干湿盆重手感决定是否浇水；其1份盆栽土+1份树皮+1份珍珠岩配方未说明质量或体积口径。",
+          "quote": "The weight test helps determine if your hoya needs water by feeling how light the pot is when the soil is dry.",
+          "source_ids": [
+            "s46"
+          ],
+          "scope": "美国家养球兰推广建议；示例涉及carnosa、bella、kerrii，未按种试验。",
+          "limitations": "称重指浇水手感而不是肥料称量/水分计量实验；和RHS不完全干透不同。没有克数干湿阈值。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-38957199a801",
+      "title": "Hoya carnosa",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya carnosa"
+      ],
+      "source_ids": [
+        "s50"
+      ],
+      "record_ids": [
+        "ha06-substrate",
+        "ha06-water",
+        "ha06-fertilizer",
+        "ha06-temperature",
+        "ha06-light"
+      ],
+      "fields": {
+        "light": "UF 指出商业生产光照为 1500–2000 foot-candles；室内适应条件另为至少125 foot-candles、约10小时/天。两者用途不同，均非PPFD或DLI处方；没有按光谱换算。",
+        "temperature": "原文生长较佳温度68–75°F，可接受生产范围68–90°F；夏季通风或降温不足使生根和生长减慢，冬季过凉可能休眠。没有分别给白天/夜间设定或致死最低温。",
+        "water": "未生根插穗在温室相对湿度≥75%时不宜频繁喷雾，仅使表层湿润而非湿烂；根到盆底以后降低浇水频率，使介质在下次灌溉前相对干燥。",
+        "npk": "推荐含微量元素的2:1:2或3:1:2配比肥料，液肥优于预混缓释肥以便随灌溉调整；施用量2.9 pounds of actual nitrogen /1000 square feet/month。这是实际N质量/生产面积/月，不是每盆产品克数，不是g/L或N ppm；原文未明确NPK配比中的P、K按元素还是氧化物口径，未给肥料品牌、EC或施水体积。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "生产指南要求较高比例纤维泥炭等有机材料保水，并以松树皮、珍珠岩、煅烧黏土等粗粒保证排水通气；没有百分比或容重最佳值。"
+      },
+      "scope": [
+        "H. carnosa为主的商业盆栽生产。",
+        "扦插繁殖转入已扎根阶段。",
+        "佛罗里达商业盆栽生产；主要H. carnosa栽培品种。",
+        "H. carnosa为主的温室生产及扦插育苗。",
+        "佛罗里达温室观叶植物生产；主要为H. carnosa多个栽培品种，非所有球兰。"
+      ],
+      "limitations": [
+        "非介质配方比较试验，不等于纯粗粒最优；历史泥炭方案与RHS无泥炭方案需分别呈现；当前直连404。",
+        "无称重阈值、体积含水量、季节间隔或灌水量；75%是空气相对湿度而非基质含水量。来源直连404。",
+        "这是大学推广质量处方而非报告统计比较的称重施肥试验；缺肥料产品分析与灌溉体积，不能推出g/L或EC。直连404、提取服务完整副本版本不明。",
+        "非耐寒性试验；不要把可接受上限90°F当最佳温度。原始页面当前直连404，正文来自提取服务返回的完整版本。",
+        "推广生产指南，未展示随机试验；室内125 foot-candles原文见同源前段，不能解读为开花最佳值。当前直连404，完整正文由web_extract取得，可能是服务端保留副本，版本时效不明。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "organic",
+        "chunky"
+      ],
+      "references": [
+        {
+          "title": "保水有机材料与粗颗粒同时需要",
+          "text": "生产指南要求较高比例纤维泥炭等有机材料保水，并以松树皮、珍珠岩、煅烧黏土等粗粒保证排水通气；没有百分比或容重最佳值。",
+          "quote": "Potting media should contain a high percentage of organic material, such as fibrous peat, to provide good water holding capacity and some coarser particles, such as pine bark, perlite and calcined clay to assure good drainage and aeration.",
+          "source_ids": [
+            "s50"
+          ],
+          "scope": "H. carnosa为主的商业盆栽生产。",
+          "limitations": "非介质配方比较试验，不等于纯粗粒最优；历史泥炭方案与RHS无泥炭方案需分别呈现；当前直连404。"
+        },
+        {
+          "title": "未生根与扎根后的干湿管理不同",
+          "text": "未生根插穗在温室相对湿度≥75%时不宜频繁喷雾，仅使表层湿润而非湿烂；根到盆底以后降低浇水频率，使介质在下次灌溉前相对干燥。",
+          "quote": "After roots develop to the bottom of the pots, the watering frequency should be reduced to permit the potting medium to become relatively dry before the next irrigation.",
+          "source_ids": [
+            "s50"
+          ],
+          "scope": "扦插繁殖转入已扎根阶段。",
+          "limitations": "无称重阈值、体积含水量、季节间隔或灌水量；75%是空气相对湿度而非基质含水量。来源直连404。"
+        },
+        {
+          "title": "找到按实际氮质量和面积计的商业施肥量",
+          "text": "推荐含微量元素的2:1:2或3:1:2配比肥料，液肥优于预混缓释肥以便随灌溉调整；施用量2.9 pounds of actual nitrogen /1000 square feet/month。这是实际N质量/生产面积/月，不是每盆产品克数，不是g/L或N ppm；原文未明确NPK配比中的P、K按元素还是氧化物口径，未给肥料品牌、EC或施水体积。",
+          "quote": "Apply fertilizer at the rate of 2.9 pounds of actual nitrogen per 1000 square feet per month.",
+          "source_ids": [
+            "s50"
+          ],
+          "scope": "佛罗里达商业盆栽生产；主要H. carnosa栽培品种。",
+          "limitations": "这是大学推广质量处方而非报告统计比较的称重施肥试验；缺肥料产品分析与灌溉体积，不能推出g/L或EC。直连404、提取服务完整副本版本不明。"
+        },
+        {
+          "title": "生产温度优选与可接受范围不同",
+          "text": "原文生长较佳温度68–75°F，可接受生产范围68–90°F；夏季通风或降温不足使生根和生长减慢，冬季过凉可能休眠。没有分别给白天/夜间设定或致死最低温。",
+          "quote": "An acceptable production temperature range is 68 to 90°F.",
+          "source_ids": [
+            "s50"
+          ],
+          "scope": "H. carnosa为主的温室生产及扦插育苗。",
+          "limitations": "非耐寒性试验；不要把可接受上限90°F当最佳温度。原始页面当前直连404，正文来自提取服务返回的完整版本。"
+        },
+        {
+          "title": "商业生产光照与室内维持光照应分开",
+          "text": "UF 指出商业生产光照为 1500–2000 foot-candles；室内适应条件另为至少125 foot-candles、约10小时/天。两者用途不同，均非PPFD或DLI处方；没有按光谱换算。",
+          "quote": "Wax plants develop best under light intensities of 1500-2000 foot-candles and temperatures of 68 to 75°F.",
+          "source_ids": [
+            "s50"
+          ],
+          "scope": "佛罗里达温室观叶植物生产；主要为H. carnosa多个栽培品种，非所有球兰。",
+          "limitations": "推广生产指南，未展示随机试验；室内125 foot-candles原文见同源前段，不能解读为开花最佳值。当前直连404，完整正文由web_extract取得，可能是服务端保留副本，版本时效不明。"
+        }
+      ],
+      "source_note": "历史资料：原网址已404；抽取副本年代未核实"
+    },
+    {
+      "id": "db-6f094890ca17",
+      "title": "Hoya bella",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya bella"
+      ],
+      "source_ids": [
+        "s47"
+      ],
+      "record_ids": [
+        "ha03-water-light",
+        "ha03-temperature"
+      ],
+      "fields": {
+        "light": "明亮间接光；清晨或傍晚日照可能促进开花，未给PPFD。",
+        "temperature": "75–85°F；原文未分昼夜，非低温越冬条件。",
+        "water": "土壤接近干燥后再浇，未给固定天数。\n相对湿度50–60%；避冷风。",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "排水良好的壤质盆土，未给配比。"
+      },
+      "scope": [
+        "H. bella，不将该建议推广给全部球兰。",
+        "NC State室内/温室种级养护建议。"
+      ],
+      "limitations": [
+        "描述性栽培建议非比较试验；页面partial shade的2–6小时为通用分类，不据此推导DLI。",
+        "非温度梯度试验；与低温越冬不是同一指标；不换算为属级最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "贝拉浇水接近干而非规定天数",
+          "text": "宜明亮间接光、排水良好的壤质盆土；清晨或傍晚日照可能促进开花，浇水前让土壤接近干燥。没有PPFD/DLI、介质比例或每次毫升数。",
+          "quote": "It is best to allow the soil to become almost dry before watering.",
+          "source_ids": [
+            "s47"
+          ],
+          "scope": "H. bella，不将该建议推广给全部球兰。",
+          "limitations": "描述性栽培建议非比较试验；页面partial shade的2–6小时为通用分类，不据此推导DLI。"
+        },
+        {
+          "title": "NC State给出贝拉温暖生长条件",
+          "text": "H. bella 条目说75–85 degrees Fahrenheit、空气相对湿度50–60%；需避冷风。原文没有分白天/夜间，不能与RHS冬夜最低混用。",
+          "quote": "Thrives in warm temperatures of 75 to 85 degrees Fahrenheit and humidity levels of 50 to 60%.",
+          "source_ids": [
+            "s47"
+          ],
+          "scope": "NC State室内/温室种级养护建议。",
+          "limitations": "非温度梯度试验；与低温越冬不是同一指标；不换算为属级最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-3ea6d964cf2e",
+      "title": "Hoya kerrii",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya kerrii"
+      ],
+      "source_ids": [
+        "s49"
+      ],
+      "record_ids": [
+        "ha05-water-feed",
+        "ha05-light-substrate"
+      ],
+      "fields": {
+        "light": "明亮间接光，避热日照；无PPFD或DLI。",
+        "temperature": "未提供",
+        "water": "生长季适度浇水；冬季保持刚湿。",
+        "npk": "生长季每月一次平衡液肥；NPK、剂量、EC均未给。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "快速排水、无泥炭壤基盆土，加有机材料；比例未给。"
+      },
+      "scope": [
+        "RHS种级室内盆栽建议。",
+        "RHS英国室内种级盆栽栽培文字。"
+      ],
+      "limitations": [
+        "没有剂量试验；种条目月施与RHS属级指南春夏双周不同，保留差别；不能补造稀释倍数或叶喷EC。",
+        "上方结构化标签有Full sun/Partial shade，与具体栽培段并不完全一致；不将标签解读为无限直射许可。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "Hoya kerrii生长季月施平衡液肥而冬季仅微湿",
+          "text": "生长中适度浇水并每月施平衡液肥，冬季维持刚湿。未注明肥料NPK数值、元素/氧化物口径、产品g/L、N ppm、EC或施用体积。",
+          "quote": "In growth, water moderately and apply a balanced liquid feed monthly; keep just moist in winter.",
+          "source_ids": [
+            "s49"
+          ],
+          "scope": "RHS种级室内盆栽建议。",
+          "limitations": "没有剂量试验；种条目月施与RHS属级指南春夏双周不同，保留差别；不能补造稀释倍数或叶喷EC。"
+        },
+        {
+          "title": "Hoya kerrii以间接光和快速排水介质为主",
+          "text": "RHS种条目指定快速排水、无泥炭壤基盆土并加有机材料；明亮间接光并避热日照。无原始光强单位、配比或PPFD/DLI。",
+          "quote": "Position in bright, indirect light with shade from hot sun.",
+          "source_ids": [
+            "s49"
+          ],
+          "scope": "RHS英国室内种级盆栽栽培文字。",
+          "limitations": "上方结构化标签有Full sun/Partial shade，与具体栽培段并不完全一致；不将标签解读为无限直射许可。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-077e9873fbcd",
+      "title": "Hoya linearis",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya linearis"
+      ],
+      "source_ids": [
+        "s48"
+      ],
+      "record_ids": [
+        "ha04-water-feed",
+        "ha04-light-substrate"
+      ],
+      "fields": {
+        "light": "明亮间接光，避热日照；无PPFD或DLI。",
+        "temperature": "未提供",
+        "water": "生长季适度浇水；冬季保持刚湿。",
+        "npk": "生长季每月一次平衡液肥；NPK、剂量、EC均未给。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "快速排水、无泥炭壤基盆土，加有机材料；比例未给。"
+      },
+      "scope": [
+        "RHS种级室内盆栽建议。",
+        "RHS英国室内种级盆栽栽培文字。"
+      ],
+      "limitations": [
+        "没有剂量试验；种条目月施与RHS属级指南春夏双周不同，保留差别；不能补造稀释倍数或叶喷EC。",
+        "上方结构化标签有Full sun/Partial shade，与具体栽培段并不完全一致；不将标签解读为无限直射许可。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "Hoya linearis生长季月施平衡液肥而冬季仅微湿",
+          "text": "生长中适度浇水并每月施平衡液肥，冬季维持刚湿。未注明肥料NPK数值、元素/氧化物口径、产品g/L、N ppm、EC或施用体积。",
+          "quote": "In growth, water moderately and apply a balanced liquid feed monthly; keep just moist in winter.",
+          "source_ids": [
+            "s48"
+          ],
+          "scope": "RHS种级室内盆栽建议。",
+          "limitations": "没有剂量试验；种条目月施与RHS属级指南春夏双周不同，保留差别；不能补造稀释倍数或叶喷EC。"
+        },
+        {
+          "title": "Hoya linearis以间接光和快速排水介质为主",
+          "text": "RHS种条目指定快速排水、无泥炭壤基盆土并加有机材料；明亮间接光并避热日照。无原始光强单位、配比或PPFD/DLI。",
+          "quote": "Position in bright, indirect light with shade from hot sun.",
+          "source_ids": [
+            "s48"
+          ],
+          "scope": "RHS英国室内种级盆栽栽培文字。",
+          "limitations": "上方结构化标签有Full sun/Partial shade，与具体栽培段并不完全一致；不将标签解读为无限直射许可。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-3762ecc77deb",
+      "title": "球兰 Hoya",
+      "plants": [
+        "hoya"
+      ],
+      "species": [],
+      "source_ids": [
+        "s45"
+      ],
+      "record_ids": [
+        "ha01-fertilizer",
+        "ha01-water",
+        "ha01-substrate"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "生长季春至秋保持湿润而不积水；英国10月至2月减少浇水，等介质相当干再浇，但不要完全干透。",
+        "npk": "春夏每两周左右一次平衡兰花肥、最好无尿素；秋冬减至每月一次；换盆后5–6周不施肥，每数月清水冲盆防积盐。未给NPK数值、g/L、N ppm或EC。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "兰花树皮、无泥炭通用盆栽土、粗珍珠岩按体积等份；也可仙人掌土加珍珠岩。换盆仅大于根团几厘米，避免过大盆长期湿。"
+      },
+      "scope": [
+        "英国室内盆栽属级轻肥建议。",
+        "英国室内季节性半休眠语境。",
+        "RHS属级家养建议，页面讨论carnosa、bella、linearis；未做各物种比较。"
+      ],
+      "limitations": [
+        "没有施肥浓度试验或叶面施肥安全EC；不能从平衡兰肥推断20-20-20及其稀释倍数。",
+        "与Clemson完全干透建议不同，保留出处与气候阶段，不能机械合并为统一干透规则；无量化含水阈值。",
+        "1:1:1为体积比而非质量比；不明颗粒粒径、盆大小和灌溉条件，不声称属级最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "organic",
+        "chunky"
+      ],
+      "references": [
+        {
+          "title": "RHS轻肥频次与盐分冲洗",
+          "text": "春夏每两周左右一次平衡兰花肥、最好无尿素；秋冬减至每月一次；换盆后5–6周不施肥，每数月清水冲盆防积盐。未给NPK数值、g/L、N ppm或EC。",
+          "quote": "Hoyas shouldn’t be fed for five to six weeks after repotting.",
+          "source_ids": [
+            "s45"
+          ],
+          "scope": "英国室内盆栽属级轻肥建议。",
+          "limitations": "没有施肥浓度试验或叶面施肥安全EC；不能从平衡兰肥推断20-20-20及其稀释倍数。"
+        },
+        {
+          "title": "RHS冬季较干但不完全干透",
+          "text": "生长季春至秋保持湿润而不积水；英国10月至2月减少浇水，等介质相当干再浇，但不要完全干透。",
+          "quote": "Wait until the compost is fairly dry, but never let it completely dry out.",
+          "source_ids": [
+            "s45"
+          ],
+          "scope": "英国室内季节性半休眠语境。",
+          "limitations": "与Clemson完全干透建议不同，保留出处与气候阶段，不能机械合并为统一干透规则；无量化含水阈值。"
+        },
+        {
+          "title": "RHS给出按体积等份介质",
+          "text": "兰花树皮、无泥炭通用盆栽土、粗珍珠岩按体积等份；也可仙人掌土加珍珠岩。换盆仅大于根团几厘米，避免过大盆长期湿。",
+          "quote": "Use a sharply draining, well-aerated compost, such as an equal parts (by volume) mix of orchid bark , peat-free multi-purpose compost and coarse perlite .",
+          "source_ids": [
+            "s45"
+          ],
+          "scope": "RHS属级家养建议，页面讨论carnosa、bella、linearis；未做各物种比较。",
+          "limitations": "1:1:1为体积比而非质量比；不明颗粒粒径、盆大小和灌溉条件，不声称属级最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-e8a50f6d0d6d",
+      "title": "Hoya carnosa / Hoya bella",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya carnosa",
+        "Hoya bella"
+      ],
+      "source_ids": [
+        "s45"
+      ],
+      "record_ids": [
+        "ha01-temperature"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "春夏一般室温16–24°C；冬季夜间最低：H. carnosa 10°C（50°F），H. lanceolata ssp. bella 16°C（原文括号65°F）。冬夜最低不等于日间最适，且bella的摄氏/华氏配对原文不一致，保留原值不私自更正。",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "英国室内/暖房盆栽；bella按该文旧名记录。"
+      ],
+      "limitations": [
+        "RHS另句16°C (50°F)亦存在单位配对不一致；没有控温试验，不能直接作为耐寒致死界限。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "RHS区分肉质球兰与贝拉冬夜最低温",
+          "text": "春夏一般室温16–24°C；冬季夜间最低：H. carnosa 10°C（50°F），H. lanceolata ssp. bella 16°C（原文括号65°F）。冬夜最低不等于日间最适，且bella的摄氏/华氏配对原文不一致，保留原值不私自更正。",
+          "quote": "Provide a minimum night temperature of 10°C (50°F) for Hoya carnosa AGM and 16°C (65°F) for H. lanceolata ssp. bella AGM.",
+          "source_ids": [
+            "s45"
+          ],
+          "scope": "英国室内/暖房盆栽；bella按该文旧名记录。",
+          "limitations": "RHS另句16°C (50°F)亦存在单位配对不一致；没有控温试验，不能直接作为耐寒致死界限。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-e4ed4272408b",
+      "title": "Hoya australis / Hoya cumingiana / Hoya globulosa / Hoya pubicalyx / Hoya cv. Metallica",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya australis",
+        "Hoya cumingiana",
+        "Hoya globulosa",
+        "Hoya pubicalyx",
+        "Hoya cv. Metallica"
+      ],
+      "source_ids": [
+        "s51"
+      ],
+      "record_ids": [
+        "ha07-conditions"
+      ],
+      "fields": {
+        "light": "1400–2000 lux，西北向窗；为观察环境，不是最优处理，光周期未给。",
+        "temperature": "+18…+22°C，观察研究的实际环境。",
+        "water": "相对湿度25–35%；并非推荐目标。",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "Surgut State University植物园来源的室内引种观察，按月观察枝条、7月和9月测叶片指标。"
+      ],
+      "limitations": [
+        "没有多个光强/温度处理、施肥配方或EC；生存/适应并非开花或最优生长证据，Metallica不是物种。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "苏尔古特温室引种研究记录实际室内条件",
+          "text": "西北向窗室内条件为空气+18…+22°C、RH25–35%、照度1400–2000 лк（lux），研究包括H. australis及另外三种和Metallica栽培品种。是观察研究中的实际环境，不是最佳光温试验；未给光周期，不换算PPFD/DLI。",
+          "quote": "Растения размещены в интерьере с окном северо-западной экспозиции и микроклиматическими параметрами: температура воздуха +18…+22°C, относительная влажность воздуха 25–35%, освещенность 1400–2000 лк.",
+          "source_ids": [
+            "s51"
+          ],
+          "scope": "Surgut State University植物园来源的室内引种观察，按月观察枝条、7月和9月测叶片指标。",
+          "limitations": "没有多个光强/温度处理、施肥配方或EC；生存/适应并非开花或最优生长证据，Metallica不是物种。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-196ac1793175",
+      "title": "Hoya australis",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya australis"
+      ],
+      "source_ids": [
+        "s51"
+      ],
+      "record_ids": [
+        "ha07-season"
+      ],
+      "fields": {
+        "light": "7月与9月H. australis叶片氮平衡指数Nbi、叶绿素Chl、类黄酮Flv比较存在显著差异（p<0.05），作者解释为夏季活跃生长与9月转休息；Nbi来自Dualex叶片光学指标，并非肥液EC或根区氮分析。",
+        "temperature": "7月与9月H. australis叶片氮平衡指数Nbi、叶绿素Chl、类黄酮Flv比较存在显著差异（p<0.05），作者解释为夏季活跃生长与9月转休息；Nbi来自Dualex叶片光学指标，并非肥液EC或根区氮分析。",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "俄罗斯特定室内环境7月和9月的季节观察。"
+      ],
+      "limitations": [
+        "相关观察不能归因于某肥料；没有施肥质量、g/L、N ppm、进液EC、SME或PourThru数据，不能生成盆栽处方。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未取得可用的原文植物图片；RHS 的通用站点标志不作为植物图。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "南方球兰夏秋叶片指标变化不等于施肥剂量",
+          "text": "7月与9月H. australis叶片氮平衡指数Nbi、叶绿素Chl、类黄酮Flv比较存在显著差异（p<0.05），作者解释为夏季活跃生长与9月转休息；Nbi来自Dualex叶片光学指标，并非肥液EC或根区氮分析。",
+          "quote": "В полученных результатах статистически значимыми были различия при сравнении зависимых выборок показателей Nbi, Chl, Flv в листьях *H*. *australis* за месяцы (июль, сентябрь), при значении p < 0,05 (рис. 3).",
+          "source_ids": [
+            "s51"
+          ],
+          "scope": "俄罗斯特定室内环境7月和9月的季节观察。",
+          "limitations": "相关观察不能归因于某肥料；没有施肥质量、g/L、N ppm、进液EC、SME或PourThru数据，不能生成盆栽处方。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-60e8c6144fd7",
+      "title": "Hoya 'Rebecca'",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya 'Rebecca'"
+      ],
+      "source_ids": [
+        "s62"
+      ],
+      "record_ids": [
+        "gp03-rebecca-feed",
+        "gp03-rebecca-water-medium",
+        "gp03-rebecca-environment"
+      ],
+      "fields": {
+        "light": "明亮间接光，避免强烈直射；未给PPFD/DLI。",
+        "temperature": "正文60–77°F（16–25°C）；护理卡最低70°F/21°C，同页矛盾，不当作阈值。",
+        "water": "表层一英寸摸干后浇透并排水。\n正文RH60–80%；护理卡Above 40%，同页不一致。",
+        "npk": "正文明确建议生长季每月一次、标签半浓度的均衡液肥，秋冬生长减慢时减少；没有给品牌或EC。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "兰花树皮、珍珠岩、椰壳混合；未给比例。"
+      },
+      "scope": [
+        "Hoya 'Rebecca'；生长季；苗圃指导",
+        "Hoya 'Rebecca'；排水盆栽混合介质",
+        "苗圃Hoya 'Rebecca'商品页；正文与护理卡同时存在"
+      ],
+      "limitations": [
+        "未说明均衡肥NPK、标签用量及密度，不换算成g/L或元素ppm。",
+        "苗圃指导而非比较试验；未说明盆径、光照强度、配比与耗水量。",
+        "商业养护指南非试验；同页温湿条件冲突已保留，不擅自择一当最佳值。"
+      ],
+      "product": null,
+      "image": "images/85fc049baf6bde5c.webp",
+      "image_url": "https://unsolicitedplanttalks.com/cdn/shop/files/IMG-8439.png?v=1753139688&width=1080",
+      "image_caption": "原商品页 Hoya Rebecca 实物照片；非视频封面。",
+      "media_types": [
+        "chunky"
+      ],
+      "references": [
+        {
+          "title": "Rebecca：生长季每月半浓度均衡液肥",
+          "text": "正文明确建议生长季每月一次、标签半浓度的均衡液肥，秋冬生长减慢时减少；没有给品牌或EC。",
+          "quote": "with a balanced liquid fertilizer diluted to half strength once a month.",
+          "source_ids": [
+            "s62"
+          ],
+          "scope": "Hoya 'Rebecca'；生长季；苗圃指导",
+          "limitations": "未说明均衡肥NPK、标签用量及密度，不换算成g/L或元素ppm。"
+        },
+        {
+          "title": "Rebecca：表层一英寸干再浇，树皮珍珠岩椰壳",
+          "text": "苗圃正文建议表层一英寸摸干后浇透并充分排水；介质为兰花树皮、珍珠岩、椰壳的疏松混合物，未给体积比例。",
+          "quote": "Water thoroughly when the top inch of soil is dry to the touch. Be sure to allow the water to drain completely, as standing water can cause root rot.",
+          "source_ids": [
+            "s62"
+          ],
+          "scope": "Hoya 'Rebecca'；排水盆栽混合介质",
+          "limitations": "苗圃指导而非比较试验；未说明盆径、光照强度、配比与耗水量。"
+        },
+        {
+          "title": "Rebecca：散射光建议及同页温湿条件自相矛盾",
+          "text": "正文建议明亮间接光、避免强烈直射；温度60–77°F（原页括注16–25°C）。但同页护理卡又写最低70°F/21°C，因此不把任何一组当作已验证生理阈值。正文湿度60–80%也不同于护理卡Above 40%。",
+          "quote": "This plant prefers temperatures ranging from 60°F to 77°F (16°C to 25°C). It does not tolerate cold well, so protect it from drafts and temperatures below 50°F.",
+          "source_ids": [
+            "s62"
+          ],
+          "scope": "苗圃Hoya 'Rebecca'商品页；正文与护理卡同时存在",
+          "limitations": "商业养护指南非试验；同页温湿条件冲突已保留，不擅自择一当最佳值。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-34b79c571ada",
+      "title": "球兰 Hoya",
+      "plants": [
+        "hoya"
+      ],
+      "species": [],
+      "source_ids": [
+        "s63"
+      ],
+      "record_ids": [
+        "gp04-treasures-system",
+        "gp04-treasures-feeding"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "盆放在水面上方的吸水垫托盘，不是深水浸盆。\n以实际需水为准；三肥一清不是固定日历间隔。",
+        "npk": "Foliage-Pro 1/2茶匙/加仑；活跃生长期“三轮肥、一轮清水”。只是种植者用量，NPK口径见厂家标签。",
+        "ec": "未提供",
+        "additives": "商品LECHUZA-PON已有肥，不可直接叠加这套完整施肥程序。\nHormex 1/4茶匙/加仑；作者明确它不是肥料。",
+        "substrate": "自制PON：浮石、火山岩、沸石，不含缓释肥；比例未给。"
+      },
+      "scope": [
+        "Hoya Treasures苗圃自制矿物介质与托盘系统",
+        "明亮温暖苗圃、自制无缓释肥pon、吸水垫托盘；活跃生长；以实际需水为准"
+      ],
+      "limitations": [
+        "文章自述、商业关联；未披露该文的介质体积比例；不外推到所有半水培或有机介质。",
+        "个人实践、含Amazon佣金链接；不是浓度比较试验；加仑/茶匙保留原单位；未测EC，不推导元素浓度。"
+      ],
+      "product": null,
+      "image": "images/70690e915084a455.webp",
+      "image_url": "https://hoyatreasures.com/cdn/shop/articles/Hoya_Linearis_Mother.jpg?v=1786496441",
+      "image_caption": "原文章 og:image:secure_url；文章球兰配图，不是视频封面。",
+      "media_types": [
+        "mineral"
+      ],
+      "references": [
+        {
+          "title": "自制pon与吸水垫托盘不可直接套用商品pon",
+          "text": "作者自制pon由浮石、火山岩、沸石组成且不含缓释肥；盆放在水面上方的吸水垫，并非深水浸盆。商品LECHUZA-PON已有肥，不能直接叠加其完整施肥程序。",
+          "quote": "My pots sit above the water on a wicking mat; they are not submerged in a deep reservoir.",
+          "source_ids": [
+            "s63"
+          ],
+          "scope": "Hoya Treasures苗圃自制矿物介质与托盘系统",
+          "limitations": "文章自述、商业关联；未披露该文的介质体积比例；不外推到所有半水培或有机介质。"
+        },
+        {
+          "title": "Hoya Treasures：1/2茶匙/加仑与三肥一清循环实践",
+          "text": "Rebecca Baron记录自用Foliage-Pro 1/2茶匙/加仑，活跃生长期三轮施肥、一轮清水；文中另加Hormex 1/4茶匙/加仑但明确Hormex不是肥料。此条仅为种植者实践，避免重复建SuperThrive官方产品卡。",
+          "quote": "I use 1/2 teaspoon of SuperThrive Foliage-Pro per gallon of water.",
+          "source_ids": [
+            "s63"
+          ],
+          "scope": "明亮温暖苗圃、自制无缓释肥pon、吸水垫托盘；活跃生长；以实际需水为准",
+          "limitations": "个人实践、含Amazon佣金链接；不是浓度比较试验；加仑/茶匙保留原单位；未测EC，不推导元素浓度。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-6c981780e86b",
+      "title": "Hoya linearis",
+      "plants": [
+        "hoya"
+      ],
+      "species": [
+        "Hoya linearis"
+      ],
+      "source_ids": [
+        "s61"
+      ],
+      "record_ids": [
+        "gp02-linearis-light",
+        "gp02-linearis-medium-water"
+      ],
+      "fields": {
+        "light": "夏季北窗；秋季光不足时转补光帐使已有花苞成熟。",
+        "temperature": "转入“较凉”种植帐，未给数值。",
+        "water": "作者试用每周一次浇水；仅特定环境个案，不能通用。",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "Bonsai Jack盆景介质，原文未给成分比例；硬重，不适合其指测或掂盆判干。"
+      },
+      "scope": [
+        "Hoya linearis；Vermont北窗至补光帐；秋季已有花苞阶段",
+        "Hoya linearis；作者北向窗夏季栽培、特定盆景介质"
+      ],
+      "limitations": [
+        "个人观察；未测PPFD/lux、光周期或帐内温度，不能据此给出温度最优值。",
+        "个人个案，不是线叶球兰通用固定周浇日历；介质具体配比、环境温湿度与浇水量未量化。"
+      ],
+      "product": null,
+      "image": "images/728df1d3cd90bf53.webp",
+      "image_url": "https://i0.wp.com/vermonthoyas.com/vhwp/wp-content/uploads/2019/10/IMG_6181.jpg?resize=625%2C417&ssl=1",
+      "image_caption": "官网物种页的真实球兰照片，用作资料卡配图；不是视频封面。",
+      "media_types": [
+        "mineral"
+      ],
+      "references": [
+        {
+          "title": "线叶球兰：北窗秋季光不足后转较凉补光帐",
+          "text": "作者记载十月中旬北窗光很少，于是转入较凉的种植帐，以灯光使已有花苞成熟开放。",
+          "quote": "By mid October there was very little light in my north facing window where the plant had lived so I opted to move it into one of my cooler growing tents to see if the lights would mature the buds and get them to open. It worked!",
+          "source_ids": [
+            "s61"
+          ],
+          "scope": "Hoya linearis；Vermont北窗至补光帐；秋季已有花苞阶段",
+          "limitations": "个人观察；未测PPFD/lux、光周期或帐内温度，不能据此给出温度最优值。"
+        },
+        {
+          "title": "线叶球兰：Bonsai Jack盆景介质与每周浇水的个案",
+          "text": "Doug收到用Bonsai Jack盆景介质种的Hoya linearis后沿用；介质硬重而难以指测或掂盆判干，凭尝试改为每周一次浇水并观察到生长。",
+          "quote": "Watering the little plant once per week seemed to do the trick and the plant was actually growing!",
+          "source_ids": [
+            "s61"
+          ],
+          "scope": "Hoya linearis；作者北向窗夏季栽培、特定盆景介质",
+          "limitations": "个人个案，不是线叶球兰通用固定周浇日历；介质具体配比、环境温湿度与浇水量未量化。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-54aebff828af",
+      "title": "球兰 Hoya",
+      "plants": [
+        "hoya"
+      ],
+      "species": [],
+      "source_ids": [
+        "s60"
+      ],
+      "record_ids": [
+        "gp01-fertigation"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "每次浇透以减少积盐。",
+        "npk": "均衡肥；冬季仍按50%施用，未说比较基准，不能换算mL/L。无土介质大多数浇水时施肥。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "Vermont室内球兰个人种植经验；无土体系；冬季"
+      ],
+      "limitations": [
+        "个人经验非试验；50%基准、具体产品、绝对浓度和EC均未说明。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "无封面；已读官网养护正文，不代表观看视频。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "Doug：冬季仍施肥，浇透以减少盐分累积",
+          "text": "作者使用均衡肥，冬季不停止而按50%施肥；无土介质大多数浇水时施肥，并强调每次浇透减少积盐。原文未交代50%的比较基准，不推导mL/L。",
+          "quote": "I do not stop fertilizing in the winter; I fertilize at 50%. Plants grown in soiless mediums need to be fertilized at most waterings.",
+          "source_ids": [
+            "s60"
+          ],
+          "scope": "Vermont室内球兰个人种植经验；无土体系；冬季",
+          "limitations": "个人经验非试验；50%基准、具体产品、绝对浓度和EC均未说明。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-bb2d587fef41",
+      "title": "球兰 Hoya",
+      "plants": [
+        "hoya"
+      ],
+      "species": [],
+      "source_ids": [
+        "s68"
+      ],
+      "record_ids": [
+        "mv01-hoya-products"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "说明链接Feed Me! Orchid Fertilizer Mist；未给NPK、用量或EC，未核验字幕。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "说明列出Hoya Classic Potting Mix、小粒Monterey松树皮、浮石、水苔和LECA；为备选商品清单，不是混合配方。"
+      },
+      "scope": [
+        "只核验视频说明与封面元数据，未核验字幕或完整视频内容。"
+      ],
+      "limitations": [
+        "说明含折扣码和联盟链接，存在商业关联；未据标题推导量化养护值。"
+      ],
+      "product": null,
+      "image": "images/9d4c3f7455d6fa30.webp",
+      "image_url": "https://i.ytimg.com/vi/oxqTAfG17hg/maxresdefault.jpg",
+      "image_caption": "Nick Pileggi · 原视频封面；只核验视频说明",
+      "media_types": [
+        "chunky",
+        "mineral",
+        "leca",
+        "sphagnum"
+      ],
+      "references": [
+        {
+          "title": "Nick Pileggi · Hoya介质与叶喷产品清单（视频说明）",
+          "text": "说明列出rePotme Hoya Classic Potting Mix、小粒Monterey松树皮、浮石、水苔、LECA，以及Feed Me! Orchid Fertilizer Mist。它们是链接清单，不能当作全部混在一起的配方；未披露比例、NPK、EC或用量。",
+          "quote": "My favorite bark for Hoyas:",
+          "source_ids": [
+            "s68"
+          ],
+          "scope": "只核验视频说明与封面元数据，未核验字幕或完整视频内容。",
+          "limitations": "说明含折扣码和联盟链接，存在商业关联；未据标题推导量化养护值。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-c2fb3505548b",
+      "title": "TNT Complex",
+      "plants": [
+        "hoya",
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron",
+        "caladium",
+        "platycerium",
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s56"
+      ],
+      "record_ids": [
+        "fa06-product"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：3-2-3；未说明（已读正文仅NPK 3-2-3）。 元素比信息不足，不换算。 用量：50ml/10L浇灌；幼苗/插穗或长期连续使用减半；未提供称重剂量或固定频率。",
+        "ec": "仅厂家定性 low EC value；未提供数值、测法和剂量对应EC",
+        "additives": "All macronutrients & trace elements（具体元素/含量未披露）",
+        "substrate": "土壤或椰糠基质。"
+      },
+      "scope": [
+        "荷兰品牌英文官网；土壤及椰糠而非泛化所有纯水培"
+      ],
+      "limitations": [
+        "厂家声明，不是独立试验；仅定性低EC；没有mS/cm、测试方法或对应浓度。"
+      ],
+      "product": {
+        "brand": "HESI",
+        "name": "TNT Complex",
+        "target": "soil and coco-based substrates; house, garden and terrace",
+        "form": "液体",
+        "label_npk": "3-2-3",
+        "basis": "未说明（已读正文仅NPK 3-2-3）",
+        "analysis": {
+          "N": null,
+          "P": null,
+          "K": null,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": null,
+          "Mg": null
+        },
+        "dose": "50ml/10L浇灌；幼苗/插穗或长期连续使用减半；未提供称重剂量或固定频率。",
+        "ec": "仅厂家定性 low EC value；未提供数值、测法和剂量对应EC",
+        "micro": "All macronutrients & trace elements（具体元素/含量未披露）",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/8d0496f67e90bc40.webp",
+      "image_url": "https://hesi.nl/media/72/5f/e7/1733316512/Group%20TNT.png?ts=1733316512",
+      "image_caption": "TNT Complex；官网产品页包装图，未以图片小字提取成分",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "HESI TNT Complex",
+          "text": "土壤/椰糠生长用途的通用肥，不是球兰专项。厂家说大部分氮为有机形态，因此EC低；该声明不等于养分浓度低，也不能用EC等同剂量。",
+          "quote": "Most of the nitrogen in TNT Complex is organic, which results in low salinity and\n\ntherefore a low EC value.",
+          "source_ids": [
+            "s56"
+          ],
+          "scope": "荷兰品牌英文官网；土壤及椰糠而非泛化所有纯水培",
+          "limitations": "厂家声明，不是独立试验；仅定性低EC；没有mS/cm、测试方法或对应浓度。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-7be9d7810898",
+      "title": "HousePlant Elixir",
+      "plants": [
+        "hoya",
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron",
+        "caladium",
+        "platycerium",
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s54"
+      ],
+      "record_ids": [
+        "fa04-product"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：4-2-3；未说明（正文仅NPK Fertiliser solution 4-2-3；不据此判定元素或氧化物、w/w或w/v）。 元素比信息不足，不换算。 用量：慢生2ml/L；快生3-5ml/L；叶喷1ml/L；每月1-4次，仅生长/开花期；光越少肥越少；无称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "additives": "chelated micro-nutrients，具体元素/含量未披露",
+        "substrate": "厂家称all cultivation methods；未列介质配方。"
+      },
+      "scope": [
+        "荷兰品牌英文官网；8属仅作为通用室内植物用途"
+      ],
+      "limitations": [
+        "厂家声明，不是独立试验；不把低盐营销用语等同安全EC；Mg/Ca及微量含量未列。"
+      ],
+      "product": {
+        "brand": "HESI",
+        "name": "HousePlant Elixir",
+        "target": "every indoor plant; all cultivation methods",
+        "form": "液体",
+        "label_npk": "4-2-3",
+        "basis": "未说明（正文仅NPK Fertiliser solution 4-2-3；不据此判定元素或氧化物、w/w或w/v）",
+        "analysis": {
+          "N": null,
+          "P": null,
+          "K": null,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": null,
+          "Mg": null
+        },
+        "dose": "慢生2ml/L；快生3-5ml/L；叶喷1ml/L；每月1-4次，仅生长/开花期；光越少肥越少；无称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "micro": "chelated micro-nutrients，具体元素/含量未披露",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/eecf28e750b11b5c.webp",
+      "image_url": "https://hesi.nl/media/e0/e5/9f/1733311189/Group%20HPE%202.png?ts=1733311189",
+      "image_caption": "HousePlant Elixir；官网产品页包装图，未以图片小字提取成分",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "HESI HousePlant Elixir",
+          "text": "家居植物专项但不是8属专用；厂家称低盐，不提供可执行EC数值。",
+          "quote": "Therefore we developed the HousePlant Elixir, which offers the ideal nutrient supply for every indoor plant.",
+          "source_ids": [
+            "s54"
+          ],
+          "scope": "荷兰品牌英文官网；8属仅作为通用室内植物用途",
+          "limitations": "厂家声明，不是独立试验；不把低盐营销用语等同安全EC；Mg/Ca及微量含量未列。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-995457c708e4",
+      "title": "Complete Focus",
+      "plants": [
+        "hoya",
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron",
+        "caladium",
+        "platycerium",
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s52"
+      ],
+      "record_ids": [
+        "fa02-product"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：2.2-0.5-2.7（网页元素分析）；元素N-P-K %w/v。 元素质量比N:P:K（N=1）=1 : 0.227 : 1.23。 用量：土/盆栽3-7ml/L；水培/半水培5-10ml/L；每次浇水用，每月清水冲洗。观叶/柔弱植物取较低剂量；无称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "additives": "Fe0.04、Mn0.012、B0.003、Zn0.003、Cu0.002、Mo0.001（均%w/v）",
+        "substrate": "土/盆栽混合基质；水培/半水培，厂家分别给剂量。"
+      },
+      "scope": [
+        "澳大利亚官网；8属仅通用标签覆盖"
+      ],
+      "limitations": [
+        "厂家声明，不是独立试验；密度与EC未给；不与英国Orchid Focus混同。"
+      ],
+      "product": {
+        "brand": "Growth Technology Australia",
+        "name": "Complete Focus",
+        "target": "Suitable for use on all plants",
+        "form": "液体浓缩",
+        "label_npk": "2.2-0.5-2.7（网页元素分析）",
+        "basis": "元素N-P-K %w/v",
+        "analysis": {
+          "N": 2.2,
+          "P": 0.5,
+          "K": 2.7,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": 1.3,
+          "Mg": 0.5
+        },
+        "dose": "土/盆栽3-7ml/L；水培/半水培5-10ml/L；每次浇水用，每月清水冲洗。观叶/柔弱植物取较低剂量；无称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "micro": "Fe0.04、Mn0.012、B0.003、Zn0.003、Cu0.002、Mo0.001（均%w/v）",
+        "notation": "element",
+        "concentration_basis": "w/v",
+        "element_analysis": {
+          "N": 2.2,
+          "P": 0.5,
+          "K": 2.7
+        },
+        "element_ratio": "1 : 0.227 : 1.23",
+        "conversion_note": "元素比按N归一为1；不是摩尔比，也不是最佳配方。"
+      },
+      "image": "images/b35bfa2935518f1a.webp",
+      "image_url": "https://cdn.prod.website-files.com/6719d6772b6a0979c8354541/68f30188c4ca612028cc8a36_4tzbrdwsmjt8zzvqwjr5g0m51hx4zesp.avif",
+      "image_caption": "Complete Focus；官网产品页包装图，未以图片小字提取成分",
+      "media_types": [
+        "organic",
+        "hydro",
+        "semihydro"
+      ],
+      "references": [
+        {
+          "title": "Growth Technology Complete Focus",
+          "text": "GT Complete 此处准确SKU为 Complete Focus；通用全植物配方，不是球兰专项。原HTML分析表完整，抽取工具曾漏掉单位及若干微量元素，已以直接原文补全。",
+          "quote": "Complete Focus is the perfect all-rounder. Contains all 12 essential minerals. Suitable for use on all plants.",
+          "source_ids": [
+            "s52"
+          ],
+          "scope": "澳大利亚官网；8属仅通用标签覆盖",
+          "limitations": "厂家声明，不是独立试验；密度与EC未给；不与英国Orchid Focus混同。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-dbf579a47278",
+      "title": "Foliage Focus",
+      "plants": [
+        "hoya",
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron",
+        "caladium",
+        "platycerium",
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s1"
+      ],
+      "record_ids": [
+        "fa01-product"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：2.2-0.4-2.2（网页元素分析值，非氧化物标签）；元素N-P-K %w/v。 元素质量比N:P:K（N=1）=1 : 0.182 : 1。 用量：土/盆栽混合基质3-5ml/L；水培/半水培5-7ml/L；每次浇水用，每月清水冲洗。未提供称重剂量；密度未知不换算g。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "additives": "Fe0.04、Mn0.012、B0.003、Zn0.003、Cu0.002、Mo0.001（均%w/v）",
+        "substrate": "土/盆栽混合基质；水培/半水培，厂家分别给剂量。"
+      },
+      "scope": [
+        "澳大利亚官网；观叶而非开花目标，非属级实验"
+      ],
+      "limitations": [
+        "厂家声明，不是独立试验；未给EC、密度或称重方案；对季节性休眠植物不构成全年施肥建议。"
+      ],
+      "product": {
+        "brand": "Growth Technology Australia",
+        "name": "Foliage Focus",
+        "target": "all non-flowering plants; common and rare tropical varieties",
+        "form": "液体浓缩",
+        "label_npk": "2.2-0.4-2.2（网页元素分析值，非氧化物标签）",
+        "basis": "元素N-P-K %w/v",
+        "analysis": {
+          "N": 2.2,
+          "P": 0.4,
+          "K": 2.2,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": 1.3,
+          "Mg": 0.7
+        },
+        "dose": "土/盆栽混合基质3-5ml/L；水培/半水培5-7ml/L；每次浇水用，每月清水冲洗。未提供称重剂量；密度未知不换算g。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "micro": "Fe0.04、Mn0.012、B0.003、Zn0.003、Cu0.002、Mo0.001（均%w/v）",
+        "notation": "element",
+        "concentration_basis": "w/v",
+        "element_analysis": {
+          "N": 2.2,
+          "P": 0.4,
+          "K": 2.2
+        },
+        "element_ratio": "1 : 0.182 : 1",
+        "conversion_note": "元素比按N归一为1；不是摩尔比，也不是最佳配方。"
+      },
+      "image": "images/0be40210083ba5f5.webp",
+      "image_url": "https://cdn.prod.website-files.com/6719d6772b6a0979c8354541/68f300e40a18ff5a21e1b045_dya9v2hyr1axzfc99e9pap3ygd8qztzm.avif",
+      "image_caption": "Foliage Focus；官网产品页包装图，未以图片小字提取成分",
+      "media_types": [
+        "organic",
+        "hydro",
+        "semihydro"
+      ],
+      "references": [
+        {
+          "title": "Growth Technology Foliage Focus",
+          "text": "澳洲观叶用途配方；所有植物标签仅作为家居观叶用途的合理泛化，不是8属专项或球兰专用；无尿素、氯化物、钠为厂家声明。",
+          "quote": "Foliage Focus is specifically formulated to encourage profuse and lush foliage growth. Suitable for all non-flowering plants, especially common and rare tropical varieties.",
+          "source_ids": [
+            "s1"
+          ],
+          "scope": "澳大利亚官网；观叶而非开花目标，非属级实验",
+          "limitations": "厂家声明，不是独立试验；未给EC、密度或称重方案；对季节性休眠植物不构成全年施肥建议。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-5f0d9293735e",
+      "title": "Orchid-Pro DORC-032",
+      "plants": [
+        "hoya",
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron",
+        "caladium",
+        "platycerium",
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s57",
+        "s58"
+      ],
+      "record_ids": [
+        "fa09-product"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：7-9-5（当前标题和图像标签；URL仍含7-8-6）；N-P2O5-K2O %；图上未显式w/w，质量/体积基准未独立核实。 元素质量比N:P:K（N=1）=1 : 0.561 : 0.593。 用量：每次浇水1/2 tsp./gallon；叶喷1/4-1/2 tsp./gallon，次日清水去残留；无称重剂量，不将液体mL转g。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "additives": "B0.02%、Cl0.1%、Co0.0015%、Cu0.05%、Fe0.1%、Mn0.05%、Mo0.0009%、Na0.1%、Zn0.05%；Cu/Fe/Mn/Zn为EDTA螯合（fa13）",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "美国官网集团品牌商城；当前DORC-032；成分补充来源fa13"
+      ],
+      "limitations": [
+        "厂家声明，不是独立试验；页面旧URL/alt/评论仍有7-8-6；虹吸1-3 fl.oz. (8 tsp.)表述疑似不一致，不修正不采用；EC、质量基准和密度未核验。"
+      ],
+      "product": {
+        "brand": "SUPERthrive / Dyna-Gro",
+        "name": "Orchid-Pro DORC-032",
+        "target": "all indoor and outdoor-grown orchids; all container plants",
+        "form": "液体浓缩",
+        "label_npk": "7-9-5（当前标题和图像标签；URL仍含7-8-6）",
+        "basis": "N-P2O5-K2O %；图上未显式w/w，质量/体积基准未独立核实",
+        "analysis": {
+          "N": 7,
+          "P": null,
+          "K": null,
+          "P2O5": 9,
+          "K2O": 5,
+          "Ca": 2,
+          "Mg": 0.5
+        },
+        "dose": "每次浇水1/2 tsp./gallon；叶喷1/4-1/2 tsp./gallon，次日清水去残留；无称重剂量，不将液体mL转g。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "micro": "B0.02%、Cl0.1%、Co0.0015%、Cu0.05%、Fe0.1%、Mn0.05%、Mo0.0009%、Na0.1%、Zn0.05%；Cu/Fe/Mn/Zn为EDTA螯合（fa13）",
+        "notation": "oxide",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": 7,
+          "P": 3.9276,
+          "K": 4.1505
+        },
+        "element_ratio": "1 : 0.561 : 0.593",
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/5bf096312ba8b8c4.webp",
+      "image_url": "https://ferrymorse.com/cdn/shop/files/Orchidpro1.jpg?v=1771427508&width=1946",
+      "image_caption": "Orchid-Pro 32oz DORC-032；集团品牌官方商城包装图，当前标题7-9-5但URL沿用7-8-6。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "SUPERthrive Orchid-Pro 7-9-5（当前32oz）",
+          "text": "当前官方集团商城标题及标签为7-9-5，不沿用URL、旧评论或列表的7-8-6。成分来自fa13实际标签视觉转录，页面文字为剂量依据。8属仅依据all container plants通用适用，不是专项。",
+          "quote": "Maintenance: Mix 1/2 tsp. of Orchid-Pro per gallon of water every time you water.",
+          "source_ids": [
+            "s57",
+            "s58"
+          ],
+          "scope": "美国官网集团品牌商城；当前DORC-032；成分补充来源fa13",
+          "limitations": "厂家声明，不是独立试验；页面旧URL/alt/评论仍有7-8-6；虹吸1-3 fl.oz. (8 tsp.)表述疑似不一致，不修正不采用；EC、质量基准和密度未核验。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-1c6b9c461524",
+      "title": "OrchiVit",
+      "plants": [
+        "hoya",
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron",
+        "caladium",
+        "platycerium",
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s55"
+      ],
+      "record_ids": [
+        "fa05-product"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：4-2-3；未说明（已读正文仅NPK Fertiliser 4-2-3）。 元素比信息不足，不换算。 用量：慢生1-2ml/L；快生3-5ml/L；叶喷1ml/L；每月1-4次，休眠期停；未提供称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "additives": "chelated micro-elements（未列具体元素百分比）",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "荷兰品牌英文官网；兰花及其他植物"
+      ],
+      "limitations": [
+        "厂家声明，不是独立试验；没有8属定量试验、EC或密度；OrchiVit自身正文NPK为4-2-3，并非TNT的3-2-3。"
+      ],
+      "product": {
+        "brand": "HESI",
+        "name": "OrchiVit",
+        "target": "orchids and other favourites; also other plants",
+        "form": "液体",
+        "label_npk": "4-2-3",
+        "basis": "未说明（已读正文仅NPK Fertiliser 4-2-3）",
+        "analysis": {
+          "N": null,
+          "P": null,
+          "K": null,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": null,
+          "Mg": null
+        },
+        "dose": "慢生1-2ml/L；快生3-5ml/L；叶喷1ml/L；每月1-4次，休眠期停；未提供称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "micro": "chelated micro-elements（未列具体元素百分比）",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/2da46c43733796ff.webp",
+      "image_url": "https://hesi.nl/media/48/0c/48/1733317217/Group%20OrchiVit.png?ts=1733317217",
+      "image_caption": "OrchiVit；官网产品页包装图，未以图片小字提取成分",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "HESI OrchiVit",
+          "text": "兰花为主、可用于其他植物；包含TNT Complex的营养以及Root Complex和SuperVit的维生素等是厂家说明，不据此复制TNT的NPK。8属仅通用适用，不是专项。",
+          "quote": "Orchivit contains the nutrients of TNT Complex combined with the vitamins and other vital substances from Root Complex and SuperVit.",
+          "source_ids": [
+            "s55"
+          ],
+          "scope": "荷兰品牌英文官网；兰花及其他植物",
+          "limitations": "厂家声明，不是独立试验；没有8属定量试验、EC或密度；OrchiVit自身正文NPK为4-2-3，并非TNT的3-2-3。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-9591d818d8db",
+      "title": "Foliage-Pro",
+      "plants": [
+        "hoya",
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron",
+        "caladium",
+        "platycerium",
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s59"
+      ],
+      "record_ids": [
+        "fa12-product"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：9-3-6；未说明；原厂旧资料比较表仅称Phosphorus/Potassium，未展示保证分析氧化物表头，不擅自认作元素。 元素比信息不足，不换算。 用量：养护每次浇水1/4 tsp./gallon (1:3000)；生产1/2-1 tsp./gallon每周；无称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "additives": "原厂表列B0.01%、Cl0.006%、Co0.0005%、Cu0.05%、Fe0.1%、Mn0.05%、Mo0.0009%、Ni0.0001%、Na0.05%、Zn0.05%；旧资料非当前保证标签",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "美国Dyna-Gro原厂旧版Product Data；PDF托管第三方；不保证当前SUPERthrive批次标签相同"
+      ],
+      "limitations": [
+        "厂家声明，不是独立试验；旧资料氮形态表出现2.9/6.3与总氮9不一致，保留原文不修；P/K形态及质量基准未明，不填P/P2O5/K/K2O；无EC。"
+      ],
+      "product": {
+        "brand": "Dyna-Gro / SUPERthrive",
+        "name": "Foliage-Pro",
+        "target": "tropical foliage and common interiorscape plants",
+        "form": "液体浓缩",
+        "label_npk": "9-3-6",
+        "basis": "未说明；原厂旧资料比较表仅称Phosphorus/Potassium，未展示保证分析氧化物表头，不擅自认作元素",
+        "analysis": {
+          "N": 9,
+          "P": null,
+          "K": null,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": 2,
+          "Mg": 0.5
+        },
+        "dose": "养护每次浇水1/4 tsp./gallon (1:3000)；生产1/2-1 tsp./gallon每周；无称重剂量。",
+        "ec": "未提供；没有具体剂量对应的施肥液EC及测法",
+        "micro": "原厂表列B0.01%、Cl0.006%、Co0.0005%、Cu0.05%、Fe0.1%、Mn0.05%、Mo0.0009%、Ni0.0001%、Na0.05%、Zn0.05%；旧资料非当前保证标签",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": 9,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": null,
+      "image_url": null,
+      "image_caption": "Dyna-Gro原厂署名资料，现托管于Home Depot；未取得可核验的官方独立包装图URL。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "Dyna-Gro Foliage-Pro 9-3-6",
+          "text": "原厂署名旧资料而非零售商产品描述。针对热带观叶和室内景观植物；8属仅通用观叶适用，不是属级配方。",
+          "quote": "Foliage-Pro® 9-3-6 is a complete liquid plant nutrient developed with ten years of field and laboratory testing.",
+          "source_ids": [
+            "s59"
+          ],
+          "scope": "美国Dyna-Gro原厂旧版Product Data；PDF托管第三方；不保证当前SUPERthrive批次标签相同",
+          "limitations": "厂家声明，不是独立试验；旧资料氮形态表出现2.9/6.3与总氮9不一致，保留原文不修；P/K形态及质量基准未明，不填P/P2O5/K/K2O；无EC。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-448603a73224",
+      "title": "秋海棠",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s31"
+      ],
+      "record_ids": [
+        "v1-begonia-10",
+        "v1-begonia-11",
+        "v1-begonia-12",
+        "v1-begonia-13",
+        "v1-begonia-14",
+        "v1-begonia-15",
+        "v1-begonia-16"
+      ],
+      "fields": {
+        "light": "Benary球根秋海棠Nonstop F1专用：发芽室10–100 ft. candles（原文附100–1,000 lx），14–16小时长日帮助萌发及苗质；这是育苗阶段，不是成株家庭照度。\n4–6真叶、根到穴盘边缘时：14–16小时长日防结块茎并诱花，DLI 8–10 mol/m²/day（原文另列25,000–30,000 lx，非可脱离光周期的等价）；光强3,500–4,000 ft. candles时需遮阴防叶缘灼伤。花芽启动原文要求日长>13.5小时，或22:00–03:00的5小时夜间补光。\n移栽继续14–16小时长日至自然日长>12小时或三月中旬（供应商季节条件）；DLI 10–12 mol/m²/day，原文另列30,000–35,000 lx；超过4,000 ft. candles遮阴降叶温。这是开花盆花生产处方，不能套给竹节/根茎观叶。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "穴盘增大阶段14-4-14或15-5-15钙基肥与17-5-17铵基肥交替，50–100 ppm N，每2–3次浇水施一次；后期可逐渐到连续100 ppm。高光长日下该阶段另可用20-10-20、50–100 ppm。不要与移栽后更高浓度混用。\n移栽后14-4-14钙基肥与17-5-17铵基肥交替100–150 ppm（这句未标明N）；同段明确高光长日下20-10-20为100–150 ppm nitrogen。移栽后这段未另给每周次数，不能从穴盘阶段复制。配方数字按原标签保留，不改写为元素N:P:K。",
+        "ec": "Benary给排水良好介质、pH 5.5–5.8；萌发EC 0.5、穴盘增大1.25–1.5、移栽后1.0–1.5，施肥段写维持介质EC 1.5。但该PDF没有注明这些EC的单位与浸提方法，不能把数值直接当mS/cm肥液或用作可执行阈值；如需有方法的数据应另看Purdue的通用生产分组。",
+        "additives": "Benary该PDF把维持营养生长的最低照度同时写为10–15 ft. candles (550 lx)，两单位自相矛盾；不替供应商“修正”，也不采用该句为家庭补光下限。DLI与lux不能无光谱和时间条件直接互换。",
+        "substrate": "Benary给排水良好介质、pH 5.5–5.8；萌发EC 0.5、穴盘增大1.25–1.5、移栽后1.0–1.5，施肥段写维持介质EC 1.5。但该PDF没有注明这些EC的单位与浸提方法，不能把数值直接当mS/cm肥液或用作可执行阈值；如需有方法的数据应另看Purdue的通用生产分组。"
+      },
+      "scope": [
+        "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "秋海棠 · 光照与时长｜球根Nonstop生产—萌发",
+          "text": "Benary球根秋海棠Nonstop F1专用：发芽室10–100 ft. candles（原文附100–1,000 lx），14–16小时长日帮助萌发及苗质；这是育苗阶段，不是成株家庭照度。",
+          "quote": "Light: Light is necessary for germination and benefit the germination process and improve quality. If utilizing a\ngermination chamber, providing a light source of 10‑100 ft. candles (100‑1,000 lx) will improve germination and reduce\nstretch. Provide long days of 14‑16 hrs. to improve germination and overall seedling quality.",
+          "source_ids": [
+            "s31"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · 光照与时长｜球根Nonstop生产—穴盘增大和花芽诱导",
+          "text": "4–6真叶、根到穴盘边缘时：14–16小时长日防结块茎并诱花，DLI 8–10 mol/m²/day（原文另列25,000–30,000 lx，非可脱离光周期的等价）；光强3,500–4,000 ft. candles时需遮阴防叶缘灼伤。花芽启动原文要求日长>13.5小时，或22:00–03:00的5小时夜间补光。",
+          "quote": "Light: Long days of 14-16 hrs. are required to keep plants from producing tubers and to initiate flowering. Light levels of 8-\n10 mol/m2/ day (25,000-30,000 lx) will improve quality and hasten flowering. Only moderate levels of light are required to\ninfo@benary.com | benary.com\n\nkeep plants vegetative. A minimum of 10-15 ft. candles (550 lx) is all that is required to avoid tuber formation, however-\nhigher light will benefit overall quality. Supplemental lighting under low light conditions providing 350-600 ft. candles\n(3,500-6,000 lx) will improve quality. Shading is required when light levels reach 3,500-4,000 ft. candles to prevent leaf edge\nburn.",
+          "source_ids": [
+            "s31"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · 光照与时长｜球根Nonstop生产—移栽后",
+          "text": "移栽继续14–16小时长日至自然日长>12小时或三月中旬（供应商季节条件）；DLI 10–12 mol/m²/day，原文另列30,000–35,000 lx；超过4,000 ft. candles遮阴降叶温。这是开花盆花生产处方，不能套给竹节/根茎观叶。",
+          "quote": "Light: Continue with long days of 14-16 hrs. Until the day length is > 12 hrs. or mid-March. Provide 10-12 mol/m2/day\n(30,000-35,000 lx) for optimum quality. If plants are placed under short day conditions growth will become uneven. Day\nlength extension is very important to continue vegetative growth. If light levels exceed 4,000 ft. candles provide shading to\nreduce the leaf temperature. Under high light conditions provide shading to prevent leaf edge burn.",
+          "source_ids": [
+            "s31"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · N ppm/配方/频率｜球根Nonstop生产—穴盘",
+          "text": "穴盘增大阶段14-4-14或15-5-15钙基肥与17-5-17铵基肥交替，50–100 ppm N，每2–3次浇水施一次；后期可逐渐到连续100 ppm。高光长日下该阶段另可用20-10-20、50–100 ppm。不要与移栽后更高浓度混用。",
+          "quote": "Fertilizer: Alternate between a calcium based fertilizer (14-4-14 or 15-5-15) and an ammonium based fertilizer (17-5-17) at\n50-100 ppm nitrogen every 2-3 waterings. Fertilizer applications can be gradually increased in the later stages of bulking\nwhere a constant feeding at 100 ppm is used. Under high light and long days an ammonium based fertilizer (20-10-20) at\n50-100 ppm can also be used.",
+          "source_ids": [
+            "s31"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · N ppm/配方/频率｜球根Nonstop生产—移栽后",
+          "text": "移栽后14-4-14钙基肥与17-5-17铵基肥交替100–150 ppm（这句未标明N）；同段明确高光长日下20-10-20为100–150 ppm nitrogen。移栽后这段未另给每周次数，不能从穴盘阶段复制。配方数字按原标签保留，不改写为元素N:P:K。",
+          "quote": "Fertilizer: Alternate between calcium based fertilizer 14-4-14 and an ammonium fertilizer 17-5-17 at 100-150 ppm. Keep\nthe media EC at 1.5. Application of potassium nitrate can help to keep the plants more compact. Under higher light and\nwarmer temperatures a fertilizer with additional ammonium can be used. Tall, stretched plants with few flowers indicate\ntoo much ammonium. Stunted, chlorotic plants with marginal leaf burn indicate a lack of calcium and magnesium. Under\nhigh light and extended day length an ammonium-based feed (20-10-20) at 100-150 ppm nitrogen can also be used.",
+          "source_ids": [
+            "s31"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · EC与介质｜球根Nonstop生产，方法缺失",
+          "text": "Benary给排水良好介质、pH 5.5–5.8；萌发EC 0.5、穴盘增大1.25–1.5、移栽后1.0–1.5，施肥段写维持介质EC 1.5。但该PDF没有注明这些EC的单位与浸提方法，不能把数值直接当mS/cm肥液或用作可执行阈值；如需有方法的数据应另看Purdue的通用生产分组。",
+          "quote": "Media: Use a well-drained, growing substrate; pH 5.5-5.8; EC 1.0-1.5.",
+          "source_ids": [
+            "s31"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · 资料错误警示｜球根供应商原文",
+          "text": "Benary该PDF把维持营养生长的最低照度同时写为10–15 ft. candles (550 lx)，两单位自相矛盾；不替供应商“修正”，也不采用该句为家庭补光下限。DLI与lux不能无光谱和时间条件直接互换。",
+          "quote": "A minimum of 10-15 ft. candles (550 lx) is all that is required to avoid tuber formation, however-\nhigher light will benefit overall quality.",
+          "source_ids": [
+            "s31"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-066df191d065",
+      "title": "花烛",
+      "plants": [
+        "anthurium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s11"
+      ],
+      "record_ids": [
+        "v1-anthurium-1",
+        "v1-anthurium-2",
+        "v1-anthurium-4",
+        "v1-anthurium-5",
+        "v1-anthurium-6",
+        "v1-anthurium-7",
+        "v1-anthurium-8",
+        "v1-anthurium-9"
+      ],
+      "fields": {
+        "light": "盆栽生产原单位1,000–2,500 foot candles；佛州90%–80%遮阴。超过此水平可能叶色变淡。并非水晶花烛的已验证范围。\n指南报告若干观花品种在室内100 foot candles可持续开花超过一年半；这是特定品种耐受/表现观察，不是快速生长最佳光照。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "生产建议2.5–3.0 lb N/1,000 ft²/月，是面积氮施用量，不是ppm N。原文明示N–P2O5–K2O标签比例：初期3–1–2，促花转1–2–2；不是元素N:P:K，也不是观叶水晶花烛应使用高磷肥的证据。\n观花商业品种室内维护：20–20–20水溶肥，50 ppm N，每月一次。是根部供肥建议，不能当叶喷配方。\n无常规叶喷肥EC建议。指南建议滴灌/底部灌溉并避免肥液溅叶；缺镁时提及硝酸镁喷施，缺锰时硫酸锰喷施，但没有浓度/频率。喷水除尘不是叶喷肥。",
+        "ec": "生产期采用pour-through介质浸出监测，每2–3周；读数1 dS/m且不补肥可能缺素，2 dS/m为养分充分，≥3 dS/m减肥频率/用量，必要时淋洗。不是进液EC。\n室内管理根区pour-through读数0.8–1.2 dS/m；不能套作配肥桶EC。",
+        "additives": "未提供",
+        "substrate": "指南例方：加拿大泥炭:珍珠岩:树皮=1:1:1；或50%加拿大泥炭+20%泡沫+20%粗蛭石+10%松树皮；pH6.0–6.5。属于原文生产例方，不是博主配方或家庭唯一最佳介质。"
+      },
+      "scope": [
+        "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic",
+        "chunky"
+      ],
+      "references": [
+        {
+          "title": "花烛 · 光照",
+          "text": "盆栽生产原单位1,000–2,500 foot candles；佛州90%–80%遮阴。超过此水平可能叶色变淡。并非水晶花烛的已验证范围。",
+          "quote": "Typical light levels range from 1,000 to 2,500 foot candles or 90% to 80% shade in Florida.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "花烛 · 光照",
+          "text": "指南报告若干观花品种在室内100 foot candles可持续开花超过一年半；这是特定品种耐受/表现观察，不是快速生长最佳光照。",
+          "quote": "several cultivars are able to flower continuously under interior light levels of 100 foot candles for over one and a half years.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "花烛 · EC",
+          "text": "生产期采用pour-through介质浸出监测，每2–3周；读数1 dS/m且不补肥可能缺素，2 dS/m为养分充分，≥3 dS/m减肥频率/用量，必要时淋洗。不是进液EC。",
+          "quote": "Growers are recommended to monitor media soluble salts and pH every 2 or 3 weeks using the pour-through method.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "花烛 · EC",
+          "text": "室内管理根区pour-through读数0.8–1.2 dS/m；不能套作配肥桶EC。",
+          "quote": "Check the media soluble salts level using the pour-through method. A reading between 0.8 and 1.2 dS/m should be appropriate.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "花烛 · 施肥",
+          "text": "生产建议2.5–3.0 lb N/1,000 ft²/月，是面积氮施用量，不是ppm N。原文明示N–P2O5–K2O标签比例：初期3–1–2，促花转1–2–2；不是元素N:P:K，也不是观叶水晶花烛应使用高磷肥的证据。",
+          "quote": "Growers may use a fertilizer with N-P2O5-K2O at 3-1-2 ratio at the beginning of production, then shift to a fertilizer with N-P2O5-K2O at 1-2-2 ratio to promote flowering.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "花烛 · 施肥",
+          "text": "观花商业品种室内维护：20–20–20水溶肥，50 ppm N，每月一次。是根部供肥建议，不能当叶喷配方。",
+          "quote": "A supply of a 20-20-20 water-soluble fertilizer solution with a N level at 50 ppm once a month should be adequate under interior conditions.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "花烛 · 介质",
+          "text": "指南例方：加拿大泥炭:珍珠岩:树皮=1:1:1；或50%加拿大泥炭+20%泡沫+20%粗蛭石+10%松树皮；pH6.0–6.5。属于原文生产例方，不是博主配方或家庭唯一最佳介质。",
+          "quote": "Examples are: 1:1:1 Canadian peat, perlite, and bark or 50% Canadian peat, 20% styrofoam, 20% course vermiculate, and 10% pine bark with pH 6.0 to 6.5 and soluble salts 1 to 2 dS/m.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "花烛 · 叶喷",
+          "text": "无常规叶喷肥EC建议。指南建议滴灌/底部灌溉并避免肥液溅叶；缺镁时提及硝酸镁喷施，缺锰时硫酸锰喷施，但没有浓度/频率。喷水除尘不是叶喷肥。",
+          "quote": "Drip- or sub- irrigation is recommended for *Anthurium* production. Do not allow fertilizer to splash onto the foliage, as it will leave a grey residue.",
+          "source_ids": [
+            "s11"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-179c59d28380",
+      "title": "蔓绿绒",
+      "plants": [
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s12"
+      ],
+      "record_ids": [
+        "v1-philodendron-1",
+        "v1-philodendron-2",
+        "v1-philodendron-3",
+        "v1-philodendron-4",
+        "v1-philodendron-5",
+        "v1-philodendron-9"
+      ],
+      "fields": {
+        "light": "EP150：其表列品种除P. selloum外，生产光1500–2500 fc、80%–88%遮阴；P. selloum另为3000–5000fc、40%–76%遮阴。是生产条件而非室内最低光，且不含所有现代品种。\n多数可耐室内75fc；≥150fc有助保持叶色和叶片大小。耐受下限不是最佳快速生长光。原文无PPFD/DLI。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "原文称N:P:K=3:1:2或3:1:3，但未说明元素/氧化物标签基础；建议3 lb N/1,000 ft²/月，可用缓释、水溶或结合。没有可直接给家庭的ppm N及每周频率。\n没有日常叶喷肥EC/ppm N最佳试验。EP150 PDF表3警告液肥在卷叶中干燥可灼伤，并给20–20–20≤2lb/100gal的情景性避免药肥害建议；这不是叶喷最佳配方，不能以EC换算后推广。",
+        "ec": "EP150介质可溶盐1–2 dS/m、pH6.0–6.5；未注明提取方法。室内可溶盐≥2dS/m停肥、>3dS/m清水渗洗。只能保留为未指明测法的介质数值，不能与别属pour-through直接横比。",
+        "additives": "未提供",
+        "substrate": "水苔泥炭、松树皮、蛭石或珍珠岩组合，保水兼通气；≥3ft攀柱生产盆加10%–20%粗沙用于抗倾倒，不是全体小盆都要加砂。原文没有固定四料比例。"
+      },
+      "scope": [
+        "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic",
+        "chunky",
+        "sphagnum"
+      ],
+      "references": [
+        {
+          "title": "蔓绿绒 · 光照",
+          "text": "EP150：其表列品种除P. selloum外，生产光1500–2500 fc、80%–88%遮阴；P. selloum另为3000–5000fc、40%–76%遮阴。是生产条件而非室内最低光，且不含所有现代品种。",
+          "quote": "The plants listed in Table 1, excluding P. selloum, should \nbe grown with shade levels of 80–88% (1500–2500 fc) to \nproduce the best plants for interiorscapes. Philodendron \nselloum should be grown under 40–76% shade (3000–5000 \nfc).",
+          "source_ids": [
+            "s12"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "蔓绿绒 · 光照",
+          "text": "多数可耐室内75fc；≥150fc有助保持叶色和叶片大小。耐受下限不是最佳快速生长光。原文无PPFD/DLI。",
+          "quote": "Most philodendrons will tolerate light levels as low \nas 75 fc but light levels of 150 fc or more will maintain color \nand leaf size.",
+          "source_ids": [
+            "s12"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "蔓绿绒 · EC",
+          "text": "EP150介质可溶盐1–2 dS/m、pH6.0–6.5；未注明提取方法。室内可溶盐≥2dS/m停肥、>3dS/m清水渗洗。只能保留为未指明测法的介质数值，不能与别属pour-through直接横比。",
+          "quote": "Media should have good moisture holding capacity and \naeration, soluble salts of 1–2 dS/m, and a pH of 6.0 to 6.5.",
+          "source_ids": [
+            "s12"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "蔓绿绒 · 施肥",
+          "text": "原文称N:P:K=3:1:2或3:1:3，但未说明元素/氧化物标签基础；建议3 lb N/1,000 ft²/月，可用缓释、水溶或结合。没有可直接给家庭的ppm N及每周频率。",
+          "quote": "Use a fertilizer with \nan N:P:K ratio of 3:1:2 or 3:1:3. The suggested application \nrate is 3 lb N per 1,000 sq. ft per month.",
+          "source_ids": [
+            "s12"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "蔓绿绒 · 介质",
+          "text": "水苔泥炭、松树皮、蛭石或珍珠岩组合，保水兼通气；≥3ft攀柱生产盆加10%–20%粗沙用于抗倾倒，不是全体小盆都要加砂。原文没有固定四料比例。",
+          "quote": "Three-foot and taller totems should have \n10–20% coarse sand to keep plants from wind tipping.",
+          "source_ids": [
+            "s12"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "蔓绿绒 · 叶喷",
+          "text": "没有日常叶喷肥EC/ppm N最佳试验。EP150 PDF表3警告液肥在卷叶中干燥可灼伤，并给20–20–20≤2lb/100gal的情景性避免药肥害建议；这不是叶喷最佳配方，不能以EC换算后推广。",
+          "quote": "Pesticide phytotoxicity or burn from \ndrying liquid fertilizer in the leaf roll.\nApply liquid fertilizer at rates of 2 lb 20-20-20/100 \ngallons of water or less.",
+          "source_ids": [
+            "s12"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-c4a410aa6f0b",
+      "title": "龟背竹",
+      "plants": [
+        "monstera"
+      ],
+      "species": [],
+      "source_ids": [
+        "s15"
+      ],
+      "record_ids": [
+        "v1-monstera-2",
+        "v1-monstera-3",
+        "v1-monstera-4"
+      ],
+      "fields": {
+        "light": "UConn写半阴、每日3–6小时直射，但不是强度或DLI，也不应解读为全年暴晒。UF佛州景观说明浅阴叶更深绿、强日照可能灼叶；全日照可更利结果。地点、季节与观叶/结果目的不同，不拼接成统一最佳光值。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "Wisconsin仅说春到秋定期施肥；UConn提醒土壤盐分高易灼伤，New England活跃生长期May–Sept可定期施肥。两者未给ppm N或NPK数值，不补数。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "室内盆栽：富有机质、排水良好介质；Wisconsin称肥沃无土介质并留足根部空间。没有原文比例配方。"
+      },
+      "scope": [
+        "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "龟背竹 · 光照",
+          "text": "UConn写半阴、每日3–6小时直射，但不是强度或DLI，也不应解读为全年暴晒。UF佛州景观说明浅阴叶更深绿、强日照可能灼叶；全日照可更利结果。地点、季节与观叶/结果目的不同，不拼接成统一最佳光值。",
+          "quote": "Monstera prefers partial shade with direct sunlight for 3-6 hours daily.",
+          "source_ids": [
+            "s15"
+          ],
+          "scope": "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "龟背竹 · 施肥",
+          "text": "Wisconsin仅说春到秋定期施肥；UConn提醒土壤盐分高易灼伤，New England活跃生长期May–Sept可定期施肥。两者未给ppm N或NPK数值，不补数。",
+          "quote": "Monstera is easily burned by high soil salts, but can tolerate regular fertilization during periods of active growth (May-Sept in New England).",
+          "source_ids": [
+            "s15"
+          ],
+          "scope": "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "龟背竹 · 介质",
+          "text": "室内盆栽：富有机质、排水良好介质；Wisconsin称肥沃无土介质并留足根部空间。没有原文比例配方。",
+          "quote": "Soil: A well-draining potting mix with a high organic matter content.",
+          "source_ids": [
+            "s15"
+          ],
+          "scope": "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-27f8c1a2300e",
+      "title": "彩叶芋 · 泰彩",
+      "plants": [
+        "caladium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s23"
+      ],
+      "record_ids": [
+        "v1-caladium-1",
+        "v1-caladium-2",
+        "v1-caladium-3",
+        "v1-caladium-4"
+      ],
+      "fields": {
+        "light": "UF/IFAS针对常见园艺彩叶芋：多数品种半阴，每日仅需2–4小时直射日光，以早晨日照、其余时段半阴为宜；这是佛罗里达庭园条件，不是人工灯总照明时长，更不是泰彩全品种光强最适值。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "佛罗里达多数砂土地轻施肥1–2次/生长季即可；较肥沃土壤可能无需施肥。以低磷缓释肥维持叶色。没有给出N ppm或商品配方，不能自行补为20-20-20。\n过肥会让叶片变绿、失去红白色；肥直接接触叶片可灼伤。因此不能据此提出任何叶喷EC安全阈值。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "介质需兼顾高含水与充分排水，保持触感湿润而非干透或积水；不是长期泡水，也不是一律套用鹿角蕨水苔上板方案。"
+      },
+      "scope": [
+        "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "sphagnum",
+        "mounted"
+      ],
+      "references": [
+        {
+          "title": "彩叶芋 · 泰彩 · 光照｜家庭庭园",
+          "text": "UF/IFAS针对常见园艺彩叶芋：多数品种半阴，每日仅需2–4小时直射日光，以早晨日照、其余时段半阴为宜；这是佛罗里达庭园条件，不是人工灯总照明时长，更不是泰彩全品种光强最适值。",
+          "quote": "Most caladiums thrive in partial shade and only need two to four hours of direct sunlight per day. Although some new cultivars have been bred to grow in direct sunlight, morning sun and then partial shade for the remainder of the day is ideal for most.",
+          "source_ids": [
+            "s23"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "彩叶芋 · 泰彩 · NPK与频率｜家庭庭园",
+          "text": "佛罗里达多数砂土地轻施肥1–2次/生长季即可；较肥沃土壤可能无需施肥。以低磷缓释肥维持叶色。没有给出N ppm或商品配方，不能自行补为20-20-20。",
+          "quote": "Soils in Florida vary by location. In most of Florida’s sandy areas a light application of fertilizer once or twice during the growing season is sufficient. In richer soil conditions you may not need to fertilize at all. For optimum foliage color, choose a slow-release fertilizer that is low in phosphorous.",
+          "source_ids": [
+            "s23"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "彩叶芋 · 泰彩 · 施肥风险｜家庭",
+          "text": "过肥会让叶片变绿、失去红白色；肥直接接触叶片可灼伤。因此不能据此提出任何叶喷EC安全阈值。",
+          "quote": "Excessive fertilization can cause the leaves to become greener, losing the reds and whites that make them so appealing. Caladium leaves can burn if fertilizer is applied directly to them.",
+          "source_ids": [
+            "s23"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "彩叶芋 · 泰彩 · 介质｜家庭",
+          "text": "介质需兼顾高含水与充分排水，保持触感湿润而非干透或积水；不是长期泡水，也不是一律套用鹿角蕨水苔上板方案。",
+          "quote": "Caladiums prefer soils with high moisture and adequate drainage. The tubers should never sit in dry soil or saturated water, but in soil moist to the touch.",
+          "source_ids": [
+            "s23"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-33fbc8733584",
+      "title": "彩叶芋 · 泰彩",
+      "plants": [
+        "caladium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s24"
+      ],
+      "record_ids": [
+        "v1-caladium-5",
+        "v1-caladium-6",
+        "v1-caladium-7"
+      ],
+      "fields": {
+        "light": "1991年Evans/Erwin/Heins生产综述：多数旧园艺品种约5,000 footcandles（原文同时列1,000 micro mol s-1 m-2），或佛罗里达60%遮阴；同页另引荷兰球根催生指南3,000–4,000 footcandles。保留两套来源及原文换算，不把它们合并成泰彩最佳区间；未给光周期或DLI。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "同一旧综述列Osmocote 14-14-14预混6 kg/m³介质；液肥原文为“constant feed of 100–200 ppm nitrogen and potassium weekly”，同时出现constant和weekly、频率表述有歧义，只能保留为历史生产参考，不解释成每次浇水也不照搬家庭；高氮会导致不希望的绿叶。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "生产用介质为排水良好、高有机质，pH 5.5–6.5。无原料体积比，也不据此虚构泰彩专用配土比例。"
+      },
+      "scope": [
+        "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "彩叶芋 · 泰彩 · 光照｜园艺盆花催生生产",
+          "text": "1991年Evans/Erwin/Heins生产综述：多数旧园艺品种约5,000 footcandles（原文同时列1,000 micro mol s-1 m-2），或佛罗里达60%遮阴；同页另引荷兰球根催生指南3,000–4,000 footcandles。保留两套来源及原文换算，不把它们合并成泰彩最佳区间；未给光周期或DLI。",
+          "quote": "Light: Although each cultivar has its own \noptimum light level, most cultivars perform \nbest at approximately 5,000 footcandles \n(1,000 micro mol s-1 m-2) or in 60% shade \nin Florida (Conover and Poole, 1973). The \n'Holland Bulb Forcer's Guide' recommends \nthat caladiums should be grown at 3,000- \n4,000 footcandles.",
+          "source_ids": [
+            "s24"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "彩叶芋 · 泰彩 · NPK与频率｜园艺盆花催生生产",
+          "text": "同一旧综述列Osmocote 14-14-14预混6 kg/m³介质；液肥原文为“constant feed of 100–200 ppm nitrogen and potassium weekly”，同时出现constant和weekly、频率表述有歧义，只能保留为历史生产参考，不解释成每次浇水也不照搬家庭；高氮会导致不希望的绿叶。",
+          "quote": "F e r t i l i z a t i o n :  Many \ntypes \nof \nfertilizers are acceptable. Conover and Poole \n(1975) recommended 6 kg Osmocote (14-14- \n14) per cubic meter of medium (6 ozkubic \nft) or 1 tsp per inch (15 cm) pot diameter. \nA constant feed of 100 - 200 ppm nitrogen \nand potassium weekly has also been used to \nsuccessfully grow caladium. Superphosphate \nmay be added prior to potting. The pH should \nbe maintained at 5.5 - 6.5. \nDolomitic lime \nmay be added to the mix prior to potting to \nraise the pH if necessary. \n\nExcess nitrogen may cause undesirable \ngreen leaves (due to over production of \nchlorophyll).",
+          "source_ids": [
+            "s24"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "彩叶芋 · 泰彩 · 介质｜园艺盆花生产",
+          "text": "生产用介质为排水良好、高有机质，pH 5.5–6.5。无原料体积比，也不据此虚构泰彩专用配土比例。",
+          "quote": "Plantina tubers - Medium should be \nwell drained and high in organic matter. The \nmedia pH should be maintained from 5.5-6.5.",
+          "source_ids": [
+            "s24"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-899697bec8ce",
+      "title": "鹿角蕨",
+      "plants": [
+        "platycerium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s26"
+      ],
+      "record_ids": [
+        "v1-platycerium-1",
+        "v1-platycerium-2",
+        "v1-platycerium-4"
+      ],
+      "fields": {
+        "light": "二歧等常见栽培建议明亮间接光、良好空气流通；在高湿及温暖环境可耐较多直射光，但直射环境需更多水。无光强数值、每日时长或DLI，不能把“耐晒”写成全天烈日最佳。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "Wisconsin给暖月每月施一次稀释均衡液肥，或把缓释颗粒放介质中；未给具体浓度，且没有把幼株与成株分开。应与UF成熟株低频建议分别列示，不拼成统一最佳处方。",
+        "ec": "未提供",
+        "additives": "Wisconsin以常见二歧鹿角蕨P. bifurcatum为主；对于P. veitchii（银叶/维奇鹿角蕨）只明确写“更耐日照”。证据支持分开管理，不足以给veitchii或其他所谓高光种编出lux/PPFD/DLI最适值。",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "以P. bifurcatum二歧等常见种为基础；P. veitchii较耐日照单独标识，不给所有鹿角蕨一个光强最适值。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "鹿角蕨 · 适用种｜常见二歧等与高光种",
+          "text": "Wisconsin以常见二歧鹿角蕨P. bifurcatum为主；对于P. veitchii（银叶/维奇鹿角蕨）只明确写“更耐日照”。证据支持分开管理，不足以给veitchii或其他所谓高光种编出lux/PPFD/DLI最适值。",
+          "quote": "**_P. veitchii_** is smaller and slower-growing than _P. bifurcatum_, with fuzzy, blue-green fronds. It is more sun tolerant, too.",
+          "source_ids": [
+            "s26"
+          ],
+          "scope": "以P. bifurcatum二歧等常见种为基础；P. veitchii较耐日照单独标识，不给所有鹿角蕨一个光强最适值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "鹿角蕨 · 光照｜二歧鹿角蕨",
+          "text": "二歧等常见栽培建议明亮间接光、良好空气流通；在高湿及温暖环境可耐较多直射光，但直射环境需更多水。无光强数值、每日时长或DLI，不能把“耐晒”写成全天烈日最佳。",
+          "quote": "These tropical plants **need good air circulation, bright indirect light, warm temperatures, moderate humidity, and consistent moisture**. Staghorn ferns absorb water through their fronds as well as the roots so be sure to soak the basal fronds and the medium. Allow some drying of the growing medium in between waterings; **staghorn ferns rot easily if overwatered**. Rainwater is best if it is available.\n\n**Established plants are fairly drought tolerant** so can withstand fairly long periods without water. More moisture is needed when growing in summer and less in cold weather. They can tolerate more direct sunlight when humidity and temperatures are high but also require more water when in direct light.",
+          "source_ids": [
+            "s26"
+          ],
+          "scope": "以P. bifurcatum二歧等常见种为基础；P. veitchii较耐日照单独标识，不给所有鹿角蕨一个光强最适值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "鹿角蕨 · NPK与频率｜二歧家庭栽培交叉参考",
+          "text": "Wisconsin给暖月每月施一次稀释均衡液肥，或把缓释颗粒放介质中；未给具体浓度，且没有把幼株与成株分开。应与UF成熟株低频建议分别列示，不拼成统一最佳处方。",
+          "quote": "Plants can be fertilized monthly during the warmer months with balanced, diluted liquid fertilizer or slow-release fertilizer pellets placed in the growing medium.",
+          "source_ids": [
+            "s26"
+          ],
+          "scope": "以P. bifurcatum二歧等常见种为基础；P. veitchii较耐日照单独标识，不给所有鹿角蕨一个光强最适值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-0c883be9b7d4",
+      "title": "秋海棠",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s30"
+      ],
+      "record_ids": [
+        "v1-begonia-7",
+        "v1-begonia-8"
+      ],
+      "fields": {
+        "light": "佛罗里达大学Rick Schoellhorn的2002年生产文章：Rex约1,500–2,500 foot-candles，并需足够株距；未给日照时长或DLI。这仅为Rex生产参考，不能覆盖全部根茎原生种，更不能覆盖竹节型。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "Rex旧生产文章写150–250 ppm liquid feed或中等缓释肥；原文没有明确ppm以N还是成品肥计、没有配方或施用频率，不能擅自记为150–250 ppm N。介质为商业peat-lite、避免重及排水差配土，pH 5.8–6.8；高EC会矮化及叶缘灼伤，但文中无EC数值/方法。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "Rex旧生产文章写150–250 ppm liquid feed或中等缓释肥；原文没有明确ppm以N还是成品肥计、没有配方或施用频率，不能擅自记为150–250 ppm N。介质为商业peat-lite、避免重及排水差配土，pH 5.8–6.8；高EC会矮化及叶缘灼伤，但文中无EC数值/方法。"
+      },
+      "scope": [
+        "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "秋海棠 · 光照｜Rex观叶商品生产",
+          "text": "佛罗里达大学Rick Schoellhorn的2002年生产文章：Rex约1,500–2,500 foot-candles，并需足够株距；未给日照时长或DLI。这仅为Rex生产参考，不能覆盖全部根茎原生种，更不能覆盖竹节型。",
+          "quote": "Light levels. Approximately 1,500-2,500 foot-candles; generous spacing is key for quality plants, so don’t crowd plants on the bench.",
+          "source_ids": [
+            "s30"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · NPK与介质｜Rex观叶商品生产",
+          "text": "Rex旧生产文章写150–250 ppm liquid feed或中等缓释肥；原文没有明确ppm以N还是成品肥计、没有配方或施用频率，不能擅自记为150–250 ppm N。介质为商业peat-lite、避免重及排水差配土，pH 5.8–6.8；高EC会矮化及叶缘灼伤，但文中无EC数值/方法。",
+          "quote": "Fertilization. Either 150-250 ppm liquid feed or moderate levels of slow-release are adequate for production. These begonias benefit from an\n\noccasional application of micronutrients or organic fertilizers such as fish emulsion.\n\nWatering. Keep on the dry side but never wilted. Avoid overhead watering wherever possible to avoid bacterial leaf spot.\n\nMedia. Avoid heavy or poor-draining mixes. Most commercial peat-lite medias work fine; pH 5.8-6.8; high EC will stunt growth and cause mar-\n\nginal leaf burn. Use care when transplanting plugs to match soil level of plug to soil level in the container; liners potted too high never develop a\n\ngood connection with the soil and grow slowly.",
+          "source_ids": [
+            "s30"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-dcf3d5fdde1f",
+      "title": "圣迭戈鹿角蕨介质、追肥和药害提醒",
+      "plants": [
+        "platycerium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s41"
+      ],
+      "record_ids": [
+        "v1-practice-9"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "春夏每月用NPK比例1-1-1的均衡肥；秋冬每隔月。过大过快可减到每年1–2次。没有品牌、配液浓度、EC。",
+        "ec": "未提供",
+        "additives": "文中建议虫害用 insecticidal soap，避免油性产品；未给肥皂品牌/剂量。香蕉皮过量会招虫。",
+        "substrate": "水苔为常见上板/篮栽/盆栽介质；没有混合体积比。"
+      },
+      "scope": [
+        "Platycerium；当地以P. bifurcatum常见，提到P. superbum、P. hillii、P. veitchii Lemoinei"
+      ],
+      "limitations": [
+        "具名专业推广栽培指导；作者简介称家住Jamul、喜种鹿角蕨，不是对照试验或逐株日志。；圣迭戈户外/室内；热干每周浇、湿冷每2–3周，均需依实际干燥调整。；1-1-1是比例，不表示商品必须含1%/1%/1%。；肥皂仍需依标签和敏感性小试：LSU资料提醒 delicate ferns可能敏感；不能凭此文给鹿角蕨全属无条件安全许可。；不可将文章所述黑点全诊断为真菌病或径直常规喷药。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "sphagnum",
+        "mounted"
+      ],
+      "references": [
+        {
+          "title": "圣迭戈鹿角蕨介质、追肥和药害提醒",
+          "text": "介质：水苔为常见上板/篮栽/盆栽介质；没有混合体积比。 用肥：春夏每月用NPK比例1-1-1的均衡肥；秋冬每隔月。过大过快可减到每年1–2次。没有品牌、配液浓度、EC。 其他：文中建议虫害用 insecticidal soap，避免油性产品；未给肥皂品牌/剂量。香蕉皮过量会招虫。",
+          "quote": "Treat these insect pests with an\ninsecticidal soap. Avoid using oil-based\nproducts on the leaves.",
+          "source_ids": [
+            "s41"
+          ],
+          "scope": "Platycerium；当地以P. bifurcatum常见，提到P. superbum、P. hillii、P. veitchii Lemoinei",
+          "limitations": "具名专业推广栽培指导；作者简介称家住Jamul、喜种鹿角蕨，不是对照试验或逐株日志。；圣迭戈户外/室内；热干每周浇、湿冷每2–3周，均需依实际干燥调整。；1-1-1是比例，不表示商品必须含1%/1%/1%。；肥皂仍需依标签和敏感性小试：LSU资料提醒 delicate ferns可能敏感；不能凭此文给鹿角蕨全属无条件安全许可。；不可将文章所述黑点全诊断为真菌病或径直常规喷药。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-6b94787f6918",
+      "title": "彩叶芋 · 泰彩",
+      "plants": [
+        "caladium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s25"
+      ],
+      "record_ids": [
+        "v1-caladium-8",
+        "v1-caladium-9"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "Purdue HO-237表1明确把Caladium列为轻肥作物：饱和介质浸提SME 0.76–2.0 mS/cm；PourThru根区浸出液1.0–2.6 mS/cm。这是一般温室作物分组监测范围，不是灌入肥水EC，也不是泰国特定品种最适值。\nPourThru应正常灌溉/施肥后排水30–60分钟，再加蒸馏水收集接近50 mL浸出液；干盆直接测、过量加水都会改变结果。1:2法则是一体积介质加两体积蒸馏水、平衡30分钟后过滤测定，不能混用阈值。",
+        "additives": "未提供",
+        "substrate": "Purdue HO-237表1明确把Caladium列为轻肥作物：饱和介质浸提SME 0.76–2.0 mS/cm；PourThru根区浸出液1.0–2.6 mS/cm。这是一般温室作物分组监测范围，不是灌入肥水EC，也不是泰国特定品种最适值。"
+      },
+      "scope": [
+        "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "彩叶芋 · 泰彩 · 根区EC｜温室无土介质生产",
+          "text": "Purdue HO-237表1明确把Caladium列为轻肥作物：饱和介质浸提SME 0.76–2.0 mS/cm；PourThru根区浸出液1.0–2.6 mS/cm。这是一般温室作物分组监测范围，不是灌入肥水EC，也不是泰国特定品种最适值。",
+          "quote": "Table 1. Nutrient requirements of greenhouse crops with electrical conductivity ranges using the saturated media extract (SME) and PourThru methods.\nLight (SME EC of 0.76 to 2.0 mS/cm) (PourThru EC of 1.0 to 2.6 mS/cm)\nAfrican violets\nAgeratum\nAnemone\nAsclepias\nAster\nAstilbe\nAzalea\nBegonia (fibrous)\nBegonia (Hiemalis)\nBegonia (Rex)\nBegonia (Tuberous)\nCaladium",
+          "source_ids": [
+            "s25"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "彩叶芋 · 泰彩 · EC方法｜生产监测",
+          "text": "PourThru应正常灌溉/施肥后排水30–60分钟，再加蒸馏水收集接近50 mL浸出液；干盆直接测、过量加水都会改变结果。1:2法则是一体积介质加两体积蒸馏水、平衡30分钟后过滤测定，不能混用阈值。",
+          "quote": "To sample using the PourThru test method:\nFertigate or irrigate the crop as usual for your production program and establish a specific testing day if fertigation is conducted once a week.\nAllow the substrate to drain for 30 to 60 minutes.\nPlace a saucer under the pot.\nApply enough distilled water (approximately 100 milliliters (3.4 ounces) per 6.5-inch pot) to collect as close to 50 milliliters (1.7 ounces) of leachate as possible. More than 70 milliliters (2.4 ounces) of leachate can dilute the salt content, while less than 50 millileters of leachate may not provide enough solution to cover the probe (Table 3, Figure 4).\nMeasure the pH and the EC of the leachate.",
+          "source_ids": [
+            "s25"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-1044571ac4ec",
+      "title": "彩叶芋 · 泰彩",
+      "plants": [
+        "caladium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s32"
+      ],
+      "record_ids": [
+        "v1-caladium-10"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "1 mS/cm = 1 dS/m = 1,000 µS/cm；EC不能不问配方就换算成N ppm。Purdue只允许对新配制肥液，利用同配方100 ppm N的标签EC并扣除原水EC来计算；根区旧液不能用这个逻辑反算氮浓度。",
+        "ec": "1 mS/cm = 1 dS/m = 1,000 µS/cm；EC不能不问配方就换算成N ppm。Purdue只允许对新配制肥液，利用同配方100 ppm N的标签EC并扣除原水EC来计算；根区旧液不能用这个逻辑反算氮浓度。",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "彩叶芋 · 泰彩 · EC单位与N ppm｜共同方法警示",
+          "text": "1 mS/cm = 1 dS/m = 1,000 µS/cm；EC不能不问配方就换算成N ppm。Purdue只允许对新配制肥液，利用同配方100 ppm N的标签EC并扣除原水EC来计算；根区旧液不能用这个逻辑反算氮浓度。",
+          "quote": "Electrical conductivity is measured in Siemens (S) \nbut ‘mho’s (opposite of ‘ohm’, the unit for resistance) \nare also occasionally used. Note that S = mho and \none mS/cm = 1 dS/m = 1,000 µS/cm, where ‘m’ \nstands for ‘milli’, ‘d’ stands for ‘deci’ and ‘µ’ stands \nfor ‘micro’.\nFigure 1. This illustration describes the concept of electrical conductivity \nin solutions. The solution on the left is pure water and does not contain \nfertilizer ions. The one on the right contains dissolved fertilizer salts. If you \napply an electric current to the solution, the electrical charges carry that \ncurrent in the solution. The more electrical charge the greater the electrical \nconductivity. The conductivity of the solution on the left is influenced by \nhydrogen and hydroxyl ions. The dissolved fertilizer salts in the solution on \nthe right carry additional electrical charge. More electricity is conducted \nthrough the fertilizer solution, because there are more charged particles \nin it than in pure water.\nWhy Is EC Useful? \nElectrical conductivity measurements are very \nuseful in greenhouse production, because:\n•\t You can measure the EC of a solution easily \n\t\nand quickly using affordable sensors\n•\t The EC is proportional to the total amount \n\t\nof fertilizer salts present in a solution\nIt is important to note that EC indicates the total \namount of fertilizer ions (nitrogen, phosphorus, \nand so on). But EC measurements are useful, \nbecause you can easily convert an EC reading to \nprovide you with an accurate amount of nitrogen \n(N) in the solution (in parts per million, or ppm). \nHowever, this is done only for freshly prepared \nfertilizer solution.",
+          "source_ids": [
+            "s32"
+          ],
+          "scope": "Caladium园艺品种；区分家庭庭园与温室盆花催生；未把欧美历史品种试验外推成泰国品种最佳值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-b4190d718894",
+      "title": "鹿角蕨",
+      "plants": [
+        "platycerium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s27"
+      ],
+      "record_ids": [
+        "v1-platycerium-3",
+        "v1-platycerium-5"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "UF/IFAS推荐标签配比1:1:1肥料，按商品说明用量；幼株暖月每月一次、凉月生长放缓时每两月一次，成熟株每年1–2次即可。没有N ppm、稀释倍数或叶喷EC，1:1:1是肥料标签比例而不是溶液元素分析。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "UF/IFAS建议木板、树蕨纤维或石上附生，使用几把水苔或其他充分排水介质形成垫层，盾叶与介质接触；也可侧挂金属篮填有机介质。不提供统一水苔压实密度或树皮体积比。"
+      },
+      "scope": [
+        "以P. bifurcatum二歧等常见种为基础；P. veitchii较耐日照单独标识，不给所有鹿角蕨一个光强最适值。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic",
+        "chunky",
+        "sphagnum"
+      ],
+      "references": [
+        {
+          "title": "鹿角蕨 · NPK与频率｜幼株和成熟株",
+          "text": "UF/IFAS推荐标签配比1:1:1肥料，按商品说明用量；幼株暖月每月一次、凉月生长放缓时每两月一次，成熟株每年1–2次即可。没有N ppm、稀释倍数或叶喷EC，1:1:1是肥料标签比例而不是溶液元素分析。",
+          "quote": "Staghorn fern can benefit from the application of a fertilizer with a 1:1:1 ratio; as always, be sure to follow label instructions. While the fern is young, fertilizer should be applied monthly during warm months and every other month during the cooler months when as growth slows. Mature staghorns will thrive with a once- or twice-yearly fertilizer application.",
+          "source_ids": [
+            "s27"
+          ],
+          "scope": "以P. bifurcatum二歧等常见种为基础；P. veitchii较耐日照单独标识，不给所有鹿角蕨一个光强最适值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "鹿角蕨 · 介质｜上板与篮栽",
+          "text": "UF/IFAS建议木板、树蕨纤维或石上附生，使用几把水苔或其他充分排水介质形成垫层，盾叶与介质接触；也可侧挂金属篮填有机介质。不提供统一水苔压实密度或树皮体积比。",
+          "quote": "As an epiphyte, the ideal planting spot for staghorn fern is mounted: on a slab of wood, some tree fern fiber, or even a rock. To mount your fern, shape several handfuls of sphagnum moss (or other well-drained growing medium) into a circular mound and “plant” your fern so that its basal fronds are in contact with the medium. To secure the fern to its planting surface, use plastic strips, nylon hose, or wire (as long as it’s not copper). Another planting method is hanging a wire basket sideways and pack it with organic medium. When grown in a basket, small plants called pups will grow out of the back and sides of the basket to eventually cover the whole surface.",
+          "source_ids": [
+            "s27"
+          ],
+          "scope": "以P. bifurcatum二歧等常见种为基础；P. veitchii较耐日照单独标识，不给所有鹿角蕨一个光强最适值。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-3b7156100735",
+      "title": "海芋",
+      "plants": [
+        "alocasia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s17"
+      ],
+      "record_ids": [
+        "v1-alocasia-1"
+      ],
+      "fields": {
+        "light": "UF概述：户外半阴，作为室内盆栽置明亮间接光；未量化fc、PPFD或DLI。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "海芋 · 光照",
+          "text": "UF概述：户外半阴，作为室内盆栽置明亮间接光；未量化fc、PPFD或DLI。",
+          "quote": "If Alocasia is used as a houseplant, it should be in a location with bright indirect light.",
+          "source_ids": [
+            "s17"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-509d3be90b51",
+      "title": "龟背竹",
+      "plants": [
+        "monstera"
+      ],
+      "species": [],
+      "source_ids": [
+        "s14"
+      ],
+      "record_ids": [
+        "v1-monstera-1"
+      ],
+      "fields": {
+        "light": "Wisconsin：夏季明亮光、冬季可直射；搬到室外必须逐步驯化避免灼伤。没有PPFD/DLI。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "龟背竹 · 光照",
+          "text": "Wisconsin：夏季明亮光、冬季可直射；搬到室外必须逐步驯化避免灼伤。没有PPFD/DLI。",
+          "quote": "**Monstera does best in bright light in summer and direct sun in winter**.",
+          "source_ids": [
+            "s14"
+          ],
+          "scope": "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-39977dd95b3e",
+      "title": "龟背竹",
+      "plants": [
+        "monstera"
+      ],
+      "species": [],
+      "source_ids": [
+        "s22"
+      ],
+      "record_ids": [
+        "v1-monstera-5",
+        "v1-monstera-6"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "UF佛州地栽：新生长开始后完整干肥113g，每8周一次用于第一年；之后随长大增至227/341/454g但降至每年2–3次；20%–30%的氮来自有机源。该文未给具体NPK标签；不能据肥料总克数推算Nppm，更不能给室内小盆照用。\nUF仅就高石灰性高pH7–8.5土壤：Zn/Mn/Mg叶面施用比土施更有效；微量元素生长期每年2–3次。没有喷液EC、浓度及常规NPK叶喷方案；铁另以适配土壤pH的螯合铁土壤灌施。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "龟背竹 · 施肥",
+          "text": "UF佛州地栽：新生长开始后完整干肥113g，每8周一次用于第一年；之后随长大增至227/341/454g但降至每年2–3次；20%–30%的氮来自有机源。该文未给具体NPK标签；不能据肥料总克数推算Nppm，更不能给室内小盆照用。",
+          "quote": "Repeat this every 8 weeks for the first year, then gradually increase the amount of fertilizer to 0.5, 0.75, and 1.0 lb (227 g, 341 g, 454 g) but decrease the frequency to 2 to 3 times per year as the vines grow.",
+          "source_ids": [
+            "s22"
+          ],
+          "scope": "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "龟背竹 · 叶喷",
+          "text": "UF仅就高石灰性高pH7–8.5土壤：Zn/Mn/Mg叶面施用比土施更有效；微量元素生长期每年2–3次。没有喷液EC、浓度及常规NPK叶喷方案；铁另以适配土壤pH的螯合铁土壤灌施。",
+          "quote": "foliar applications of zinc, manganese, and magnesium are more efficacious for vines growing in highly calcareous with a high pH (7–8.5).",
+          "source_ids": [
+            "s22"
+          ],
+          "scope": "证据以 Monstera deliciosa 为限：Wisconsin与UConn的室内盆栽指南；UF/IFAS HS311是佛罗里达家庭景观地栽/兼顾结果，不是室内小盆观叶试验。不外推至 M. adansonii、M. obliqua 或所有斑叶品种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-520a3957fb13",
+      "title": "秋海棠",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s25"
+      ],
+      "record_ids": [
+        "v1-begonia-9"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "Purdue HO-237表1将Begonia (Rex)、(Tuberous)、(Hiemalis)、(fibrous)列轻肥作物：SME 0.76–2.0 mS/cm，PourThru 1.0–2.6 mS/cm。未独列竹节型，不可未经验证就推广给竹节及全部根茎原生种；这不是灌溉肥液EC。",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "秋海棠 · 根区EC｜Rex与球根温室生产",
+          "text": "Purdue HO-237表1将Begonia (Rex)、(Tuberous)、(Hiemalis)、(fibrous)列轻肥作物：SME 0.76–2.0 mS/cm，PourThru 1.0–2.6 mS/cm。未独列竹节型，不可未经验证就推广给竹节及全部根茎原生种；这不是灌溉肥液EC。",
+          "quote": "Table 1. Nutrient requirements of greenhouse crops with electrical conductivity ranges using the saturated media extract (SME) and PourThru methods.\nLight (SME EC of 0.76 to 2.0 mS/cm) (PourThru EC of 1.0 to 2.6 mS/cm)\nAfrican violets\nAgeratum\nAnemone\nAsclepias\nAster\nAstilbe\nAzalea\nBegonia (fibrous)\nBegonia (Hiemalis)\nBegonia (Rex)\nBegonia (Tuberous)\nCaladium",
+          "source_ids": [
+            "s25"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-61a4eafba07a",
+      "title": "秋海棠",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s28"
+      ],
+      "record_ids": [
+        "v1-begonia-1",
+        "v1-begonia-2",
+        "v1-begonia-3"
+      ],
+      "fields": {
+        "light": "美国秋海棠学会：竹节型需明亮光线，日光不过于酷热时可见日照；未量化lux、PPFD或时长，不能套用球根生产光周期。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "生长时用含N/P/K均衡肥，标签建议浓度的一半、施肥频率为标签的两倍。这个方案依赖商品标签，并非固定每周或固定N ppm。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "学会建议富腐殖质介质，竹节型可容忍较重配土以支撑高株（而多数学会其他类型偏粗、疏松介质）；表面近干再浇、不积水。原文不是要求黏重园土。"
+      },
+      "scope": [
+        "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "秋海棠 · 光照｜竹节型家庭",
+          "text": "美国秋海棠学会：竹节型需明亮光线，日光不过于酷热时可见日照；未量化lux、PPFD或时长，不能套用球根生产光周期。",
+          "quote": "The best place to grow a cane-type *Begonia* is in bright light — even sunny if the sun isn’t intensely hot.",
+          "source_ids": [
+            "s28"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · NPK与频率｜竹节型家庭",
+          "text": "生长时用含N/P/K均衡肥，标签建议浓度的一半、施肥频率为标签的两倍。这个方案依赖商品标签，并非固定每周或固定N ppm。",
+          "quote": "A balanced fertilizer (one containing nitrogen, phosphorus, and potassium) may be applied at half-strength twice as often as recommended on the label whenever the plant is in growth.",
+          "source_ids": [
+            "s28"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · 介质｜竹节型家庭",
+          "text": "学会建议富腐殖质介质，竹节型可容忍较重配土以支撑高株（而多数学会其他类型偏粗、疏松介质）；表面近干再浇、不积水。原文不是要求黏重园土。",
+          "quote": "Plant in rich, humusy mix. Cane-type begonias tolerate a heavy mix to support tall growth. (Most other begonias require a coarser, more porous mix.) Water when the soil surface is nearly dry to the touch. Never overwater.",
+          "source_ids": [
+            "s28"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-9b7cf395b6ad",
+      "title": "秋海棠",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s29"
+      ],
+      "record_ids": [
+        "v1-begonia-4",
+        "v1-begonia-5",
+        "v1-begonia-6"
+      ],
+      "fields": {
+        "light": "学会建议充足光而无强直射，温和地区部分品种可接受早晚日照；光不足叶柄拉长、强光漂白。未给可跨品种套用的光强或光周期。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "非休眠时按标签用含N/P/K的完整肥，休眠不施。原文15-30-15只是解释肥料标签百分比的例子，不是推荐的最佳配方或促花结论。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "用浅盆及粗、快速排水介质，根填满盆后只增一个盆号；春至秋介质表面触干再浇，冬季部分品种休眠时少浇。未提供泥炭/珍珠岩固定配比。"
+      },
+      "scope": [
+        "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "秋海棠 · 光照｜根茎观叶型家庭",
+          "text": "学会建议充足光而无强直射，温和地区部分品种可接受早晚日照；光不足叶柄拉长、强光漂白。未给可跨品种套用的光强或光周期。",
+          "quote": "Rhizomatous begonias grow nicely when given adequate light without strong direct sun. Under a shade structure or a tree is good. A shaded greenhouse or a window free of direct sun also will suffice. You’ll know when light is insufficient because the leaf stems will elongate and the plant will grow lanky. Some varieties perform well outdoors with morning or afternoon sun in mild areas, but too much light will bleach leaves.",
+          "source_ids": [
+            "s29"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · 介质｜根茎观叶型家庭",
+          "text": "用浅盆及粗、快速排水介质，根填满盆后只增一个盆号；春至秋介质表面触干再浇，冬季部分品种休眠时少浇。未提供泥炭/珍珠岩固定配比。",
+          "quote": "To grow rhizomatous begonias well, use a shallow pot, preferably clay (but if your water is high in salts, plastic pots may be better), and a standard coarse, fast-draining planting mix. Don’t overwater or overpot — move a plant up to a pot only one size larger at a time and only when the roots have filled the present pot. A shallow, wide bonsai pot works nicely. During spring through fall, the time of active growth, water only when the surface of the soil feels dry to the touch. In winter, when some varieties become dormant (growth stops or slows), water only sparingly until growth resumes.",
+          "source_ids": [
+            "s29"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "秋海棠 · NPK与频率｜根茎观叶型家庭",
+          "text": "非休眠时按标签用含N/P/K的完整肥，休眠不施。原文15-30-15只是解释肥料标签百分比的例子，不是推荐的最佳配方或促花结论。",
+          "quote": "A “complete” fertilizer (one that contains all three of the main ingredients, nitrogen, phosphorus, and potassium) should be applied according to label directions unless the plant is in dormancy. During dormancy, don’t feed at all. You can tell the percentage of each ingredient by checking the formula (such as 15-30-15) on the label.",
+          "source_ids": [
+            "s29"
+          ],
+          "scope": "竹节型、普通根茎观叶型、Rex商品观叶生产、球根B. tuberhybrida Nonstop生产分别列出；不混同四季海棠、Hiemalis及原生珍稀种。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-61ad135c8ba7",
+      "title": "封闭缸 B. limprichtii：Oklahoma 早期方案",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s38"
+      ],
+      "record_ids": [
+        "v1-practice-6"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "作者报告密闭容器一年以上不加水或追加肥；没有初始肥料分析或 EC。",
+        "ec": "未提供",
+        "additives": "未列其他药剂。",
+        "substrate": "木炭底层，上铺一层珍珠岩，再铺无土基质：泥炭:珍珠岩:蛭石=1/3:1/3:1/3。只加足够轻微润湿的水。"
+      },
+      "scope": [
+        "Begonia limprichtii，不能推广至全属"
+      ],
+      "limitations": [
+        "第一人称实践，非试验。；Oklahoma 完全覆盖缸、高湿、自然采光房间、无补光；长势好但开花极少。；不能据此主张所有秋海棠无需肥或无需浇水。专业协会文章；本页未见品牌带货披露。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "封闭缸 B. limprichtii：Oklahoma 早期方案",
+          "text": "介质：木炭底层，上铺一层珍珠岩，再铺无土基质：泥炭:珍珠岩:蛭石=1/3:1/3:1/3。只加足够轻微润湿的水。 用肥：作者报告密闭容器一年以上不加水或追加肥；没有初始肥料分析或 EC。 其他：未列其他药剂。",
+          "quote": "did quite well with no water or additional fertilizer for over a year at a time.",
+          "source_ids": [
+            "s38"
+          ],
+          "scope": "Begonia limprichtii，不能推广至全属",
+          "limitations": "第一人称实践，非试验。；Oklahoma 完全覆盖缸、高湿、自然采光房间、无补光；长势好但开花极少。；不能据此主张所有秋海棠无需肥或无需浇水。专业协会文章；本页未见品牌带货披露。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-76385721a2ee",
+      "title": "B. limprichtii：Plano 人工光方案",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s38"
+      ],
+      "record_ids": [
+        "v1-practice-7"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "每次需要浇水时用1/4 strength 肥；未指定品牌、标签原液强度、NPK、绝对浓度或 EC。",
+        "ec": "未提供",
+        "additives": "未列其他药剂。",
+        "substrate": "泥炭:珍珠岩=1/2:1/2，木炭底层；保持介质较湿。"
+      },
+      "scope": [
+        "Begonia limprichtii"
+      ],
+      "limitations": [
+        "第一人称实践。搬到Texas Plano后自然光不足，改人工光。；作者称不耐热，低至中光、放种植架底层最好；开花仍稀少。；1/4 strength 不能变造为统一mL/L。与前案为同种同家庭在不同环境的案例，非独立对照。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "B. limprichtii：Plano 人工光方案",
+          "text": "介质：泥炭:珍珠岩=1/2:1/2，木炭底层；保持介质较湿。 用肥：每次需要浇水时用1/4 strength 肥；未指定品牌、标签原液强度、NPK、绝对浓度或 EC。 其他：未列其他药剂。",
+          "quote": "Growing under artificial light there, Leora has found it much more beneficial to grow this plant in a spaghum peat and perlite mixture, 1/2 and 1/2 of each, over a charcoal base, keeping the medium fairly damp and fertilizing every time it is necesssary to water with fertilizer at 1/4 strength.",
+          "source_ids": [
+            "s38"
+          ],
+          "scope": "Begonia limprichtii",
+          "limitations": "第一人称实践。搬到Texas Plano后自然光不足，改人工光。；作者称不耐热，低至中光、放种植架底层最好；开花仍稀少。；1/4 strength 不能变造为统一mL/L。与前案为同种同家庭在不同环境的案例，非独立对照。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-d70f04b3cc20",
+      "title": "协会户外秋海棠四等份候选介质",
+      "plants": [
+        "begonia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s39"
+      ],
+      "record_ids": [
+        "v1-practice-8"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "该文不提供配肥剂量或 EC。",
+        "ec": "未提供",
+        "additives": "列商业品牌 Sunshine、Fafard、Miracle-Gro、Supersoil、Pro-Mix、Ocean Forest 作为他人可用选项，不是指定该案例品牌。",
+        "substrate": "椰纤为基的 planter mix:腐叶土（优先橡叶）:小粒兰花树皮（1/8至1/4英寸）:#2或更大珍珠岩=1:1:1:1。"
+      },
+      "scope": [
+        "户外 Begonia；不是全部缸养种"
+      ],
+      "limitations": [
+        "专业协会建议，不是作者宣称亲手配制并记录效果的独立试验。；原文明确仅户外候选，室内不应加入橡叶腐叶土；不要把此方移植封闭缸。；强调本地气候/结构决定介质，不含园土以减少土传风险。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "chunky"
+      ],
+      "references": [
+        {
+          "title": "协会户外秋海棠四等份候选介质",
+          "text": "介质：椰纤为基的 planter mix:腐叶土（优先橡叶）:小粒兰花树皮（1/8至1/4英寸）:#2或更大珍珠岩=1:1:1:1。 用肥：该文不提供配肥剂量或 EC。 其他：列商业品牌 Sunshine、Fafard、Miracle-Gro、Supersoil、Pro-Mix、Ocean Forest 作为他人可用选项，不是指定该案例品牌。",
+          "quote": "Here is one mix that may work for outdoor begonias:",
+          "source_ids": [
+            "s39"
+          ],
+          "scope": "户外 Begonia；不是全部缸养种",
+          "limitations": "专业协会建议，不是作者宣称亲手配制并记录效果的独立试验。；原文明确仅户外候选，室内不应加入橡叶腐叶土；不要把此方移植封闭缸。；强调本地气候/结构决定介质，不含园土以减少土传风险。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-1980d2054750",
+      "title": "海芋",
+      "plants": [
+        "alocasia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s13"
+      ],
+      "record_ids": [
+        "v1-alocasia-2",
+        "v1-alocasia-3",
+        "v1-alocasia-4",
+        "v1-alocasia-5",
+        "v1-alocasia-6",
+        "v1-alocasia-7",
+        "v1-alocasia-11"
+      ],
+      "fields": {
+        "light": "‘Bambino’肥液试验在50%遮阴温室，午间平均PPFD500–800 μmol·m−2·s−1、平均28.2°C；水分试验午间800–1000、28.9°C。它们是试验环境，不是光照最佳处理。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "Johnson全浓度作者声明元素浓度(mM)：N14、P2、K6、Ca4、Mg1；不是肥料袋标签比。若按作者14mM N计算，25%–50%约49–98 ppm N；盐配方与N声明有计量矛盾，见下方证据缺口。\n肥液试验每周一次、不额外浇水：上浇300mL/盆；底灌3–4cm液深浸1–2h后回收。应连同温度、盆容积、介质解释，不直接变成家庭一周一次浇水日历。\n本次大学指南、‘Bambino’试验和供苗商原文没有日常叶喷肥的量化方案，尤其没有叶喷EC目标。",
+        "ec": "‘Bambino’：25%–50% Johnson营养液，每周一次，进液EC0.58–1.10 dS/m；超过该浓度生长平台或下降。完整试验0%、25%、50%、100%、150%对应进液EC0.03、0.58、1.10、1.99、2.87 dS/m；pH调至6.4。此处不是介质EC。\n整盆介质提取EC约0.4 dS/m时总干重达峰，超过后上浇组下降、底灌组相对稳定。Methods写介质:水=1:2体积比，而Discussion反写水:介质=1:2，方法必须核实；不能把0.4当进液EC或pour-through目标。",
+        "additives": "未提供",
+        "substrate": "‘Bambino’实测用1.4L盆，泥炭:珍珠岩=1:1（体积比）；不是全属唯一最佳配方。"
+      },
+      "scope": [
+        "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "海芋 · 光照",
+          "text": "‘Bambino’肥液试验在50%遮阴温室，午间平均PPFD500–800 μmol·m−2·s−1、平均28.2°C；水分试验午间800–1000、28.9°C。它们是试验环境，不是光照最佳处理。",
+          "quote": "Plants were grown in a 50% shaded greenhouse with an average noontime PPFD of 500 to 800 µmol·m−2·s−1, and average temperature of 28.2 °C during the experimental period.",
+          "source_ids": [
+            "s13"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "海芋 · EC",
+          "text": "‘Bambino’：25%–50% Johnson营养液，每周一次，进液EC0.58–1.10 dS/m；超过该浓度生长平台或下降。完整试验0%、25%、50%、100%、150%对应进液EC0.03、0.58、1.10、1.99、2.87 dS/m；pH调至6.4。此处不是介质EC。",
+          "quote": "Growth plateaued in plants supplied with 25% to 50% Johnson’s solution (EC of 0.58–1.10 dS·m−1) applied once per week",
+          "source_ids": [
+            "s13"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "海芋 · EC",
+          "text": "整盆介质提取EC约0.4 dS/m时总干重达峰，超过后上浇组下降、底灌组相对稳定。Methods写介质:水=1:2体积比，而Discussion反写水:介质=1:2，方法必须核实；不能把0.4当进液EC或pour-through目标。",
+          "quote": "substrate samples from the zones were collected for 1 substrate:2 water (by volume) extracts, followed by EC measurement",
+          "source_ids": [
+            "s13"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "海芋 · 施肥",
+          "text": "Johnson全浓度作者声明元素浓度(mM)：N14、P2、K6、Ca4、Mg1；不是肥料袋标签比。若按作者14mM N计算，25%–50%约49–98 ppm N；盐配方与N声明有计量矛盾，见下方证据缺口。",
+          "quote": "The full strength (100%) of Johnson’s solution contained (mM): 14.0 N, 2.0 P, 6.0 K, 4.0 Ca, and 1.0 Mg",
+          "source_ids": [
+            "s13"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "海芋 · 施肥",
+          "text": "肥液试验每周一次、不额外浇水：上浇300mL/盆；底灌3–4cm液深浸1–2h后回收。应连同温度、盆容积、介质解释，不直接变成家庭一周一次浇水日历。",
+          "quote": "All plants in each treatment received nutrient solution once per week, without additional watering.",
+          "source_ids": [
+            "s13"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "海芋 · 介质",
+          "text": "‘Bambino’实测用1.4L盆，泥炭:珍珠岩=1:1（体积比）；不是全属唯一最佳配方。",
+          "quote": "a mixture of 1 peatmoss (Fafard No. 1, Conrad Fafard, Agawam, MA, USA):1 perlite (No. 2, Nanhai Vermiculite Industrial Co., New Taipei City, Taiwan) by volume.",
+          "source_ids": [
+            "s13"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "海芋 · 叶喷",
+          "text": "本次大学指南、‘Bambino’试验和供苗商原文没有日常叶喷肥的量化方案，尤其没有叶喷EC目标。",
+          "quote": "All plants in each treatment received nutrient solution once per week, without additional watering.",
+          "source_ids": [
+            "s13"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-f96ec16722e4",
+      "title": "蔓绿绒",
+      "plants": [
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s20"
+      ],
+      "record_ids": [
+        "v1-philodendron-6",
+        "v1-philodendron-7",
+        "v1-philodendron-8"
+      ],
+      "fields": {
+        "light": "‘Green Princess’24周温室试验：高光与低光平均DLI分别3.6615与2.661（论文以DLI标记，按定义单位mol·m−2·d−1）；两个温室高/低各为4.246/3.347与3.077/1.975。高光组整体更有利株高、叶绿素和消费者品质评价。这是该试验两档比较，不是整个属2.661–3.6615最佳范围。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "‘Green Princess’6英寸杜鹃盆、60%加拿大泥炭+40%珍珠岩；对照20–6–9缓释肥2.4g/盆（180d产品），比较18–6–8与15–7–15+2MgO的75/100/125%对照氮量。消费者评价其他肥料处理未胜对照，作者建议环境相同下用受试最低量/最便宜产品约90天补施；不是证明20–6–9全属最佳。",
+        "ec": "‘Green Princess’论文把EC换算TDS来监测施肥，却将150ppm foliage推荐与浸出液养分判断联系；TDS不是氮实测值。其EC/TDS图不能拿来补全属的最佳ppm N或进液EC。",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "蔓绿绒 · 光照",
+          "text": "‘Green Princess’24周温室试验：高光与低光平均DLI分别3.6615与2.661（论文以DLI标记，按定义单位mol·m−2·d−1）；两个温室高/低各为4.246/3.347与3.077/1.975。高光组整体更有利株高、叶绿素和消费者品质评价。这是该试验两档比较，不是整个属2.661–3.6615最佳范围。",
+          "quote": "Average \n3.6615 DLI \n2.661 DLI",
+          "source_ids": [
+            "s20"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "蔓绿绒 · 施肥",
+          "text": "‘Green Princess’6英寸杜鹃盆、60%加拿大泥炭+40%珍珠岩；对照20–6–9缓释肥2.4g/盆（180d产品），比较18–6–8与15–7–15+2MgO的75/100/125%对照氮量。消费者评价其他肥料处理未胜对照，作者建议环境相同下用受试最低量/最便宜产品约90天补施；不是证明20–6–9全属最佳。",
+          "quote": "2.4 g/pot of Diamond R Nursery Advantage 180 \n20–6–9 (release over 180 days) was used as the control group",
+          "source_ids": [
+            "s20"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        },
+        {
+          "title": "蔓绿绒 · EC",
+          "text": "‘Green Princess’论文把EC换算TDS来监测施肥，却将150ppm foliage推荐与浸出液养分判断联系；TDS不是氮实测值。其EC/TDS图不能拿来补全属的最佳ppm N或进液EC。",
+          "quote": "TDS (ppm)=A*EC25(micro siemens)",
+          "source_ids": [
+            "s20"
+          ],
+          "scope": "UF/IFAS EP150表1的商业盆栽类群：P. bipennifolium、P. pinnatifidum、P. scandens oxycardium、P. scandens micans、P. squamiferum、‘Autumn’/‘Black Cardinal’/‘Moonlight’/‘Prince of Orange’等；沿用文中历史命名及P. selloum、‘Xanadu’分组，不自动外推珍稀品种。另有‘Green Princess’专属温室论文。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-558f01a49b67",
+      "title": "花烛",
+      "plants": [
+        "anthurium"
+      ],
+      "species": [],
+      "source_ids": [
+        "s16"
+      ],
+      "record_ids": [
+        "v1-anthurium-3"
+      ],
+      "fields": {
+        "light": "× ‘Red’的6个月温室试验设日最大PPFD 550、350、255 μmol·m−2·s−1，350处理绿叶和较大叶片表现较好，550出现灼伤；不是全属连续补光建议。室内阶段30 μmol·m−2·s−1、12h/d，对应计算DLI 1.296 mol·m−2·d−1，仅是低光适应试验条件，不是最佳DLI；温室DLI未报告。",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "花烛 · 光照",
+          "text": "× ‘Red’的6个月温室试验设日最大PPFD 550、350、255 μmol·m−2·s−1，350处理绿叶和较大叶片表现较好，550出现灼伤；不是全属连续补光建议。室内阶段30 μmol·m−2·s−1、12h/d，对应计算DLI 1.296 mol·m−2·d−1，仅是低光适应试验条件，不是最佳DLI；温室DLI未报告。",
+          "quote": "resulting in three sections with daily maximum PPFDs of 550, 350, and 255 μmol·m−2·s−1 as high (H), medium (M), and low (L) levels, respectively.",
+          "source_ids": [
+            "s16"
+          ],
+          "scope": "UF/IFAS EP159（2003初版，PDF标示2024复核）以盆栽观花商业品种为主；完整PDF表1还包括鸟巢型 A. hookeri、A. hookeri ‘Alicia’/‘Ruffles’，以及 A. andreanum（保留原拼写）、‘Red Hot’等。另有 Anthurium × ‘Red’的温室试验。不能把其催花施肥或光照结论直接等同于水晶花烛 A. crystallinum、A. magnificum、A. warocqueanum 等观叶花烛。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-23dedfd6f547",
+      "title": "标准无土天南星介质",
+      "plants": [
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s33",
+        "s34"
+      ],
+      "record_ids": [
+        "v1-practice-1"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "液体营养 weakly weekly；本配方页未给 mL/L 或 EC。产品页明确使用 Growth Technology Australia Foliage Focus。",
+        "ec": "未提供",
+        "additives": "无杀虫/杀菌剂配方。",
+        "substrate": "原文 equal parts：椰糠:树皮:珍珠岩=1:1:1（同量份数，作者实际目测）；椰糠可换树蕨纤维。树皮明确使用 Orchiata。"
+      },
+      "scope": [
+        "天南星科通用实践；未单独验证泰彩"
+      ],
+      "limitations": [
+        "观察实践，不是对照试验或属级最佳配方。；作者明确介质随植物、干燥速度、浇水意愿及盆株尺寸改变，不实际量取。；澳大利亚室内种植者；产品推荐页明确折扣码产生小额佣金，见 https://www.sydneyplantguy.com/products-discount-codes 。"
+      ],
+      "product": null,
+      "image": "images/64e4bb60b386aee4.webp",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6494dea0b0911b7fca3af11c/a1d19ce6-5292-4289-b3d6-684750ab6449/photo-output+11.JPG",
+      "image_caption": "Sydney Plant Guy 介质文章配图",
+      "media_types": [
+        "organic",
+        "chunky"
+      ],
+      "references": [
+        {
+          "title": "标准无土天南星介质",
+          "text": "介质：原文 equal parts：椰糠:树皮:珍珠岩=1:1:1（同量份数，作者实际目测）；椰糠可换树蕨纤维。树皮明确使用 Orchiata。 用肥：液体营养 weakly weekly；本配方页未给 mL/L 或 EC。产品页明确使用 Growth Technology Australia Foliage Focus。 其他：无杀虫/杀菌剂配方。",
+          "quote": "Equal Parts of: Coco Peat/Bark/Perlite (alternatively, use Tree Fern Fibre instead of Coco Peat)",
+          "source_ids": [
+            "s33",
+            "s34"
+          ],
+          "scope": "天南星科通用实践；未单独验证泰彩",
+          "limitations": "观察实践，不是对照试验或属级最佳配方。；作者明确介质随植物、干燥速度、浇水意愿及盆株尺寸改变，不实际量取。；澳大利亚室内种植者；产品推荐页明确折扣码产生小额佣金，见 https://www.sydneyplantguy.com/products-discount-codes 。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-fc772c5fbef4",
+      "title": "苔藓柱粗颗粒天南星介质",
+      "plants": [
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s33",
+        "s34"
+      ],
+      "record_ids": [
+        "v1-practice-2"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "同作者 weakly weekly 液肥；所取配方页不提供剂量、NPK 或 EC。",
+        "ec": "未提供",
+        "additives": "本页无农药信息。",
+        "substrate": "树皮:椰壳片:珍珠岩:浮石=1:1:1:1 等份；另加一把树蕨纤维、木炭、繁殖沙、椰糠（作者未给这些添加物的比例）。树皮品牌 Orchiata。"
+      },
+      "scope": [
+        "上柱攀援天南星科；可作龟背竹/蔓绿绒参考，非品种特异验证"
+      ],
+      "limitations": [
+        "作者是目测且不断调整；不得把「一把」换算成精确百分比。；为苔藓柱系统而写；介质和柱内水分共同影响浇水。；有产品佣金/折扣码关联，见产品推荐页。"
+      ],
+      "product": null,
+      "image": "images/64e4bb60b386aee4.webp",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/6494dea0b0911b7fca3af11c/a1d19ce6-5292-4289-b3d6-684750ab6449/photo-output+11.JPG",
+      "image_caption": "Sydney Plant Guy 介质文章配图",
+      "media_types": [
+        "organic",
+        "chunky",
+        "mineral"
+      ],
+      "references": [
+        {
+          "title": "苔藓柱粗颗粒天南星介质",
+          "text": "介质：树皮:椰壳片:珍珠岩:浮石=1:1:1:1 等份；另加一把树蕨纤维、木炭、繁殖沙、椰糠（作者未给这些添加物的比例）。树皮品牌 Orchiata。 用肥：同作者 weakly weekly 液肥；所取配方页不提供剂量、NPK 或 EC。 其他：本页无农药信息。",
+          "quote": "Equal parts of: Bark / Coco Chips / Perlite / Pumice",
+          "source_ids": [
+            "s33",
+            "s34"
+          ],
+          "scope": "上柱攀援天南星科；可作龟背竹/蔓绿绒参考，非品种特异验证",
+          "limitations": "作者是目测且不断调整；不得把「一把」换算成精确百分比。；为苔藓柱系统而写；介质和柱内水分共同影响浇水。；有产品佣金/折扣码关联，见产品推荐页。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-d06a07131ea6",
+      "title": "苗圃土培快生天南星 Hesi 配肥",
+      "plants": [
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s35"
+      ],
+      "record_ids": [
+        "v1-practice-3"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "快生组 Hesi TNT Complex 35ml/10L；较慢天南星组20–25ml/10L；初建立/慢生敏感组5–10ml/10L。未给 EC、NPK、施用频次，不自行换算。",
+        "ec": "未提供",
+        "additives": "快生组 Hesi Powerzyme 14ml/10L、SuperVit 1 drop per 7L、Root Complex 35ml/10L。",
+        "substrate": "有机土或 chunky aroid mix；该文没有公开介质体积比例。"
+      },
+      "scope": [
+        "原文点名 some Philodendron and Alocasia；部分蔓绿绒/海芋"
+      ],
+      "limitations": [
+        "商业苗圃自述实际用法，自己销售 Hesi；不是独立肥效试验。；原文要求从最弱稀释起试、观察反应；不能把快生组套给所有种苗或属。；Root Complex/Powerzyme/SuperVit 是其营养添加产品，不是本文证实有效的杀菌/生根药。"
+      ],
+      "product": null,
+      "image": "images/5f1a7d6e75ffcb7d.webp",
+      "image_url": "https://growtropicals.com/cdn/shop/articles/using-hesi-products-with-aroids-and-other-indoor-ornamentals-800829.jpg?v=1618059285&width=1200",
+      "image_caption": "GrowTropicals Hesi 使用文章封面",
+      "media_types": [
+        "organic"
+      ],
+      "references": [
+        {
+          "title": "苗圃土培快生天南星 Hesi 配肥",
+          "text": "介质：有机土或 chunky aroid mix；该文没有公开介质体积比例。 用肥：快生组 Hesi TNT Complex 35ml/10L；较慢天南星组20–25ml/10L；初建立/慢生敏感组5–10ml/10L。未给 EC、NPK、施用频次，不自行换算。 其他：快生组 Hesi Powerzyme 14ml/10L、SuperVit 1 drop per 7L、Root Complex 35ml/10L。",
+          "quote": "We currently use Hesi products in our nursery for plants in semi-hydro, in aroid mix/soil mix and also for those grown in moss.",
+          "source_ids": [
+            "s35"
+          ],
+          "scope": "原文点名 some Philodendron and Alocasia；部分蔓绿绒/海芋",
+          "limitations": "商业苗圃自述实际用法，自己销售 Hesi；不是独立肥效试验。；原文要求从最弱稀释起试、观察反应；不能把快生组套给所有种苗或属。；Root Complex/Powerzyme/SuperVit 是其营养添加产品，不是本文证实有效的杀菌/生根药。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-3846abd6c287",
+      "title": "苗圃半水培快生天南星 Hesi 配肥",
+      "plants": [
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s35"
+      ],
+      "record_ids": [
+        "v1-practice-4"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "Hesi Hydro Growth 35ml/10L（快生组）；较慢组20–25ml/10L、初建立/慢生敏感组5–10ml/10L；未公开 EC。每周或隔周清储液槽并用清水冲介质。",
+        "ec": "未提供",
+        "additives": "快生组 Powerzyme 14ml/10L、SuperVit 1 drop per 7L、Root Complex 35ml/10L。",
+        "substrate": "无机自吸水介质如 Lechuza pon 或 LECA；品牌比例没有公开。"
+      },
+      "scope": [
+        "原文快生组 some Philodendron and Alocasia；非泰彩专属"
+      ],
+      "limitations": [
+        "商业苗圃且销售所述品牌。；土培 TNT 与半水培 Hydro Growth 是不同配方，勿混写；这是同苗圃不同系统案例，不是独立重复验证。"
+      ],
+      "product": null,
+      "image": "images/5f1a7d6e75ffcb7d.webp",
+      "image_url": "https://growtropicals.com/cdn/shop/articles/using-hesi-products-with-aroids-and-other-indoor-ornamentals-800829.jpg?v=1618059285&width=1200",
+      "image_caption": "GrowTropicals Hesi 使用文章封面",
+      "media_types": [
+        "mineral",
+        "leca"
+      ],
+      "references": [
+        {
+          "title": "苗圃半水培快生天南星 Hesi 配肥",
+          "text": "介质：无机自吸水介质如 Lechuza pon 或 LECA；品牌比例没有公开。 用肥：Hesi Hydro Growth 35ml/10L（快生组）；较慢组20–25ml/10L、初建立/慢生敏感组5–10ml/10L；未公开 EC。每周或隔周清储液槽并用清水冲介质。 其他：快生组 Powerzyme 14ml/10L、SuperVit 1 drop per 7L、Root Complex 35ml/10L。",
+          "quote": "We flush our reservoirs on a weekly or bi weekly basis, and make sure to run clear, pure water through the media each time to reduce salt accumulation.",
+          "source_ids": [
+            "s35"
+          ],
+          "scope": "原文快生组 some Philodendron and Alocasia；非泰彩专属",
+          "limitations": "商业苗圃且销售所述品牌。；土培 TNT 与半水培 Hydro Growth 是不同配方，勿混写；这是同苗圃不同系统案例，不是独立重复验证。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-1b15d7e481ee",
+      "title": "苗圃天南星叶面施肥实例",
+      "plants": [
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s35"
+      ],
+      "record_ids": [
+        "v1-practice-5"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "原文叶喷表：Hesi TNT Complex 0.5–1ml/L；Hesi Root Complex 0.5–1ml/L；Hesi SuperVit 1 drop per 4.5L。没有叶喷EC、频次、温湿光和叶龄参数。",
+        "ec": "未提供",
+        "additives": "这些是品牌营养/添加产品，不能当作通用农药混配。",
+        "substrate": "叶面施用，不是根区介质配方。"
+      },
+      "scope": [
+        "原文限定 some Anthurium/Philodendron species"
+      ],
+      "limitations": [
+        "必须标「苗圃经验案例」而非科学安全上限。；没有EC数值，禁止补写或从mL/L跨产品换算。；原文没有说明三者是否必须同桶；只保留表内各项，不宣称通用混配安全。；品牌销售利益关联；其自然叶面吸收论述不能当作本研究证实。"
+      ],
+      "product": null,
+      "image": "images/5f1a7d6e75ffcb7d.webp",
+      "image_url": "https://growtropicals.com/cdn/shop/articles/using-hesi-products-with-aroids-and-other-indoor-ornamentals-800829.jpg?v=1618059285&width=1200",
+      "image_caption": "GrowTropicals Hesi 使用文章封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "苗圃天南星叶面施肥实例",
+          "text": "介质：叶面施用，不是根区介质配方。 用肥：原文叶喷表：Hesi TNT Complex 0.5–1ml/L；Hesi Root Complex 0.5–1ml/L；Hesi SuperVit 1 drop per 4.5L。没有叶喷EC、频次、温湿光和叶龄参数。 其他：这些是品牌营养/添加产品，不能当作通用农药混配。",
+          "quote": "| **Hesi TNT Complex** | **0.5-1ml/L** |",
+          "source_ids": [
+            "s35"
+          ],
+          "scope": "原文限定 some Anthurium/Philodendron species",
+          "limitations": "必须标「苗圃经验案例」而非科学安全上限。；没有EC数值，禁止补写或从mL/L跨产品换算。；原文没有说明三者是否必须同桶；只保留表内各项，不宣称通用混配安全。；品牌销售利益关联；其自然叶面吸收论述不能当作本研究证实。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-7d1b3d9509a6",
+      "title": "干燥加拿大室内天南星表层水苔与有机添加",
+      "plants": [
+        "anthurium",
+        "alocasia",
+        "monstera",
+        "philodendron"
+      ],
+      "species": [],
+      "source_ids": [
+        "s40"
+      ],
+      "record_ids": [
+        "v1-practice-10"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "节录明确其有机肥含bloodmeal与glacial rock dust；本文未完整取得MSU段，不采用搜索摘要中的剂量。",
+        "ec": "未提供",
+        "additives": "未取得可用杀虫/杀菌药剂配方。",
+        "substrate": "作者在盆面、出新根的基部放少量水苔；不推荐纯水苔长期单用。所取节录未完整呈现其主配方，因此不补体积比。"
+      },
+      "scope": [
+        "作者亲养 Anthurium 与 Philodendron；页面展示A. decipiens、P. melanochrysum等"
+      ],
+      "limitations": [
+        "第一人称经验，非对照试验；加拿大干燥室内RH常18–45%，不用加湿器。；网站直取HTTP403，仅取得web_extract节录；因此不声称读完全篇或补写关键配肥。；作者说纯水苔约5–8个月可能分解压实，是其环境经验而非通用寿命。；本次可读节录没有佣金披露，不代表证实无利益关联。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "sphagnum"
+      ],
+      "references": [
+        {
+          "title": "干燥加拿大室内天南星表层水苔与有机添加",
+          "text": "介质：作者在盆面、出新根的基部放少量水苔；不推荐纯水苔长期单用。所取节录未完整呈现其主配方，因此不补体积比。 用肥：节录明确其有机肥含bloodmeal与glacial rock dust；本文未完整取得MSU段，不采用搜索摘要中的剂量。 其他：未取得可用杀虫/杀菌药剂配方。",
+          "quote": "My organic fertilizers include: bloodmeal (for nitrogen) and glacial rock dust (for minerals and micro nutrients).",
+          "source_ids": [
+            "s40"
+          ],
+          "scope": "作者亲养 Anthurium 与 Philodendron；页面展示A. decipiens、P. melanochrysum等",
+          "limitations": "第一人称经验，非对照试验；加拿大干燥室内RH常18–45%，不用加湿器。；网站直取HTTP403，仅取得web_extract节录；因此不声称读完全篇或补写关键配肥。；作者说纯水苔约5–8个月可能分解压实，是其环境经验而非通用寿命。；本次可读节录没有佣金披露，不代表证实无利益关联。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-693a3973bcd9",
+      "title": "海芋",
+      "plants": [
+        "alocasia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s19"
+      ],
+      "record_ids": [
+        "v1-alocasia-8"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "Oglesby的特定商品品系：液肥150–200 ppm N，每周2次，17–5–17或20–10–20（商品肥料标签，非元素比）。每第3或4次施肥加硫酸镁1 lb/100 Gallons。50%–70%遮阴；介质轻、排水良好，pH5.8–6.2。商业建议与‘Bambino’试验不同，不能合并成统一最优值。",
+        "ec": "未提供",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "海芋 · 施肥",
+          "text": "Oglesby的特定商品品系：液肥150–200 ppm N，每周2次，17–5–17或20–10–20（商品肥料标签，非元素比）。每第3或4次施肥加硫酸镁1 lb/100 Gallons。50%–70%遮阴；介质轻、排水良好，pH5.8–6.2。商业建议与‘Bambino’试验不同，不能合并成统一最优值。",
+          "quote": "**Fertilizer:** Liquid feed @ 150-200ppm N 2X/week using 17-5-17 or 20-10-20.",
+          "source_ids": [
+            "s19"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-04f8ea9fc7b4",
+      "title": "海芋",
+      "plants": [
+        "alocasia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s18"
+      ],
+      "record_ids": [
+        "v1-alocasia-9"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "Proven Winners写EC (2:1 Extraction Method)为B(0.6–0.9)，不是进液EC；该页未展开单位及水/介质顺序，保留原方法标签，不与论文0.4或进液0.58–1.10直接换算。其150–200ppm由定义页解释为constant liquid feed，但海芋页未写ppm所指元素，故不据此独立补成ppm N。",
+        "additives": "未提供",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "海芋 · EC",
+          "text": "Proven Winners写EC (2:1 Extraction Method)为B(0.6–0.9)，不是进液EC；该页未展开单位及水/介质顺序，保留原方法标签，不与论文0.4或进液0.58–1.10直接换算。其150–200ppm由定义页解释为constant liquid feed，但海芋页未写ppm所指元素，故不据此独立补成ppm N。",
+          "quote": "[EC (2:1 Extraction Method)](https://www.provenwinners.com/professionals/growers/cultural-information/definitions#ec):\n\nB (0.6 - 0.9)",
+          "source_ids": [
+            "s18"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-6dae682443bc",
+      "title": "海芋",
+      "plants": [
+        "alocasia"
+      ],
+      "species": [],
+      "source_ids": [
+        "s21"
+      ],
+      "record_ids": [
+        "v1-alocasia-10"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "未提供",
+        "ec": "未提供",
+        "additives": "PW通用定义：Medium=150–200ppm Constant Liquid Feed，建议每3–4次浇水清水淋洗一次、每周测EC。该页N-P-K 2:1:1.5未明确是否氧化物标签，不能声称是海芋经试验验证最佳元素比。",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。"
+      ],
+      "limitations": [
+        "适用范围和测法见正文；不视为全属最优。"
+      ],
+      "product": null,
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "海芋 · 商业生产",
+          "text": "PW通用定义：Medium=150–200ppm Constant Liquid Feed，建议每3–4次浇水清水淋洗一次、每周测EC。该页N-P-K 2:1:1.5未明确是否氧化物标签，不能声称是海芋经试验验证最佳元素比。",
+          "quote": "Medium: 150-200 ppm Constant Liquid Feed",
+          "source_ids": [
+            "s21"
+          ],
+          "scope": "主证据为HortScience 2025年 Alocasia ‘Bambino’的组培苗（7–8片可见叶）、1.4L盆、台湾温室试验；UF/IFAS FP033是属级景观/室内概述。Oglesby是商业育种/供苗商，仅用于其‘Ebony’、‘Ivory Coast’、‘Morocco’、‘Velvet Elvis’等产品生产参考；Proven Winners为商业培养指南，不能冒充大学试验。",
+          "limitations": "适用范围和测法见正文；不视为全属最优。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-3739f16e88a0",
+      "title": "GT Foliar",
+      "plants": [
+        "general"
+      ],
+      "species": [],
+      "source_ids": [
+        "s10"
+      ],
+      "record_ids": [
+        "main02-gtfoliar"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：未披露；未提供保证分析NPK与百分数基准。 元素比信息不足，不换算。 用量：无需自行配制；官方Guide每周2–3次、低光细雾、不喷至湿透",
+        "ec": "未提供即用液EC；不推导其他肥料的叶喷EC",
+        "additives": "宣称Full Mineral Profile，未披露各元素浓度；另列20种氨基酸、3种海藻、富里酸、硅和润湿剂",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "GT Foliar即用型产品、官网en-us页面；不是Hoya专用品种试验。"
+      ],
+      "limitations": [
+        "遵循所购地区实际标签，并先做少量叶片试喷；厂家关于促生和抗逆的表述不是独立对照试验。"
+      ],
+      "product": {
+        "brand": "Growth Technology",
+        "name": "GT Foliar",
+        "target": "即用型叶面营养产品；非球兰专项",
+        "form": "即用型喷雾",
+        "label_npk": "未披露",
+        "basis": "未提供保证分析NPK与百分数基准",
+        "analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "dose": "无需自行配制；官方Guide每周2–3次、低光细雾、不喷至湿透",
+        "ec": "未提供即用液EC；不推导其他肥料的叶喷EC",
+        "micro": "宣称Full Mineral Profile，未披露各元素浓度；另列20种氨基酸、3种海藻、富里酸、硅和润湿剂",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/71c3623686d95148.webp",
+      "image_url": "https://cdn.prod.website-files.com/6719d6772b6a0979c8354541/67d653cd100865d08a21cde0_brwadm0n3tj3z92sc9ab29e2pbvqr3v0.png",
+      "image_caption": "GT Foliar 官方产品图（en-us页面）",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "Growth Technology GT Foliar · 即用型叶面肥",
+          "text": "官方写明为即用型喷雾，低光下在叶片上下表面喷细雾，避免花朵、花蕾和喷至湿透。Guide给出的频次为每周2–3次。页面未给出EC或保证分析NPK，不能据此推导可用于其他肥料的叶喷EC。",
+          "quote": "Spray top and underside of leaves in low ligh conditions. Avoid spraying blooms.\nUse 2-3 times per week. Spray fine mist only, do not drench.",
+          "source_ids": [
+            "s10"
+          ],
+          "scope": "GT Foliar即用型产品、官网en-us页面；不是Hoya专用品种试验。",
+          "limitations": "遵循所购地区实际标签，并先做少量叶片试喷；厂家关于促生和抗逆的表述不是独立对照试验。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-77b02def1a68",
+      "title": "Orchideenwasser 1 l",
+      "plants": [
+        "orchid"
+      ],
+      "species": [],
+      "source_ids": [
+        "s67"
+      ],
+      "record_ids": [
+        "gp08-compo-ready"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：0,1+0,1+0,1；官方NPK等级原样；未给百分数质量/体积基准；不推导施用液mg/L。 元素比信息不足，不换算。 用量：不再稀释；每株每周1满盖；5–8月较暖时另加1盖低钙自来水/周",
+        "ec": "来源未披露",
+        "additives": "来源未披露",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "COMPO Orchideenwasser 1L；兰科即用浇灌"
+      ],
+      "limitations": [
+        "一满盖mL未说明；不是浓缩原液，不能把每盖再兑1L；不是球兰验证配方；未给EC。"
+      ],
+      "product": {
+        "brand": "COMPO",
+        "name": "Orchideenwasser 1 l",
+        "target": "兰科；厂家用途，不等于球兰已验证最佳肥",
+        "form": "即用型营养水（非浓缩肥）",
+        "label_npk": "0,1+0,1+0,1",
+        "basis": "官方NPK等级原样；未给百分数质量/体积基准；不推导施用液mg/L",
+        "analysis": {
+          "N": null,
+          "P": null,
+          "K": null,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": null,
+          "Mg": null
+        },
+        "dose": "不再稀释；每株每周1满盖；5–8月较暖时另加1盖低钙自来水/周",
+        "ec": "来源未披露",
+        "micro": "来源未披露",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/faa98a5ac6269454.webp",
+      "image_url": "https://www.compo.de/dam/jcr:e681fcda-2d8c-40ac-9fe6-12aa59acbb5e/corwa-1l_de_3d_2024.jpg?x=50&y=50",
+      "image_caption": "原商品页 og:image；对应 1 l 即用型兰花营养水，与浓缩肥分开。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "COMPO兰花即用营养水：0.1-0.1-0.1，不再稀释",
+          "text": "1L即用型商品与浓缩肥分开：官网NPK 0,1+0,1+0,1，不需继续稀释，每株每周一满盖；5–8月较暖时另加一盖低钙自来水/周。",
+          "quote": "Anwendungsfertige NPK-Dünger-Lösung: Kein weiterverdünnen notwendig!",
+          "source_ids": [
+            "s67"
+          ],
+          "scope": "COMPO Orchideenwasser 1L；兰科即用浇灌",
+          "limitations": "一满盖mL未说明；不是浓缩原液，不能把每盖再兑1L；不是球兰验证配方；未给EC。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-1dcb4fc9f74c",
+      "title": "Orchideendünger 250 ml",
+      "plants": [
+        "orchid"
+      ],
+      "species": [],
+      "source_ids": [
+        "s66"
+      ],
+      "record_ids": [
+        "gp07-compo-concentrate"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：3+4,2+5；官网NPK等级原样；非元素P/K；页面未给完整保证分析和质量/体积基准，analysis空置。 元素比信息不足，不换算。 用量：瓶盖I兑1 L（原文Wasster）；II兑2 L；III兑3 L；1–12月每月2次",
+        "ec": "来源未披露",
+        "additives": "mit Spurennährstoffen；未逐项定量",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "COMPO Orchideendünger 250ml；德国官网兰科说明"
+      ],
+      "limitations": [
+        "瓶盖各档mL未披露，不臆测mL/L；仅等级，未完整保证分析或百分数基准；并非球兰专项或试验。"
+      ],
+      "product": {
+        "brand": "COMPO",
+        "name": "Orchideendünger 250 ml",
+        "target": "兰科；厂家用途，不等于球兰已验证最佳肥",
+        "form": "有机-矿质液体浓缩肥",
+        "label_npk": "3+4,2+5",
+        "basis": "官网NPK等级原样；非元素P/K；页面未给完整保证分析和质量/体积基准，analysis空置",
+        "analysis": {
+          "N": null,
+          "P": null,
+          "K": null,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": null,
+          "Mg": null
+        },
+        "dose": "瓶盖I兑1 L（原文Wasster）；II兑2 L；III兑3 L；1–12月每月2次",
+        "ec": "来源未披露",
+        "micro": "mit Spurennährstoffen；未逐项定量",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/667ceb8d98dc7783.webp",
+      "image_url": "https://www.compo.de/dam/jcr:5ecbe3d4-9bd1-4059-ba2a-89d882a5022a/1405932004_orch_250_deat_24_01.jpg?x=50&y=50",
+      "image_caption": "原商品页 og:image；对应 250 ml 兰花浓缩肥，不是机构标志。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "COMPO兰花有机矿质浓缩肥：3-4.2-5",
+          "text": "官网250ml兰花肥标示有机-矿质NPK 3+4,2+5，含微量元素和guano；瓶盖刻度I/II/III分别兑1/2/3L水，全年每月两次。",
+          "quote": "Organisch-mineralische NPK-Dünger Lösung 3+4,2+5 mit Spurennährstoffen, chloridarm.",
+          "source_ids": [
+            "s66"
+          ],
+          "scope": "COMPO Orchideendünger 250ml；德国官网兰科说明",
+          "limitations": "瓶盖各档mL未披露，不臆测mL/L；仅等级，未完整保证分析或百分数基准；并非球兰专项或试验。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-85df281951c1",
+      "title": "PERFECT ORCHID Fluid 225 ml / 19609",
+      "plants": [
+        "orchid"
+      ],
+      "species": [],
+      "source_ids": [
+        "s65"
+      ],
+      "record_ids": [
+        "gp06-lechuza-orchid"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：6+3+6；官方NPK等级原样；页面未逐项展开百分数与质量/体积基准，analysis保留空值。 元素比信息不足，不换算。 用量：1 pump / 1 L水；每次浇水；泵mL未给",
+        "ec": "来源未披露",
+        "additives": "with trace nutrients；本页未定量",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "LECHUZA PERFECT ORCHID Fluid 225ml，SKU19609；兰科；也适用于非自浇盆"
+      ],
+      "limitations": [
+        "泵的mL容量、密度和EC未说明；不与250ml旧SKU混用；不是球兰试验。"
+      ],
+      "product": {
+        "brand": "LECHUZA",
+        "name": "PERFECT ORCHID Fluid 225 ml / 19609",
+        "target": "兰科；厂家用途，不等于球兰已验证最佳肥",
+        "form": "液体浓缩肥",
+        "label_npk": "6+3+6",
+        "basis": "官方NPK等级原样；页面未逐项展开百分数与质量/体积基准，analysis保留空值",
+        "analysis": {
+          "N": null,
+          "P": null,
+          "K": null,
+          "P2O5": null,
+          "K2O": null,
+          "Ca": null,
+          "Mg": null
+        },
+        "dose": "1 pump / 1 L水；每次浇水；泵mL未给",
+        "ec": "来源未披露",
+        "micro": "with trace nutrients；本页未定量",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/ec9afcf068e17b7b.webp",
+      "image_url": "https://media.playmobil.com/i/lechuza/le_19609_product_image/Liquid%20fertiliser%20PERFECT%20ORCHID%20Fluid%20225%20ml?locale=en-IN,en,*&$le_pdp_mainimagev2_xl$&fmt=auto&strip=true&fmt.jpeg.interlaced=true",
+      "image_caption": "官网 SKU 19609 的 data-src 主产品图，225 ml；不混用旧 250 ml 包装。已确认URL来自原页，但直接取图返回403，展示可能受防盗链限制。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "LECHUZA PERFECT ORCHID：一泵/升，SKU19609",
+          "text": "225ml官方商品页列NPK 6+3+6及微量元素；每升水一泵，每次浇水施用，并要求考虑单株需肥差异。",
+          "quote": "Add 1 pump per 1 litre of water.",
+          "source_ids": [
+            "s65"
+          ],
+          "scope": "LECHUZA PERFECT ORCHID Fluid 225ml，SKU19609；兰科；也适用于非自浇盆",
+          "limitations": "泵的mL容量、密度和EC未说明；不与250ml旧SKU混用；不是球兰试验。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-cca6b1649840",
+      "title": "Vitalnahrung für Orchideen 200 ml",
+      "plants": [
+        "orchid"
+      ],
+      "species": [],
+      "source_ids": [
+        "s64"
+      ],
+      "record_ids": [
+        "gp05-seramis-orchid"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：6+3+6；原页百分数；N / P2O5 / K2O，非元素P/K；未明确w/w或w/v，不换算。 元素质量比N:P:K（N=1）=1 : 0.218 : 0.83。 用量：5 mL / 1 L水；每第2次浇水；冬季休止每第4次",
+        "ec": "来源未披露",
+        "additives": "B 0.010%、Cu 0.007%、Fe 0.020%、Mn 0.010%、Mo 0.002%、Zn 0.005%；Cu/Fe/Mn/Zn以EDTA螯合",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "SERAMIS Vitalnahrung für Orchideen 200 ml；官方兰科浇灌标签"
+      ],
+      "limitations": [
+        "厂家标签不是球兰试验；页面未明确百分数质量/体积基准，液体密度缺失，不计算g/L或ppm；无叶喷EC证据。"
+      ],
+      "product": {
+        "brand": "SERAMIS",
+        "name": "Vitalnahrung für Orchideen 200 ml",
+        "target": "兰科；厂家用途，不等于球兰已验证最佳肥",
+        "form": "液体浓缩肥",
+        "label_npk": "6+3+6",
+        "basis": "原页百分数；N / P2O5 / K2O，非元素P/K；未明确w/w或w/v，不换算",
+        "analysis": {
+          "N": 6,
+          "P": null,
+          "K": null,
+          "P2O5": 3,
+          "K2O": 6,
+          "Ca": null,
+          "Mg": null
+        },
+        "dose": "5 mL / 1 L水；每第2次浇水；冬季休止每第4次",
+        "ec": "来源未披露",
+        "micro": "B 0.010%、Cu 0.007%、Fe 0.020%、Mn 0.010%、Mo 0.002%、Zn 0.005%；Cu/Fe/Mn/Zn以EDTA螯合",
+        "notation": "oxide",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": 6,
+          "P": 1.3092000000000001,
+          "K": 4.9806
+        },
+        "element_ratio": "1 : 0.218 : 0.83",
+        "conversion_note": "仅比较同口径元素质量比；百分数基准未确认，不计算 g/L 或 mL/L 的元素浓度。"
+      },
+      "image": "images/6c2447d858907c67.webp",
+      "image_url": "https://www.seramis.com/fileadmin/bilder/Produkte/Hero/730390_SE_Vitalnahrung_Orchidee_200ml_570x650_NEU_01.png",
+      "image_caption": "官网对应 200 ml 兰花营养液产品图；非品牌标志。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "SERAMIS兰花液肥：6-3-6，5 mL/L隔次浇水施用",
+          "text": "官网200 ml兰花营养液声明N6%、P2O5 3%、K2O6%；5mL兑1L水，平时每第二次浇水加入，冬季休止期每第四次浇水施用。",
+          "quote": "Ein Überlauf reguliert die Füllmenge, so dass sich exakt 5 ml in der Kammer befinden. Ausreichend für 1 l Gießwasser.",
+          "source_ids": [
+            "s64"
+          ],
+          "scope": "SERAMIS Vitalnahrung für Orchideen 200 ml；官方兰科浇灌标签",
+          "limitations": "厂家标签不是球兰试验；页面未明确百分数质量/体积基准，液体密度缺失，不计算g/L或ppm；无叶喷EC证据。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-17e17f4f98bd",
+      "title": "Orchid Focus Bloom",
+      "plants": [
+        "orchid"
+      ],
+      "species": [],
+      "source_ids": [
+        "s53",
+        "s70"
+      ],
+      "record_ids": [
+        "fa03-bloom"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：1.13–1.49–2.41；标签N–P₂O₅–K₂O，%w/v；括号另列元素P与K。 元素质量比N:P:K（N=1）=1 : 0.575 : 1.77。 用量：官方标签5 mL/2 L；Cymbidium为20 mL/2 L；每隔一次浇水施用一次。不是Hoya剂量。",
+        "ec": "未提供剂量–EC曲线或叶喷EC。",
+        "additives": "%w/v：Cu 0.002、Fe 0.040、Mn 0.010、Mo 0.001、Zn 0.0025；另含Mg、S、B、腐殖酸、富里酸，未给含量。",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "英国官网；仅兰花用途，不将兰科用途外推至8类家居植物"
+      ],
+      "limitations": [
+        "官方标签图未提供修订日期；以手中批次及地区标签为准。兰花专用不是Hoya最优配方；标签提到的Orchid Myst每周2–3次不是本产品施肥频次。"
+      ],
+      "product": {
+        "brand": "Growth Technology UK",
+        "name": "Orchid Focus Bloom",
+        "target": "Phalaenopsis全阶段；Cymbidium等开花期",
+        "form": "液体浓缩",
+        "label_npk": "1.13–1.49–2.41",
+        "basis": "标签N–P₂O₅–K₂O，%w/v；括号另列元素P与K",
+        "analysis": {
+          "N": 1.13,
+          "P2O5": 1.49,
+          "K2O": 2.41
+        },
+        "dose": "官方标签5 mL/2 L；Cymbidium为20 mL/2 L；每隔一次浇水施用一次。不是Hoya剂量。",
+        "ec": "未提供剂量–EC曲线或叶喷EC。",
+        "micro": "%w/v：Cu 0.002、Fe 0.040、Mn 0.010、Mo 0.001、Zn 0.0025；另含Mg、S、B、腐殖酸、富里酸，未给含量。",
+        "concentration_basis": "w/v",
+        "notation": "oxide",
+        "element_analysis": {
+          "N": 1.13,
+          "P": 0.650236,
+          "K": 2.000541
+        },
+        "element_ratio": "1 : 0.575 : 1.77",
+        "conversion_note": "元素比按N归一为1；不是摩尔比，也不是最佳配方。"
+      },
+      "image": "images/d6b8e74a2a678178.webp",
+      "image_url": "https://www.growthtechnology.com/resources/uploads/products/Orchid_Focus_100_ml_Bloom1597847304.jpg",
+      "image_caption": "Orchid Focus Bloom 官方产品标签",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "Growth Technology Orchid Focus Bloom",
+          "text": "英国兰花开花期专项；Phalaenopsis可全阶段使用。不是澳洲同名产品或球兰专项。",
+          "quote": "Phalaenopsis at all stages, and for the flowering stage of Cymbidium, Dendrobium, Odontoglossum, Cambria, Brassia, Miltonia and others.",
+          "source_ids": [
+            "s53",
+            "s70"
+          ],
+          "scope": "英国官网；仅兰花用途，不将兰科用途外推至8类家居植物",
+          "limitations": "官方标签图未提供修订日期；以手中批次及地区标签为准。兰花专用不是Hoya最优配方；标签提到的Orchid Myst每周2–3次不是本产品施肥频次。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-ddb179b8359d",
+      "title": "Orchid Focus Grow",
+      "plants": [
+        "orchid"
+      ],
+      "species": [],
+      "source_ids": [
+        "s53",
+        "s69"
+      ],
+      "record_ids": [
+        "fa03-grow"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：1.12–0.71–1.9；标签N–P₂O₅–K₂O，%w/v；括号另列元素P与K。 元素质量比N:P:K（N=1）=1 : 0.277 : 1.41。 用量：官方标签5 mL/2 L；Cymbidium为20 mL/2 L；每隔一次浇水施用一次。不是Hoya剂量。",
+        "ec": "未提供剂量–EC曲线或叶喷EC。",
+        "additives": "%w/v：Cu 0.002、Fe 0.040、Mn 0.010、Mo 0.001、Zn 0.0025；另含Mg、S、B、腐殖酸、富里酸，未给含量。",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "英国官网；仅兰花用途，不将兰科用途外推至8类家居植物"
+      ],
+      "limitations": [
+        "官方标签图未提供修订日期；以手中批次及地区标签为准。兰花专用不是Hoya最优配方；标签提到的Orchid Myst每周2–3次不是本产品施肥频次。"
+      ],
+      "product": {
+        "brand": "Growth Technology UK",
+        "name": "Orchid Focus Grow",
+        "target": "Cymbidium, Dendrobium, Odontoglossum, Cambria, Brassia, Miltonia等营养期",
+        "form": "液体浓缩",
+        "label_npk": "1.12–0.71–1.9",
+        "basis": "标签N–P₂O₅–K₂O，%w/v；括号另列元素P与K",
+        "analysis": {
+          "N": 1.12,
+          "P2O5": 0.71,
+          "K2O": 1.9
+        },
+        "dose": "官方标签5 mL/2 L；Cymbidium为20 mL/2 L；每隔一次浇水施用一次。不是Hoya剂量。",
+        "ec": "未提供剂量–EC曲线或叶喷EC。",
+        "micro": "%w/v：Cu 0.002、Fe 0.040、Mn 0.010、Mo 0.001、Zn 0.0025；另含Mg、S、B、腐殖酸、富里酸，未给含量。",
+        "concentration_basis": "w/v",
+        "notation": "oxide",
+        "element_analysis": {
+          "N": 1.12,
+          "P": 0.309844,
+          "K": 1.5771899999999999
+        },
+        "element_ratio": "1 : 0.277 : 1.41",
+        "conversion_note": "元素比按N归一为1；不是摩尔比，也不是最佳配方。"
+      },
+      "image": "images/3da8267a420d839d.webp",
+      "image_url": "https://www.growthtechnology.com/resources/uploads/products/Orchid_Focus_100_ml_Grow1597847303.jpg",
+      "image_caption": "Orchid Focus Grow 100ml；英国官网同产品页CSS包装图。Bloom另有对应图，见记录说明。",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "Growth Technology Orchid Focus Grow",
+          "text": "英国兰花营养期专项，不是澳洲同名产品或球兰专项。",
+          "quote": "for the vegetative periods of Cymbidium, Dendrobium, Odontoglossum, Cambria, Brassia, Miltonia and others.",
+          "source_ids": [
+            "s53",
+            "s69"
+          ],
+          "scope": "英国官网；仅兰花用途，不将兰科用途外推至8类家居植物",
+          "limitations": "官方标签图未提供修订日期；以手中批次及地区标签为准。兰花专用不是Hoya最优配方；标签提到的Orchid Myst每周2–3次不是本产品施肥频次。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-f8973350afd1",
+      "title": "Peters Excel CalMag Finisher / 花多多钙镁紧凑型",
+      "plants": [
+        "general"
+      ],
+      "species": [],
+      "source_ids": [
+        "s3"
+      ],
+      "record_ids": [
+        "v1-icl-3"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：13-5-20；N–P₂O₅–K₂O，%w/w；元素换算另列。 元素质量比N:P:K（N=1）=1 : 0.168 : 1.28。 用量：0.4 g/L仅为上一版的比较算例，非厂家全量处方",
+        "ec": "该中国SKU本次资料未取得剂量–EC曲线；不得套美国Cal-Mag Special",
+        "additives": "TE；各微量元素须以该地区SKU标签为准",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "中国官网标签；同名海外配方可能不同"
+      ],
+      "limitations": [
+        "通用/软水专项不是针对某植物属的独立最优试验。"
+      ],
+      "product": {
+        "brand": "ICL",
+        "name": "Peters Excel CalMag Finisher / 花多多钙镁紧凑型",
+        "target": "软水观赏植物生产；不是Hoya专项肥",
+        "form": "固体水溶肥",
+        "label_npk": "13-5-20",
+        "basis": "N–P₂O₅–K₂O，%w/w；元素换算另列",
+        "notation": "oxide",
+        "concentration_basis": "w/w",
+        "analysis": {
+          "N": 13,
+          "P2O5": 5,
+          "K2O": 20,
+          "CaO": 7,
+          "MgO": 2
+        },
+        "dose": "0.4 g/L仅为上一版的比较算例，非厂家全量处方",
+        "ec": "该中国SKU本次资料未取得剂量–EC曲线；不得套美国Cal-Mag Special",
+        "micro": "TE；各微量元素须以该地区SKU标签为准",
+        "element_analysis": {
+          "N": 13,
+          "P": 2.182,
+          "K": 16.602
+        },
+        "element_ratio": "1 : 0.168 : 1.28",
+        "conversion_note": "元素比按N归一为1；不是摩尔比，也不是最佳配方。"
+      },
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "Peters Excel CalMag Finisher / 花多多钙镁紧凑型",
+          "text": "中国官方配方 13-5-20 + 7CaO + 2MgO + TE；标签无铵态氮但含酰胺态氮。较高钾、较低 Mg 不代表比 Grower 或 GT 全面更优，也不能替代光照管理。 0.4 g/L 算例：N 52、P 8.73、K 66.41、Ca 20.01、Mg 4.82 mg/L。按氧化物折算元素；没有把估算 EC 当实测值。",
+          "quote": "13\nN\n5\nP ₂ O ₅\n20\nK ₂ O\n7.0\nCaO\n2.0\nMgO",
+          "source_ids": [
+            "s3"
+          ],
+          "scope": "中国官网标签；同名海外配方可能不同",
+          "limitations": "通用/软水专项不是针对某植物属的独立最优试验。"
+        }
+      ],
+      "source_note": ""
+    },
+    {
+      "id": "db-9ff671c4db78",
+      "title": "Peters Excel CalMag Grower / 花多多钙镁生长型",
+      "plants": [
+        "general"
+      ],
+      "species": [],
+      "source_ids": [
+        "s4"
+      ],
+      "record_ids": [
+        "v1-icl-4"
+      ],
+      "fields": {
+        "light": "未提供",
+        "temperature": "未提供",
+        "water": "未提供",
+        "npk": "标签：15-5-15；N–P₂O₅–K₂O，%w/w；元素换算另列。 元素质量比N:P:K（N=1）=1 : 0.145 : 0.83。 用量：0.4 g/L仅为上一版的比较算例，非厂家全量处方",
+        "ec": "该中国SKU本次资料未取得剂量–EC曲线；不得套美国Cal-Mag Special",
+        "additives": "TE；各微量元素须以该地区SKU标签为准",
+        "substrate": "未提供"
+      },
+      "scope": [
+        "中国官网标签；同名海外配方可能不同"
+      ],
+      "limitations": [
+        "通用/软水专项不是针对某植物属的独立最优试验。"
+      ],
+      "product": {
+        "brand": "ICL",
+        "name": "Peters Excel CalMag Grower / 花多多钙镁生长型",
+        "target": "软水观赏植物生产；不是Hoya专项肥",
+        "form": "固体水溶肥",
+        "label_npk": "15-5-15",
+        "basis": "N–P₂O₅–K₂O，%w/w；元素换算另列",
+        "notation": "oxide",
+        "concentration_basis": "w/w",
+        "analysis": {
+          "N": 15,
+          "P2O5": 5,
+          "K2O": 15,
+          "CaO": 7,
+          "MgO": 3
+        },
+        "dose": "0.4 g/L仅为上一版的比较算例，非厂家全量处方",
+        "ec": "该中国SKU本次资料未取得剂量–EC曲线；不得套美国Cal-Mag Special",
+        "micro": "TE；各微量元素须以该地区SKU标签为准",
+        "element_analysis": {
+          "N": 15,
+          "P": 2.182,
+          "K": 12.4515
+        },
+        "element_ratio": "1 : 0.145 : 0.83",
+        "conversion_note": "元素比按N归一为1；不是摩尔比，也不是最佳配方。"
+      },
+      "image": null,
+      "image_url": null,
+      "image_caption": "未提供可核验封面",
+      "media_types": [
+        "unspecified"
+      ],
+      "references": [
+        {
+          "title": "Peters Excel CalMag Grower / 花多多钙镁生长型",
+          "text": "中国官方配方为 15-5-15 + 7CaO + 3MgO + TE，三大数字是 N–P₂O₅–K₂O，不可与 GT 的元素标签直接相比。含硝态、铵态和酰胺态氮，并非无铵/无尿素配方。 0.4 g/L 算例（非厂家全量推荐）：N 60、P 8.73、K 49.81、Ca 20.01、Mg 7.24 mg/L；不等同于 RO+GT 的全元素预算，也不保证稀释后 Ca/Mg 足够。",
+          "quote": "15\nN\n5\nP ₂ O ₅\n15\nK ₂ O\n7.0\nCaO\n3.0\nMgO",
+          "source_ids": [
+            "s4"
+          ],
+          "scope": "中国官网标签；同名海外配方可能不同",
+          "limitations": "通用/软水专项不是针对某植物属的独立最优试验。"
+        }
+      ],
+      "source_note": ""
+    }
+  ],
+  "evidence_records": 135,
+  "archived_method_records": [
+    "main01-conversion",
+    "v1-methods-1",
+    "v1-methods-2",
+    "v1-methods-5",
+    "v1-foliar-2",
+    "v1-ipm-1",
+    "v1-ipm-2",
+    "v1-ipm-3",
+    "v1-ipm-6",
+    "v1-foliar-5",
+    "v1-methods-3",
+    "v1-methods-4",
+    "v1-methods-6",
+    "v1-foliar-3",
+    "v1-foliar-4"
+  ]
+};

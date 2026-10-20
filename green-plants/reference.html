@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Hoya球兰与七类热带绿植的光温水、EC、NPK、介质和专项肥证据列表。按植物、品种和信息源筛选；区分元素、氧化物标签及质量/体积浓度。">
+<title>绿植养护 · 证据列表与肥料标签</title>
+<link rel="stylesheet" href="evidence-v2.css">
+</head>
+<body>
+<header>
+<div class="brand">FIELD NOTES / SOURCE-FIRST PLANT CULTURE</div>
+<div class="heading"><h1>绿植养护 · 证据列表</h1><div class="header-links"><a href="evidence.md" download>全文下载</a><br><a href="v1.html">原版综述 ↗</a></div></div>
+<p class="lede">从出处看条件，从物种看差异。Hoya 球兰与七类热带绿植；论文、专业指南、种植者实践和厂家标签分别标识。</p>
+<div class="modes" role="group" aria-label="浏览模式"><button id="mode-all" aria-pressed="true">全部证据</button><button id="mode-products" aria-pressed="false">品牌 / 专项肥</button><button type="button" onclick="document.querySelector('#calculators').open=true;document.querySelector('#calculators').scrollIntoView()">NPK / 称重换算 ↓</button></div>
+</header>
+<div class="layout">
+<aside><details class="filters" id="filters" open><summary>筛选证据 · 植物 / 品种 / 信息源</summary><div class="filter-body">
+<div class="field wide"><label for="search">搜索证据、作者、产品或数值</label><input id="search" type="search" placeholder="例如 carnosa、EC、Orchid…" autocomplete="off"></div>
+<div class="field"><label for="plant">植物种类 / 标签用途</label><select id="plant"></select></div>
+<div class="field"><label for="species">具体物种 / 品种</label><select id="species"></select></div>
+<div class="field"><label for="topic">养护主题</label><select id="topic"></select></div>
+<div class="field"><label for="kind">证据类型</label><select id="kind"></select></div>
+<div class="field wide"><label for="source">作者 / 信息源</label><select id="source"></select></div>
+<button id="reset" type="button">重置全部筛选</button>
+</div><div class="quicklinks"><button id="quick-hoya">只看 Hoya</button><button id="quick-ec">查 EC</button><button id="quick-video">视频出处</button></div>
+<p class="aside-note">不同条件不合并成“最佳范围”。无直接证据的 EC、叶喷浓度或配方，保留缺口。专项肥是标签用途，不是效果排名。</p></details></aside>
+<main id="main"><div class="toolbar"><div class="count" id="result-count" aria-live="polite">正在读取证据…</div><div class="group-control"><label for="group">排列</label><select id="group"><option value="none">证据列表</option><option value="source">按信息源分组</option><option value="plant">按植物分组</option></select></div></div>
+<p class="active-note" id="active-note"></p><div id="results"></div><button id="load-more" class="loadmore" hidden>继续显示</button>
+<noscript><p>交互列表需要 JavaScript。也可直接阅读 <a href="evidence.md">完整证据与来源</a> 或 <a href="v1.html">七类植物原版综述</a>。</p></noscript>
+</main></div>
+<div class="bottom-panels">
+<details class="panel" id="reading"><summary>怎样读 NPK、EC 和“专项肥”</summary>
+<p><strong>三种口径分开：</strong>① 元素 N–P–K 质量比；② 标签 N–P₂O₅–K₂O 氧化物折算质量比；③ 以 N=1 归一的元素质量比。它们都不是摩尔比。分析百分数还要注明 <strong>%w/w（g/100g）</strong>或 <strong>%w/v（g/100mL）</strong>，未知时不擅自换算量取剂量。</p>
+<p><strong>氧化物→元素：</strong>P ≈ P₂O₅ × 0.4364；K ≈ K₂O × 0.8301。比例按常用化学式质量系数计算；不是植物推荐。百分数定义与常用四舍五入换算见 <a href="https://e-gro.org/pdf/E305.pdf" target="_blank" rel="noopener noreferrer">e-GRO / Neil Mattson：Fertilizer Calculation Basics for Hydroponics</a>。</p>
+<p><strong>EC 必须带方法：</strong>浇入液、根区 SME、PourThru、其他浸提法与叶喷液不能互换。g/L 不能通过一个通用常数换成 EC；需要实际水质、盐配方、温度以及测量。尿素也会使 EC 低估溶质水平，详见 <a href="https://www.umass.edu/agriculture-food-environment/greenhouse-floriculture/fact-sheets/soil-testing" target="_blank" rel="noopener noreferrer">UMass Soil Testing</a>。</p>
+<p><strong>专项不等于专属最佳：</strong>兰科肥、观叶肥、软水钙镁肥只表示目标用途。兰科肥可能被球兰种植者采用，但球兰不属于兰科；同品牌不同地区或年份的标签不能互相补数据。这里保留配方冲突、厂商利益关系与证据缺失。</p>
+<p><strong>称重与微量元素：</strong>固体水溶肥记录 g/L，缓释肥记录 g/盆及释放期；肥水、微量肥和缓释颗粒不可直接等量替换。网页列出标签披露的微量元素；“含TE”不等于知道每个元素的浓度。</p>
+</details>
+<details class="panel" id="calculators"><summary>NPK 元素比与称重 / 量取换算工具</summary><div class="calc-grid">
+<section class="calculator"><h2>从标签换算到元素浓度</h2><div class="inputs">
+<div><label for="calc-basis">标签表示方式</label><select id="calc-basis"><option value="oxide">N–P₂O₅–K₂O</option><option value="element">元素 N–P–K</option></select></div>
+<div><label for="calc-form">已确认的浓度基准</label><select id="calc-form"><option value="ww">干粉 %w/w → g/L</option><option value="wv">液肥 %w/v → mL/L</option></select></div>
+<div><label for="calc-n">N 百分数</label><input id="calc-n" type="number" min="0.001" max="100" step="any" value="15"></div>
+<div><label for="calc-p">P₂O₅ 或 P 百分数</label><input id="calc-p" type="number" min="0" max="100" step="any" value="5"></div>
+<div><label for="calc-k">K₂O 或 K 百分数</label><input id="calc-k" type="number" min="0" max="100" step="any" value="15"></div>
+<div><label for="calc-target">演算目标 N（mg/L）</label><input id="calc-target" type="number" min="0" max="2000" step="any" value="60"></div>
+</div><output id="npk-output" aria-live="polite"></output><p class="note">这是算术工具，不是建议浓度。干粉或%w/v液肥用量 = 目标N ÷ (10 × N百分数)。缓释肥不适用。%w/w液肥缺密度时无法算mL/L；缺标签基准时请停止换算。水里已有的养分另计。</p></section>
+<section class="calculator"><h2>DLI：累计光照，不是最适值</h2><div class="inputs"><div><label for="ppfd">PPFD（µmol·m⁻²·s⁻¹）</label><input id="ppfd" type="number" min="0" max="5000" step="any" value="100"></div><div><label for="hours">每天照明时长（h）</label><input id="hours" type="number" min="0" max="24" step="any" value="12"></div></div><output id="dli-output" aria-live="polite"></output><p class="note">DLI = 恒定PPFD × 小时 × 0.0036。自然光波动时要积分或使用足够密集的测量。lux/foot-candle不能在缺光谱信息时直接当作PPFD；原文单位保留。</p></section>
+</div></details>
+<details class="panel" id="media"><summary>图片、视频与证据边界</summary><p>缩略图来自链接所指向的厂家、作者或视频平台，仅用于识别引用对象，不代表独立验证、推荐或合作。点击标题打开原文，点击“图片出处”查看原始图片；版权归原权利人。没有取得匹配封面时显示“无已核验封面”，不使用生成图伪装产品。视频条目注明核验的是正文、说明还是字幕；封面和标题本身不是量化养护证据。</p><p>本页只发布结构化摘要及短引文；完整原文请访问出处。来源可能移动、修订或暂时无法访问；已在相关条目注明检索限制。<a href="evidence.json" download>下载结构化数据 JSON</a>。</p></details>
+</div>
+<footer><span id="dataset-total"></span><br>证据库可更新，不替代产品标签、安全说明和实测。<a href="https://github.com/shawnq-msft/shawnq-msft.github.io/tree/main/green-plants" target="_blank" rel="noopener noreferrer">GitHub 源文件 ↗</a></footer>
+<script src="evidence-data.js"></script><script src="evidence-v2.js"></script>
+</body></html>
