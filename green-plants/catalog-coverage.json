@@ -1,0 +1,2946 @@
+{
+  "counts": {
+    "entries": 272,
+    "practice": 146,
+    "products": 89,
+    "other_evidence": 37,
+    "new_entries": 209,
+    "new_practice_urls": 136,
+    "sources": 274,
+    "evidence_records": 926,
+    "images": 95,
+    "brands": {
+      "HESI": 3,
+      "Growth Technology Australia": 2,
+      "SUPERthrive / Dyna-Gro": 1,
+      "Dyna-Gro / SUPERthrive": 1,
+      "Growth Technology": 1,
+      "COMPO": 2,
+      "LECHUZA": 1,
+      "SERAMIS": 1,
+      "Growth Technology UK": 2,
+      "ICL": 2,
+      "MAYA / Mayaoganic 马雅奥甘尼克": 15,
+      "花多多 / Peters Professional": 19,
+      "花多多 / Peters Excel": 2,
+      "美乐棵 / Miracle-Gro": 16,
+      "美益棵": 9,
+      "Osmocote / 奥绿（ICL）": 3,
+      "Nutricote（不是Magamp魔肥）": 6,
+      "HYPONeX Japan — Magamp K / 魔肥（不是Nutricote）": 3
+    }
+  },
+  "inventory": [
+    {
+      "bucket": "creators.json",
+      "source_url": "https://vermonthoyas.com/cultivation/watering-and-fertilization/",
+      "status": "existing",
+      "reason": "基线已收，不计新增"
+    },
+    {
+      "bucket": "creators.json",
+      "source_url": "https://www.sydneyplantguy.com/potting-mix",
+      "status": "existing",
+      "reason": "基线已收，不计新增"
+    },
+    {
+      "bucket": "creators-asia-hpj.json",
+      "source_url": "https://houseplantjournal.com/2017-1-25-monstera-deliciosa-house-plant-journal",
+      "status": "existing-excluded",
+      "reason": "practice-research.json已有，不重复计数"
+    },
+    {
+      "bucket": "creators-asia-hpj.json",
+      "source_url": "https://www.houseplantjournal.com/bright-indirect-light-requirements-by-plant/",
+      "status": "existing-excluded",
+      "reason": "practice-research.json已有，不重复计数"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "11.1",
+      "decision": "included",
+      "reason": "既有条目保留并复核",
+      "entry_key": "maya-11-1",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i3/2952214995/O1CN01sGcnji1mllSy01OHm_!!2952214995.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "11.11",
+      "decision": "included",
+      "reason": "既有条目保留并复核",
+      "entry_key": "maya-11-11",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/2952214995/O1CN01BgGFBW1mllSy8XQFW_!!2952214995.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "91.1",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-91-1",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/2200778022790/O1CN017K6uGL6qVTE2vH2e_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "91.11",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-91-11",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i4/2200778022790/O1CN01luxMYb1WTsAM8jyBm_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "92.5",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-92-5",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/2200778022790/O1CN01haPWaP3nbWK2vH2e_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "101",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-101",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i3/2952214995/O1CN01oB9J9h1mllLvjjMik_!!2952214995.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "90",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-90",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/2200778022790/O1CN01haPWaP3nbWK2vH2e_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "90〔S〕",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-90〔s〕",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i4/2200778022790/O1CN01lKJR2q1WTsANNSuLj_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "100",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-100",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "image_url": "https://img.wanwang.xin/contents/sitefiles2021/10106796/images/16732123.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "15",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-15",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "image_url": "https://img.wanwang.xin/contents/sitefiles2021/10106796/images/16732123.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "85",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-85",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "image_url": "https://img.wanwang.xin/contents/sitefiles2021/10106796/images/16732123.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "95",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-95",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "image_url": "https://img.wanwang.xin/contents/sitefiles2021/10106796/images/16732123.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "102",
+      "decision": "included",
+      "reason": "新增可辨型号及用途；即使保证分析不全仍以partial收入",
+      "entry_key": "maya-102",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "image_url": "https://img.wanwang.xin/contents/sitefiles2021/10106796/images/16732123.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "103",
+      "decision": "excluded",
+      "reason": "官网明确果实型/果蔬型，超出本次热植、观叶、兰花主题；存在已核验，但不计产品finding。",
+      "existence_verified": true,
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "image_url": "https://img.wanwang.xin/contents/sitefiles2021/10106796/images/16732123.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "91",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "91.2",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "92",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "92.1",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "92.3",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "93",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "93.1",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "93.2",
+      "decision": "blocked",
+      "reason": "小支体验装原图确认型号存在；中文目标配方细字未读清，未取得可核验单品标签。即使图案似某植物也不据图案命名；未填NPK或施用量。",
+      "existence_verified": true,
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2200778022790/O1CN01PgYQUH1WTsAZZn41k_!!2200778022790.jpg"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-11-1",
+      "sku": "11.1",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-11-11",
+      "sku": "11.11",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-91-1",
+      "sku": "91.1",
+      "decision": "existing_entry_enriched",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-91-11",
+      "sku": "91.11",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-92-5",
+      "sku": "92.5",
+      "decision": "existing_entry_enriched",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-101",
+      "sku": "101",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-90",
+      "sku": "90",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-90〔s〕",
+      "sku": "90〔S〕",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.easyhaitao.com/items-%E9%A9%AC%E9%9B%85%E8%82%A5%E6%96%99",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-100",
+      "sku": "100",
+      "decision": "existing_entry_enriched",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-15",
+      "sku": "15",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-85",
+      "sku": "85",
+      "decision": "existing_entry_enriched",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-95",
+      "sku": "95",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-102",
+      "sku": "102",
+      "decision": "existing_entry_retained_no_new_label",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "parameter_status": "partial",
+      "source_url": "https://www.mayaoganic.cn/hortcultureSeries",
+      "note": "不重建既有条目；未完成当前淘宝SKU/库存登录核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "entry_key": "maya-91-2",
+      "sku": "91.2",
+      "decision": "new_plant_specific_finding",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "source_url": "https://img.alicdn.com/i2/2200778022790/O1CN01gLEqii1WTsAuLnaxw_!!2200778022790.jpg",
+      "parameter_status": "partial"
+    },
+    {
+      "bucket": "products-maya.json",
+      "sku": "92",
+      "decision": "observed_general_flowering_not_added",
+      "existence_verified": true,
+      "current_sale_verified": false,
+      "source_url": "https://img.alicdn.com/i2/2200778022790/O1CN01uK5jIk1WTsAuCsxt3_!!2200778022790.jpg",
+      "reason": "正面及广告明确花卉配方，非兰花或其他具体植物专用；本轮优先植物专用，保留证据待主代理决定扩库。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®A/B专用型",
+      "region": "cn",
+      "label_npk": "6-18-36",
+      "decision": "included_new",
+      "entry_key": "peters-cn-peters-professional-combi-sol",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-combi-sol/",
+      "reason": "通用盆栽；高氮灌溉水；可配合硝酸钙的双罐系统"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®促花型",
+      "region": "cn",
+      "label_npk": "10-30-20",
+      "decision": "included_new",
+      "entry_key": "peters-cn-peters-professional-blossom-booster",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-blossom-booster/",
+      "reason": "通用泥炭盆栽的花芽形成和开花；不是观叶植物通用最佳配方"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®启动型",
+      "region": "cn",
+      "label_npk": "10-52-10",
+      "decision": "included_new",
+      "entry_key": "peters-cn-peters-professional-plant-starter",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-plant-starter/",
+      "reason": "通用泥炭盆栽启动、生根及花芽形成"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®通用型",
+      "region": "cn",
+      "label_npk": "20-20-20",
+      "decision": "included_existing_enriched",
+      "entry_key": "peters-cn-peters-professional-allrounder",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-allrounder/",
+      "reason": "泥炭盆栽、容器苗；春夏营养生长"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®高磷型",
+      "region": "cn",
+      "label_npk": "9-40-25",
+      "decision": "included_new",
+      "entry_key": "peters-cn-peters-professional-power-p",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-power-p/",
+      "reason": "通用盆栽；生根、修剪后和开花前；特殊多聚磷酸盐配方"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®高钾型",
+      "region": "cn",
+      "label_npk": "15-10-30",
+      "decision": "included_existing_enriched",
+      "entry_key": "peters-cn-peters-professional-pot-plant-special",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-pot-plant-special/",
+      "reason": "通用泥炭盆栽；高钾紧凑生长"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®冬季生长专用型",
+      "region": "cn",
+      "label_npk": "20-10-20",
+      "decision": "included_new",
+      "entry_key": "peters-cn-peters-professional-winter-grow-special",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-winter-grow-special/",
+      "reason": "泥炭盆栽；低光寒冷季节生产用配方"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®钙镁生长型",
+      "region": "cn",
+      "label_npk": "15-5-15",
+      "decision": "included_existing_enriched",
+      "entry_key": "peters-cn-peters-excel-acidifier-calmag-grower",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-excel-acidifier-calmag-grower/",
+      "reason": "软水条件的通用盆栽，持续补钙镁"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®钙镁紧凑型",
+      "region": "cn",
+      "label_npk": "13-5-20",
+      "decision": "included_existing_enriched",
+      "entry_key": "peters-cn-peters-excel-acidifier-calmag-finisher",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-excel-acidifier-calmag-finisher/",
+      "reason": "软水条件的通用盆栽；高钾紧凑生长"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters® Professional Foliar Feed",
+      "region": "intl",
+      "label_npk": "27-15-12",
+      "decision": "included_new",
+      "entry_key": "peters-intl-peters-professional-foliar-feed",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/products/peters-professional-foliar-feed/",
+      "reason": "盆栽叶面肥；高尿素型"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters® Professional Grow-Mix",
+      "region": "intl",
+      "label_npk": "21-7-22",
+      "decision": "included_new",
+      "entry_key": "peters-intl-peters-professional-grow-mix",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/products/peters-professional-grow-mix/",
+      "reason": "盆栽营养生长，官网举例兰花"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters® Professional Hi-Nitro",
+      "region": "intl",
+      "label_npk": "31-11-11",
+      "decision": "included_new",
+      "entry_key": "peters-intl-peters-professional-hi-nitro",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/products/peters-professional-hi-nitro/",
+      "reason": "通用盆栽缺氮及较暖气候；亦列叶面用途"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters® Professional Orchid Special",
+      "region": "intl",
+      "label_npk": "20-12-20",
+      "decision": "included_new",
+      "entry_key": "peters-intl-peters-professional-orchid-special",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/products/peters-professional-orchid-special/",
+      "reason": "兰花营养生长期；高铁配方"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters® Professional Special Formula Low B",
+      "region": "intl",
+      "label_npk": "20-9-20",
+      "decision": "included_new",
+      "entry_key": "peters-intl-peters-professional-special-formula-low-b",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/products/peters-professional-special-formula-low-b/",
+      "reason": "硼敏感盆栽或灌溉/回流水含硼偏高的条件配方"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters® Professional Special Formula Low B/Zn",
+      "region": "intl",
+      "label_npk": "6-17-36",
+      "decision": "included_new",
+      "entry_key": "peters-intl-peters-professional-special-formula-low-b_zn",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/products/peters-professional-special-formula-low-b_zn/",
+      "reason": "硼锌敏感的棕榈、凤梨；条件相关观叶专项"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters® Professional Special Formula Low Zn",
+      "region": "intl",
+      "label_npk": "20-11-20",
+      "decision": "included_existing_enriched",
+      "entry_key": "peters-intl-peters-professional-special-formula-low-zn",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/products/peters-professional-special-formula-low-zn/",
+      "reason": "锌敏感凤梨、棕榈和部分兰花；不泛化全部兰科"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Professional 24-8-16 Foliage Special",
+      "region": "us",
+      "label_npk": "24-8-16",
+      "decision": "included_new",
+      "entry_key": "peters-us-peters-professional__trashed-24-8-16-foliage-special",
+      "source_url": "https://icl-growingsolutions.com/en-us/ornamental-horticulture/products/peters-professional__trashed-24-8-16-foliage-special/",
+      "reason": "热带观叶、吊盆和室内绿化"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Professional 21-7-7 Acid Special",
+      "region": "us",
+      "label_npk": "21-7-7",
+      "decision": "included_new",
+      "entry_key": "peters-us-21-7-7-acid-special",
+      "source_url": "https://icl-growingsolutions.com/en-us/ornamental-horticulture/products/21-7-7-acid-special/",
+      "reason": "喜强酸作物及高碱度水；条件相关，不是所有观叶通用肥"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Professional 30-10-10 Hi-Nitro Foliar Feed",
+      "region": "us",
+      "label_npk": "30-10-10",
+      "decision": "included_new",
+      "entry_key": "peters-us-30-10-10-hi-nitro-foliar-feed",
+      "source_url": "https://icl-growingsolutions.com/en-us/ornamental-horticulture/products/30-10-10-hi-nitro-foliar-feed/",
+      "reason": "通用观叶、盆栽、穴盘苗；叶面补氮"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Professional 5-11-26 Hydroponic Special",
+      "region": "us",
+      "label_npk": "5-11-26",
+      "decision": "included_new",
+      "entry_key": "peters-us-5-11-26",
+      "source_url": "https://icl-growingsolutions.com/en-us/ornamental-horticulture/products/5-11-26/",
+      "reason": "水培技术配方；需另补钙，不是观叶植物水培处方试验"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多®一品红专用型 / Poinsettia Mix",
+      "region": "cn",
+      "label_npk": "17-7-27",
+      "decision": "excluded",
+      "reason": "一品红专用，非本轮目标热带观叶/兰花等；厂家中国目录证实但不作覆盖凑数",
+      "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-poinsettia-mix/"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Professional Potash Special",
+      "region": "intl",
+      "label_npk": "20-5-31",
+      "decision": "excluded",
+      "reason": "本轮国际目录只支持花果增产定位，未找到目标植物/独立观叶用途，不纳入",
+      "source_url": "https://icl-growingsolutions.com/ornamental-horticulture/brands/peters-professional/"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Professional 14-0-8 Hydroponic Boost",
+      "region": "us",
+      "label_npk": "14-0-8",
+      "decision": "gap",
+      "reason": "已保存厂家搭配步骤，但本轮抽取未保存完整保证分析；不将搜索摘要代替标签。",
+      "source_url": "https://icl-growingsolutions.com/en-us/products/14-0-8-hydroponic-boost/"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Professional 0-15-30 / 0-5-30 Hydroponic Finisher",
+      "region": "us",
+      "decision": "excluded",
+      "reason": "发现资料指向大麻CEA成熟期系统且名称存在磷含量冲突，不作为目标观叶用途或合并SKU。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "Peters Excel 15-5-15 Cal-Mag Special with Black Iron",
+      "region": "us",
+      "decision": "gap",
+      "reason": "美版与中国钙镁生长型微量元素及Mg不同，不能合并；本轮未取得完整匹配标签。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "name": "花多多1/2/10等零售编号",
+      "region": "cn",
+      "decision": "gap",
+      "reason": "未取得厂家或可读原装标签明确编号映射；全部使用厂家正式名称。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "number": "1",
+      "decision": "blocked",
+      "status": "partial",
+      "name": "花多多1号",
+      "matched_entry_key": null,
+      "candidate_entry_key": "peters-cn-peters-professional-allrounder",
+      "entry_key": null,
+      "source_url": "http://www.runjor.com/h-pd-69.html?m998pageno=1",
+      "raw_label_formula": "20-20-20",
+      "label_npk": "",
+      "notation": "unknown",
+      "percentage_basis": "unknown",
+      "evidence": [
+        {
+          "field": "number",
+          "quote": "花多多1号",
+          "source_url": "http://www.runjor.com/h-pd-69.html?m998pageno=1"
+        },
+        {
+          "field": "raw_label_formula",
+          "quote": "| 配方： | 20-20-20 |",
+          "source_url": "http://www.runjor.com/h-pd-69.html?m998pageno=1"
+        },
+        {
+          "field": "package_name_and_formula",
+          "quote": "花多多1号\n20-20-20\nPeters\nProfessional\n20-20-20+TE",
+          "source_url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgsozH8wUo18O3lgYwtgc4_g8.jpg",
+          "image_file": "[内部证据快照]",
+          "evidence_type": "image_ocr_excerpt"
+        }
+      ],
+      "label_images": [
+        {
+          "number": 1,
+          "alt": "1号详情页_01 .jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgsozH8wUo18O3lgYwtgc4_g8.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 692684
+        },
+        {
+          "number": 1,
+          "alt": "1号详情页_02 .jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgs4zH8wUoqdjRigYwtgc44xA.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 738667
+        }
+      ],
+      "reason": "编号与20-20-20原配方已核实；宣传图包装仅能读到Peters Professional，未读到Allrounder。与现有通用型是候选对应，但不能仅凭相同NPK证明准确SKU，暂不新增重复产品，也不自动赋予该官方名。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "number": "2",
+      "decision": "alias",
+      "status": "verified",
+      "name": "花多多2号",
+      "matched_entry_key": "peters-cn-peters-professional-blossom-booster",
+      "candidate_entry_key": null,
+      "entry_key": null,
+      "source_url": "http://www.runjor.com/h-pd-70.html?m998pageno=2",
+      "raw_label_formula": "10-30-20",
+      "label_npk": "10-30-20",
+      "notation": "oxide",
+      "percentage_basis": "unknown",
+      "evidence": [
+        {
+          "field": "number",
+          "quote": "花多多2号",
+          "source_url": "http://www.runjor.com/h-pd-70.html?m998pageno=2"
+        },
+        {
+          "field": "raw_label_formula",
+          "quote": "| 配方： | 10-30-20+2MgO |",
+          "source_url": "http://www.runjor.com/h-pd-70.html?m998pageno=2"
+        },
+        {
+          "field": "npk_oxide",
+          "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-blossom-booster/",
+          "quote": "3 \n4 \n2 5 \n\n2 5\n\n| 2 K O | 氧化钾 | 20% |\n| --- | --- | --- |\n| | 水溶 (K O) | 20% |\n| | 2 | |\n| MgO | 氧化镁 水溶(MgO) | 2% 2% |\n| B | 硼水溶(B) | 0.02% 0.02% |\n| Cu | | 0.015% |\n| | 铜水溶(Cu) | |\n| | | 0.015% |\n| | 螯合铜 (EDTA-Cu) | 0.015% |\n| Fe | | 0.12% |\n| | 铁水溶(Fe) | |\n| | | 0.12% |\n| | 螯合铁(DTPA-Fe) | 0.12% |\n| Mn | | 0.06% |\n| | 锰水溶(Mn) | |\n| | | 0.06% |\n| | 螯合锰(EDTA-Mn) | 0.06% |\n| Mo | 钼水溶(Mo) | 0.01% 0.01% |\n\nZn\n\n锌水溶(Zn) 螯合锌(EDTA-Zn)\n\n0.015% \n0.015% \n0.015% \n\n##"
+        },
+        {
+          "field": "package_name_and_formula",
+          "quote": "花多多2号\n10-30-20\nPeters\nProfessional\nBlossom Booster\n10-30-20+2MgO+TE",
+          "source_url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgvozH8wUohNHyjwcwtgc44w8.jpg",
+          "image_file": "[内部证据快照]",
+          "evidence_type": "image_ocr_excerpt"
+        }
+      ],
+      "label_images": [
+        {
+          "number": 2,
+          "alt": "花多多2号详情页_01.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgvozH8wUohNHyjwcwtgc44w8.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 257953
+        },
+        {
+          "number": 2,
+          "alt": "花多多2号详情页_02.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgv4zH8wUotOrr4AEwtgc46RA.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 289831
+        }
+      ],
+      "reason": "编号页面配方10-30-20+2MgO，包装可读Blossom Booster及10-30-20+2MgO+TE，匹配既有中国促花型；只增加编号别名，不按包装重量新增。",
+      "manufacturer_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-blossom-booster/"
+    },
+    {
+      "bucket": "products-peters.json",
+      "number": "8",
+      "decision": "alias",
+      "status": "verified",
+      "name": "花多多8号",
+      "matched_entry_key": "peters-cn-peters-professional-winter-grow-special",
+      "candidate_entry_key": null,
+      "entry_key": null,
+      "source_url": "http://www.runjor.com/h-pd-72.html",
+      "raw_label_formula": "20-10-20",
+      "label_npk": "20-10-20",
+      "notation": "oxide",
+      "percentage_basis": "unknown",
+      "evidence": [
+        {
+          "field": "number",
+          "quote": "花多多8号",
+          "source_url": "http://www.runjor.com/h-pd-72.html"
+        },
+        {
+          "field": "raw_label_formula",
+          "quote": "| 配方： | 20-10-20+TE |",
+          "source_url": "http://www.runjor.com/h-pd-72.html"
+        },
+        {
+          "field": "npk_oxide",
+          "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-winter-grow-special/",
+          "quote": "| N | | |\n| --- | --- | --- |\n| N | 总氮硝态氮(N-NO 3)铵态氮(N-NH 4)酰胺态氮(N-Urea)脲甲醛有机氮 | 20% 12.1% 7.9% 0% 0% 0% |\n| P 2 O 5 | | |\n| P 2 O 5 | 五氧化二磷水溶(P 2 O 5) | 10% 10% |\n| K 2 O | | |\n| K 2 O | 氧化钾 水溶 (K 2 O) | 20% 20% |\n| B | | |\n| B | 硼水溶(B) | 0.02% 0.02% |\n| Cu | | |\n| Cu | 铜水溶(Cu)螯合铜 (EDTA-Cu) | 0.015% 0.015% 0.015% |\n| Fe | | |\n| Fe | 铁水溶(Fe)螯合铁(EDTA-Fe)螯合铁(DTPA-Fe)螯合铁(EDDHA-Fe) | 0.12% 0.12% 0% 0.12% 0% |\n| Mn | | |\n| Mn | 锰水溶(Mn)螯合锰(EDTA-Mn) | 0.06% 0.06% 0.06% |\n| Mo | | |\n| Mo | 钼水溶(Mo) | 0.01% 0.01% |\n| Zn | | |\n| Zn | 锌水溶(Zn)螯合锌(EDTA-Zn) | 0.015% 0.015% 0.015% |\n\n| N | | |\n| --- | --- | --- |\n| N | 总氮硝态氮(N-NO 3)铵态氮(N-NH 4)酰胺态氮(N-Urea)脲甲醛有机氮 | 20% 12.1% 7.9% 0% 0% 0% |\n| P | | |\n| P | 磷水溶(P) | 4.4% 4.4% |\n| K | | |\n| K | 钾水溶(K) | 16.6% 16.6% |\n| B | | |\n| B | 硼水溶(B) | 0.02% 0.02% |\n| Cu | | |\n| Cu | 铜水溶(Cu)螯合铜 (EDTA-Cu) | 0.015% 0.015% 0.015% |\n| Fe | | |\n| Fe | 铁水溶(Fe)螯合铁(EDTA-Fe)螯合铁(DTPA-Fe)螯合铁(EDDHA-Fe) | 0.12% 0.12% 0% 0.12% 0% |\n| Mn | | |\n| Mn | 锰水溶(Mn)螯合锰(EDTA-Mn) | 0.06% 0.06% 0.06% |\n| Mo | | |\n| Mo | 钼水溶(Mo) | 0.01% 0.01% |\n| Zn | | |\n| Zn | 锌水溶(Zn)螯合锌(EDTA-Zn) | 0.015% 0.015% 0.015% |"
+        },
+        {
+          "field": "package_name_and_formula",
+          "quote": "花多多8号\n20-10-20\nPeters\nProfessional\nWinter Grow Special\n20-10-20+TE",
+          "source_url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgsozH8wUo3PODtgEwtgc4yA8.jpg",
+          "image_file": "[内部证据快照]",
+          "evidence_type": "image_ocr_excerpt"
+        }
+      ],
+      "label_images": [
+        {
+          "number": 8,
+          "alt": "8号详情页_01.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgsozH8wUo3PODtgEwtgc4yA8.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 242669
+        },
+        {
+          "number": 8,
+          "alt": "8号详情页_02.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgs4zH8wUo2qCX-QUwtgc4hBE.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 300934
+        }
+      ],
+      "reason": "编号页面20-10-20+TE；包装可读Winter Grow Special，与既有中国冬季生长专用型同名同配方，添加编号别名。",
+      "manufacturer_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-professional-winter-grow-special/"
+    },
+    {
+      "bucket": "products-peters.json",
+      "number": "10",
+      "decision": "included",
+      "status": "partial",
+      "name": "花多多10号",
+      "matched_entry_key": null,
+      "candidate_entry_key": null,
+      "entry_key": "peters-cn-number-10-hi-nitro-30-10-10",
+      "source_url": "http://www.runjor.com/h-pd-74.html",
+      "raw_label_formula": "30-10-10",
+      "label_npk": "",
+      "notation": "unknown",
+      "percentage_basis": "unknown",
+      "evidence": [
+        {
+          "field": "number",
+          "quote": "花多多10号",
+          "source_url": "http://www.runjor.com/h-pd-74.html"
+        },
+        {
+          "field": "raw_label_formula",
+          "quote": "| 配方： | 30-10-10+TE |",
+          "source_url": "http://www.runjor.com/h-pd-74.html"
+        },
+        {
+          "field": "package_name_and_formula",
+          "quote": "花多多10号\n30-10-10\nPeters\nProfessional\nHi-Nitro\n30-10-10+TE",
+          "source_url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgt4zH8wUokPmr5wYwtgc4xw8.jpg",
+          "image_file": "[内部证据快照]",
+          "evidence_type": "image_ocr_excerpt"
+        }
+      ],
+      "label_images": [
+        {
+          "number": 10,
+          "alt": "10号详情页_01.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgt4zH8wUokPmr5wYwtgc4xw8.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 256114
+        },
+        {
+          "number": 10,
+          "alt": "10号详情页_02.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgtozH8wUo_quyqQYwtgc4hRE.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 281421
+        }
+      ],
+      "reason": "编号页面及包装可读Hi-Nitro、30-10-10+TE、荷兰；既有国际Hi-Nitro是31-11-11，不是同一配方；既有美国30-10-10是美国版且微量元素分析不同，不合并为同版。新增中国销售的荷兰包装版本，氧化物和质量基准未清晰读出，NPK标准化栏留空。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "number": "23",
+      "decision": "blocked",
+      "status": "partial",
+      "name": "花多多23号",
+      "matched_entry_key": null,
+      "candidate_entry_key": "peters-cn-peters-excel-acidifier-calmag-grower",
+      "entry_key": null,
+      "source_url": "https://www.runjor.com/h-pd-103.html",
+      "raw_label_formula": "15-5-15",
+      "label_npk": "",
+      "notation": "unknown",
+      "percentage_basis": "unknown",
+      "evidence": [
+        {
+          "field": "number",
+          "quote": "花多多23号",
+          "source_url": "https://www.runjor.com/h-pd-103.html"
+        },
+        {
+          "field": "raw_label_formula",
+          "quote": "| 配方： | 15-5-15+7CaO+3MgO+TE |",
+          "source_url": "https://www.runjor.com/h-pd-103.html"
+        },
+        {
+          "field": "package_name_and_formula",
+          "quote": "花多多23号\n15-5-15+7CaO+3MgO+TE\nPeters\nProfessional\n15-5-15+3MgO+TE\n水溶性磷\n15%",
+          "source_url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgx--X6gUo9o-lNTC2BziJDw.jpg",
+          "image_file": "[内部证据快照]",
+          "evidence_type": "image_ocr_excerpt"
+        }
+      ],
+      "label_images": [
+        {
+          "number": 23,
+          "alt": "23号详情页_01.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgx--X6gUo9o-lNTC2BziJDw.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 707178
+        },
+        {
+          "number": 23,
+          "alt": "23号详情页_02.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgyP-X6gUoxaKDazC2BzisEQ.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 764757
+        }
+      ],
+      "reason": "编号与商品页15-5-15+7CaO+3MgO+TE已核实；但包装图为Peters Professional 15-5-15+3MgO+TE，未明确CalMag Grower；成分表水溶性磷15%又与标题配方中间5冲突。不能认定准确对应现有钙镁生长型，亦不把冲突图修成5%。不新增疑似重复SKU。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "number": "226",
+      "decision": "alias",
+      "status": "verified",
+      "name": "花多多226号",
+      "matched_entry_key": "peters-cn-peters-excel-acidifier-calmag-finisher",
+      "candidate_entry_key": null,
+      "entry_key": null,
+      "source_url": "http://www.runjor.com/h-pd-79.html",
+      "raw_label_formula": "13-5-20",
+      "label_npk": "13-5-20",
+      "notation": "oxide",
+      "percentage_basis": "unknown",
+      "evidence": [
+        {
+          "field": "number",
+          "quote": "花多多226号",
+          "source_url": "http://www.runjor.com/h-pd-79.html"
+        },
+        {
+          "field": "raw_label_formula",
+          "quote": "| 配方： | 13-5-20+7CaO+2MgO+TE |",
+          "source_url": "http://www.runjor.com/h-pd-79.html"
+        },
+        {
+          "field": "npk_oxide",
+          "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-excel-acidifier-calmag-finisher/",
+          "quote": "| N | | |\n|---|---|---|\n| N | 总氮硝态氮(N-NO3)铵态氮(N-NH4)酰胺态氮(N-Urea)脲甲醛有机氮 | 13%11%0%2%0%0% |\n| P2O5 | | |\n| P2O5 | 五氧化二磷水溶(P2O5) | 5%5% |\n| K2O | | |\n| K2O | 氧化钾 水溶 (K2O) | 20%20% |\n| CaO | | |\n| CaO | 氧化钙水溶(CaO) | 7%7% |\n| MgO | | |\n| MgO | 氧化镁水溶(MgO) | 2%2% |\n| B | | |\n| B | 硼水溶(B) | 0.02%0.02% |\n| Cu | | |\n| Cu | 铜水溶(Cu)螯合铜 (EDTA-Cu) | 0.015%0.015%0.015% |\n| Fe | | |\n| Fe | 铁水溶(Fe)螯合铁(EDTA-Fe)螯合铁(DTPA-Fe)螯合铁(EDDHA-Fe) | 0.12%0.12%0%0.12%0% |\n| Mn | | |\n| Mn | 锰水溶(Mn)螯合锰(EDTA-Mn) | 0.06%0.06%0.06% |\n| Mo | | |\n| Mo | 钼水溶(Mo) | 0.01%0.01% |\n| Zn | | |\n| Zn | 锌水溶(Zn)螯合锌(EDTA-Zn) | 0.015%0.015%0.015% |\n\n| N | | |\n|---|---|---|\n| N | 总氮硝态氮(N-NO3)铵态氮(N-NH4)酰胺态氮(N-Urea)脲甲醛有机氮 | 13%11%0%2%0%0% |\n| P | | |\n| P | 磷水溶(P) | 2.2%2.2% |\n| K | | |\n| K | 钾水溶(K) | 16.6%16.6% |\n| Ca | | |\n| Ca | 钙水溶(Ca) | 5%5% |\n| Mg | | |\n| Mg | 镁水溶(Mg) | 1.2%1.2% |\n| B | | |\n| B | 硼水溶(B) | 0.02%0.02% |\n| Cu | | |\n| Cu | 铜水溶(Cu)螯合铜 (EDTA-Cu) | 0.015%0.015%0.015% |\n| Fe | | |\n| Fe | 铁水溶(Fe)螯合铁(EDTA-Fe)螯合铁(DTPA-Fe)螯合铁(EDDHA-Fe) | 0.12%0.12%0%0.12%0% |\n| Mn | | |\n| Mn | 锰水溶(Mn)螯合锰(EDTA-Mn) | 0.06%0.06%0.06% |\n| Mo | | |\n| Mo | 钼水溶(Mo) | 0.01%0.01% |\n| Zn | | |\n| Zn | 锌水溶(Zn)螯合锌(EDTA-Zn) | 0.015%0.015%0.015% |\n"
+        },
+        {
+          "field": "package_name_and_formula",
+          "quote": "花多多226号\n13-5-20+7CaO+2MgO+TE\nPeters Excel\nCalMag Finisher\n氧化镁\n3%",
+          "source_url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgv4zH8wUo8uaYqwMwtgc4_Q8.jpg",
+          "image_file": "[内部证据快照]",
+          "evidence_type": "image_ocr_excerpt"
+        }
+      ],
+      "label_images": [
+        {
+          "number": 226,
+          "alt": "226号详情页_01.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgv4zH8wUo8uaYqwMwtgc4_Q8.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 278140
+        },
+        {
+          "number": 226,
+          "alt": "226号详情页_02.jpg",
+          "url": "https://19995415.s21i.faiusr.com/2/ABUIABACGAAgv4zH8wUowOCJUDC2BzidEQ.jpg",
+          "path": "[内部证据快照]",
+          "bytes": 288153
+        }
+      ],
+      "reason": "编号页面明确13-5-20+7CaO+2MgO+TE，包装可读Peters Excel CalMag Finisher，匹配既有中国钙镁紧凑型；但宣传图成分表氧化镁3%与配方2MgO冲突，仅确认编号别名，不导入该图分析表。",
+      "manufacturer_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/products/peters-excel-acidifier-calmag-finisher/"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-begonia-liquid",
+      "name": "美乐棵 浓缩营养液·秋海棠型",
+      "region": "中国大陆零售目录版本",
+      "status": "blocked",
+      "source_url": "https://mlkyy.jd.com/",
+      "reason": "仅检索到零售目录分类名，未取得可独立核对的商品页、背标或配方；不计findings。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-westernorchid-liquid",
+      "name": "美乐棵 浓缩营养液·洋兰型",
+      "region": "中国大陆零售目录版本",
+      "status": "blocked",
+      "source_url": "https://mlkyy.jd.com/",
+      "reason": "仅检索到零售目录分类名，未取得可独立核对的商品页、背标或配方；不计findings。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-pothos-liquid",
+      "name": "美乐棵 浓缩营养液·绿萝型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d100002616977",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-orchid-liquid",
+      "name": "美乐棵 浓缩营养液·兰花型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d2266719",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-acid-liquid",
+      "name": "美乐棵 浓缩营养液·喜酸型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d3898479",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-anthurium-liquid",
+      "name": "美乐棵 浓缩营养液·红掌型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d6611042",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-hydro-liquid",
+      "name": "美乐棵 浓缩营养液·水培型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d100006884542",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-universal-liquid",
+      "name": "美乐棵 浓缩营养液·通用型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d2266707",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-orchid-controlled",
+      "name": "美乐棵 控释营养粒·兰花型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d100004047508",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-universal-soluble",
+      "name": "美乐棵 水溶肥·通用型（粉末）",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d3232380",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-universal-spikes",
+      "name": "美乐棵 营养棒·通用型",
+      "region": "中国大陆零售版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://m.fanli.com/item/d2266693",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-cn-aroid-liquid",
+      "name": "美乐棵 浓缩营养液·天南星科型",
+      "region": "中国大陆零售目录版本",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://www.fxzdm.com/shenghuo/16768.html",
+      "reason": "产品名/目标用途已核验，保证分析未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-uk-acid-soluble",
+      "name": "Plant Food Soluble — Azalea, Camellia, Rhododendron",
+      "region": "英国版（包装另列爱尔兰元素表示）",
+      "status": "included",
+      "evidence_status": "verified",
+      "distinct_recipe_verified": true,
+      "source_url": "https://www.lovethegarden.com/uk-en/product/miracle-gro-plant-food-soluble-azalea-camellia-rhododendron",
+      "reason": "厂家保证分析和/或施用说明核验；不是独立最优试验"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-uk-allpurpose-liquid",
+      "name": "Liquid Plant Food — All Purpose",
+      "region": "英国版（包装另列爱尔兰元素表示）",
+      "status": "included",
+      "evidence_status": "verified",
+      "distinct_recipe_verified": true,
+      "source_url": "https://www.lovethegarden.com/uk-en/product/miracle-gro-liquid-plant-food-all-purpose",
+      "reason": "厂家保证分析和/或施用说明核验；不是独立最优试验"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-uk-orchid-pump",
+      "name": "Pump & Feed Orchid",
+      "region": "英国版",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://www.lovethegarden.com/uk-en/product/miracle-gro-pump-feed-orchid",
+      "reason": "厂家产品与施用说明已核验；包装PDF无保证分析，NPK未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-uk-orchid-drip",
+      "name": "Drip & Feed Orchid",
+      "region": "英国版",
+      "status": "included",
+      "evidence_status": "partial",
+      "distinct_recipe_verified": false,
+      "source_url": "https://www.lovethegarden.com/uk-en/product/miracle-gro-drip-feed-orchid",
+      "reason": "厂家产品与施用说明已核验；包装PDF无保证分析，NPK未知"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-us-tropical-liquid",
+      "name": "Tropical Houseplant Food",
+      "region": "美国版",
+      "status": "included",
+      "evidence_status": "verified",
+      "distinct_recipe_verified": true,
+      "source_url": "https://scottsmiraclegro.com/en-us/brands/miracle-gro/products/plant-food-and-care/4005901.html",
+      "reason": "厂家保证分析和/或施用说明核验；不是独立最优试验"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "entry_key": "miraclegro-us-orchid-mist",
+      "name": "Ready To Use Orchid Plant Food Mist",
+      "region": "美国版",
+      "status": "included",
+      "evidence_status": "verified",
+      "distinct_recipe_verified": true,
+      "source_url": "https://scottsmiraclegro.com/en-us/brands/miracle-gro/products/plant-food-and-care/2001951.html",
+      "reason": "厂家保证分析和/或施用说明核验；不是独立最优试验"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "Miracle-Gro® Water Soluble Orchid Food，SKU 2001991 / 包装1001991（美国版）",
+      "region": "美国版",
+      "status": "existing",
+      "source_url": "https://scottsmiraclegro.com/en-us/brands/miracle-gro/products/plant-food-and-care/2001991.html",
+      "reason": "上一轮已纳入；本轮不重复计新增。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "Miracle-Gro® Water Soluble All Purpose Plant Food，3 lb，SKU 2000283 / 标签1000283（美国版）",
+      "region": "美国版",
+      "status": "existing",
+      "source_url": "https://scottsmiraclegro.com/en-us/brands/miracle-gro/products/plant-food-and-care/miracle-gro-water-soluble-all-purpose-plant-food/2000283.html",
+      "reason": "上一轮已纳入；本轮不重复计新增。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "香港零售中文兰花型浓缩液",
+      "region": "中国香港零售",
+      "status": "blocked",
+      "reason": "正面图是中文兰花型液体，正文复制美国Orchid Plant Food水溶粉肥30-10-10与英制剂量；文图冲突，不采用其分析与用法。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "香港零售水培植物通用型浓缩液",
+      "region": "中国香港零售",
+      "status": "blocked",
+      "reason": "有真实中文正面，但零售g/L养分缺匹配背标，且与大陆旧代水培型不可直接同配方；不重复新增SKU。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "美乐棵相同型别250mL/500mL等",
+      "status": "excluded",
+      "reason": "容量包装变体不当作不同配方。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "美乐棵绣球/月季/茉莉/铁线莲/三角梅/蔬果/草坪类",
+      "status": "excluded",
+      "reason": "本任务重点为热带观叶及兰科；不以大量不相关花卉蔬果凑SKU。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "美国Miracid 30-10-10",
+      "region": "美国",
+      "status": "excluded",
+      "reason": "与上轮已收美国兰花水溶粉肥相同名义NPK；未取得足以证明实质不同配方的完整分析，不据名称另计。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "中国网络营销配方32:14:16/27:17:16/30:14:16",
+      "status": "blocked",
+      "reason": "仅营销文章与搜索摘要，不是保证分析；未录入任何中国产品的NPK字段。"
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "name": "中国官网miraclegro.com.cn",
+      "status": "blocked",
+      "source_url": "http://www.miraclegro.com.cn/",
+      "reason": "直接返回服务器默认页，无法核验中国当前技术目录；抓取/请求结果保存在initial-0.json与搜索快照。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-aroid-liquid-600-hk",
+      "brand": "美益棵",
+      "name": "美益棵浓缩营养液 天南星科及热植型600mL",
+      "target": "天南星科及热植",
+      "source_url": "https://www.brighten.hk/SalePage/Index/588887",
+      "status": "partial",
+      "evidence_level": "retailer_instruction_image",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量"
+      ],
+      "detail": {
+        "entry_key": "meiyike-aroid-liquid-600-hk",
+        "category": "product",
+        "author": "Brighten-Mall",
+        "source_title": "美益棵浓缩营养液 天南星科及热植型600mL",
+        "source_url": "https://www.brighten.hk/SalePage/Index/588887",
+        "source_type": "retailer",
+        "credibility": "实际商品页面/商家说明；不等于独立检测，未核验店铺营业执照。",
+        "species": "天南星科及热植",
+        "plants": [
+          "anthurium",
+          "alocasia",
+          "monstera",
+          "philodendron",
+          "caladium",
+          "begonia"
+        ],
+        "scope": "Brighten香港零售说明图对应600mL版本；不直接套用于内地300mL/专业型",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "原文氮磷钾配比 30-20-17；元素/氧化物及百分比口径未标明。",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [
+            "每30ml兑水4L（商家原文；不是配成4L成液）；7-14天/次，早晨/傍晚施用；先喷叶后灌根"
+          ],
+          "substrate": [],
+          "notes": [
+            "30-20-17为宣传图原文，不认定为30%/20%/17%保证分析。",
+            "TEP8仅是宣传标识，未见八种元素名单和含量。",
+            "宣传原文列秋海棠、天堂鸟、琴叶榕等，保留适用声明而不接受其植物科分类。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵浓缩营养液 天南星科及热植型600mL",
+          "target": "天南星科及热植",
+          "label_npk": "30-20-17",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "每30ml兑水4L（商家原文；不是配成4L成液）",
+          "frequency": "7-14天/次，早晨/傍晚施用",
+          "analysis": {
+            "guaranteed_analysis_verified": false,
+            "npk_raw": "30-20-17",
+            "npk_source_kind": "零售宣传说明图非保证分析表",
+            "micronutrients_raw": "TEP8煥新植物營養包",
+            "microelement_values": {},
+            "root_drench": "先噴葉後灌根",
+            "foliar": "先噴葉後灌根",
+            "substrate_condition": "未说明",
+            "temperature_C": "",
+            "controlled_release_conditions": ""
+          }
+        },
+        "image_url": "https://img.cdn.91app.hk/webapi/imagesV3/Original/SalePage/588887/3/639281959810230000?v=1"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-anthurium-liquid-300",
+      "brand": "美益棵",
+      "name": "美益棵专业营养液 花烛型300mL",
+      "target": "花烛",
+      "source_url": "https://world.taobao.com/item/cDRJS2hQSWd0UWVYdWIzS3VidzZ0UT09.htm",
+      "status": "partial",
+      "evidence_level": "seller_variant_or_index",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-anthurium-liquid-300",
+        "category": "product",
+        "author": "美益棵旗舰店/商家商品页",
+        "source_title": "美益棵专业营养液 花烛型300mL",
+        "source_url": "https://world.taobao.com/item/cDRJS2hQSWd0UWVYdWIzS3VidzZ0UT09.htm",
+        "source_type": "retailer",
+        "credibility": "实际商品页面/商家说明；不等于独立检测，未核验店铺营业执照。",
+        "species": "花烛",
+        "plants": [
+          "anthurium"
+        ],
+        "scope": "花烛产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "只确认商家实际规格选项存在；无可读背标，所有肥料参数留空。",
+            "共享商品属性将“钾”放在微量元素栏目，明显不是可靠的微量元素保证分析，未采纳。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵专业营养液 花烛型300mL",
+          "target": "花烛",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-begonia-liquid-300",
+      "brand": "美益棵",
+      "name": "美益棵营养液 秋海棠300mL",
+      "target": "秋海棠",
+      "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+      "status": "partial",
+      "evidence_level": "seller_variant_or_index",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-begonia-liquid-300",
+        "category": "product",
+        "author": "美益棵旗舰店/商家商品页",
+        "source_title": "美益棵营养液 秋海棠300mL",
+        "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+        "source_type": "retailer",
+        "credibility": "实际商品页面/商家说明；不等于独立检测，未核验店铺营业执照。",
+        "species": "秋海棠",
+        "plants": [
+          "begonia"
+        ],
+        "scope": "秋海棠产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "只确认商家实际规格选项存在；无可读背标，所有肥料参数留空。",
+            "共享商品属性将“钾”放在微量元素栏目，明显不是可靠的微量元素保证分析，未采纳。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵营养液 秋海棠300mL",
+          "target": "秋海棠",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-caladium-liquid-300",
+      "brand": "美益棵",
+      "name": "美益棵营养液 彩叶芋300mL",
+      "target": "彩叶芋",
+      "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+      "status": "partial",
+      "evidence_level": "seller_variant_or_index",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-caladium-liquid-300",
+        "category": "product",
+        "author": "美益棵旗舰店/商家商品页",
+        "source_title": "美益棵营养液 彩叶芋300mL",
+        "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+        "source_type": "retailer",
+        "credibility": "实际商品页面/商家说明；不等于独立检测，未核验店铺营业执照。",
+        "species": "彩叶芋",
+        "plants": [
+          "caladium"
+        ],
+        "scope": "彩叶芋产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "只确认商家实际规格选项存在；无可读背标，所有肥料参数留空。",
+            "共享商品属性将“钾”放在微量元素栏目，明显不是可靠的微量元素保证分析，未采纳。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵营养液 彩叶芋300mL",
+          "target": "彩叶芋",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-orchid-liquid-600",
+      "brand": "美益棵",
+      "name": "美益棵营养液 兰花600mL",
+      "target": "兰花",
+      "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+      "status": "partial",
+      "evidence_level": "seller_variant_or_index",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-orchid-liquid-600",
+        "category": "product",
+        "author": "美益棵旗舰店/商家商品页",
+        "source_title": "美益棵营养液 兰花600mL",
+        "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+        "source_type": "retailer",
+        "credibility": "实际商品页面/商家说明；不等于独立检测，未核验店铺营业执照。",
+        "species": "兰花",
+        "plants": [
+          "orchid"
+        ],
+        "scope": "兰花产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "只确认商家实际规格选项存在；无可读背标，所有肥料参数留空。",
+            "共享商品属性将“钾”放在微量元素栏目，明显不是可靠的微量元素保证分析，未采纳。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵营养液 兰花600mL",
+          "target": "兰花",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-aroid-liquid-300",
+      "brand": "美益棵",
+      "name": "美益棵营养液 天南星300mL",
+      "target": "天南星科及热植",
+      "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+      "status": "partial",
+      "evidence_level": "seller_variant_or_index",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-aroid-liquid-300",
+        "category": "product",
+        "author": "美益棵旗舰店/商家商品页",
+        "source_title": "美益棵营养液 天南星300mL",
+        "source_url": "https://pcdetail.taobao.com/UFNoZ05SV3IzSmNEVEhrT1krVkJIZz09.html",
+        "source_type": "retailer",
+        "credibility": "实际商品页面/商家说明；不等于独立检测，未核验店铺营业执照。",
+        "species": "天南星科及热植",
+        "plants": [
+          "anthurium",
+          "alocasia",
+          "monstera",
+          "philodendron",
+          "caladium"
+        ],
+        "scope": "天南星科及热植产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "只确认商家实际规格选项存在；无可读背标，所有肥料参数留空。",
+            "共享商品属性将“钾”放在微量元素栏目，明显不是可靠的微量元素保证分析，未采纳。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵营养液 天南星300mL",
+          "target": "天南星科及热植",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-platycerium-liquid-250",
+      "brand": "美益棵",
+      "name": "美益棵专业营养液 鹿角蕨型250mL",
+      "target": "鹿角蕨",
+      "source_url": "https://pcdetail.taobao.com/UEZjejdJWHNIeGZoNXk3VVBUSTlmdz09.html",
+      "status": "partial",
+      "evidence_level": "seller_variant_or_index",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-platycerium-liquid-250",
+        "category": "product",
+        "author": "美益棵旗舰店/商家商品页",
+        "source_title": "美益棵专业营养液 鹿角蕨型250mL",
+        "source_url": "https://pcdetail.taobao.com/UEZjejdJWHNIeGZoNXk3VVBUSTlmdz09.html",
+        "source_type": "retailer",
+        "credibility": "实际商品页面/商家说明；不等于独立检测，未核验店铺营业执照。",
+        "species": "鹿角蕨",
+        "plants": [
+          "platycerium"
+        ],
+        "scope": "鹿角蕨产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "原文氮磷钾配比 8:3:8；元素/氧化物及百分比口径未标明。",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "仅搜索索引返回的卖家参数，不是包装背标。",
+            "商家参数列铁与喷施，但无含量、稀释量或间隔；不采为完整施肥处方。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵专业营养液 鹿角蕨型250mL",
+          "target": "鹿角蕨",
+          "label_npk": "8:3:8",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {
+            "guaranteed_analysis_verified": false,
+            "npk_source_kind": "索引的卖家参数",
+            "micronutrients_raw": "铁（未标含量）",
+            "application_raw": "喷施",
+            "substrate_raw": "壤土（电商属性，无背标支持）"
+          }
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-crf-aroid-450",
+      "brand": "美益棵",
+      "name": "美益棵11元素旗舰版控释肥 天南星科与热带植物专用型450g",
+      "target": "天南星科及热植",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "evidence_level": "manufacturer_brochure",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-crf-aroid-450",
+        "category": "product",
+        "author": "茂施农业科技有限公司",
+        "source_title": "美益棵11元素旗舰版控释肥 天南星科与热带植物专用型450g",
+        "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+        "source_type": "manufacturer",
+        "credibility": "茂施展商原始画册实物图，含品牌及公司署名；产品功能为厂家声明而非独立试验。",
+        "species": "天南星科及热植",
+        "plants": [
+          "anthurium",
+          "alocasia",
+          "monstera",
+          "philodendron",
+          "caladium"
+        ],
+        "scope": "天南星科及热植产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "画册宣称双包膜、生物基包膜，肥效5-6个月；未标测试温度、释放判据、基质水分及施用剂量，不等于固定补肥频率。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵11元素旗舰版控释肥 天南星科与热带植物专用型450g",
+          "target": "天南星科及热植",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {
+            "controlled_release_duration_raw": "5-6个月（系列宣传）",
+            "controlled_release_temperature_C": "",
+            "guaranteed_analysis_verified": false,
+            "macro_micro_element_list": "仅称氮磷钾及多种中微量元素，无逐项百分比"
+          }
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-crf-general-450",
+      "brand": "美益棵",
+      "name": "美益棵11元素旗舰版控释肥 通用型450g",
+      "target": "通用",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "evidence_level": "manufacturer_brochure",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-crf-general-450",
+        "category": "product",
+        "author": "茂施农业科技有限公司",
+        "source_title": "美益棵11元素旗舰版控释肥 通用型450g",
+        "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+        "source_type": "manufacturer",
+        "credibility": "茂施展商原始画册实物图，含品牌及公司署名；产品功能为厂家声明而非独立试验。",
+        "species": "通用",
+        "plants": [
+          "general"
+        ],
+        "scope": "通用产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "画册宣称双包膜、生物基包膜，肥效5-6个月；未标测试温度、释放判据、基质水分及施用剂量，不等于固定补肥频率。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵11元素旗舰版控释肥 通用型450g",
+          "target": "通用",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {
+            "controlled_release_duration_raw": "5-6个月（系列宣传）",
+            "controlled_release_temperature_C": "",
+            "guaranteed_analysis_verified": false,
+            "macro_micro_element_list": "仅称氮磷钾及多种中微量元素，无逐项百分比"
+          }
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-crf-flower-450",
+      "brand": "美益棵",
+      "name": "美益棵11元素旗舰版控释肥 花卉型450g",
+      "target": "花卉",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "evidence_level": "manufacturer_brochure",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-crf-flower-450",
+        "category": "product",
+        "author": "茂施农业科技有限公司",
+        "source_title": "美益棵11元素旗舰版控释肥 花卉型450g",
+        "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+        "source_type": "manufacturer",
+        "credibility": "茂施展商原始画册实物图，含品牌及公司署名；产品功能为厂家声明而非独立试验。",
+        "species": "花卉",
+        "plants": [
+          "general"
+        ],
+        "scope": "花卉产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "画册宣称双包膜、生物基包膜，肥效5-6个月；未标测试温度、释放判据、基质水分及施用剂量，不等于固定补肥频率。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵11元素旗舰版控释肥 花卉型450g",
+          "target": "花卉",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {
+            "controlled_release_duration_raw": "5-6个月（系列宣传）",
+            "controlled_release_temperature_C": "",
+            "guaranteed_analysis_verified": false,
+            "macro_micro_element_list": "仅称氮磷钾及多种中微量元素，无逐项百分比"
+          }
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-crf-general-350",
+      "brand": "美益棵",
+      "name": "美益棵9元素专业版控释肥 通用型350g",
+      "target": "通用",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "evidence_level": "manufacturer_brochure",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量",
+        "剂量",
+        "频率",
+        "施用条件"
+      ],
+      "detail": {
+        "entry_key": "meiyike-crf-general-350",
+        "category": "product",
+        "author": "茂施农业科技有限公司",
+        "source_title": "美益棵9元素专业版控释肥 通用型350g",
+        "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+        "source_type": "manufacturer",
+        "credibility": "茂施展商原始画册实物图，含品牌及公司署名；产品功能为厂家声明而非独立试验。",
+        "species": "通用",
+        "plants": [
+          "general"
+        ],
+        "scope": "通用产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [],
+          "substrate": [],
+          "notes": [
+            "画册宣称双包膜、生物基包膜，肥效5-6个月；未标测试温度、释放判据、基质水分及施用剂量，不等于固定补肥频率。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵9元素专业版控释肥 通用型350g",
+          "target": "通用",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "",
+          "frequency": "",
+          "analysis": {
+            "controlled_release_duration_raw": "5-6个月（系列宣传）",
+            "controlled_release_temperature_C": "",
+            "guaranteed_analysis_verified": false,
+            "macro_micro_element_list": "仅称氮磷钾及多种中微量元素，无逐项百分比"
+          }
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-soluble-1-250",
+      "brand": "美益棵",
+      "name": "美益棵大量元素水溶肥 1号 均衡通用型250g",
+      "target": "通用",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "evidence_level": "manufacturer_brochure",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量"
+      ],
+      "detail": {
+        "entry_key": "meiyike-soluble-1-250",
+        "category": "product",
+        "author": "茂施农业科技有限公司",
+        "source_title": "美益棵大量元素水溶肥 1号 均衡通用型250g",
+        "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+        "source_type": "manufacturer",
+        "credibility": "茂施展商原始画册实物图，含品牌及公司署名；产品功能为厂家声明而非独立试验。",
+        "species": "通用",
+        "plants": [
+          "general"
+        ],
+        "scope": "通用产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [
+            "原文“高稀释比1:1000比例”（基准未说明，不换算g/L）；；叶面喷施或根部浇灌"
+          ],
+          "substrate": [],
+          "notes": [
+            "不是美乐棵或花多多同号配方；不从1号/2号/10号推断NPK。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵大量元素水溶肥 1号 均衡通用型250g",
+          "target": "通用",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "原文“高稀释比1:1000比例”（基准未说明，不换算g/L）",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-soluble-2-250",
+      "brand": "美益棵",
+      "name": "美益棵大量元素水溶肥 2号 促进开花型250g",
+      "target": "花卉",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "evidence_level": "manufacturer_brochure",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量"
+      ],
+      "detail": {
+        "entry_key": "meiyike-soluble-2-250",
+        "category": "product",
+        "author": "茂施农业科技有限公司",
+        "source_title": "美益棵大量元素水溶肥 2号 促进开花型250g",
+        "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+        "source_type": "manufacturer",
+        "credibility": "茂施展商原始画册实物图，含品牌及公司署名；产品功能为厂家声明而非独立试验。",
+        "species": "花卉",
+        "plants": [
+          "general"
+        ],
+        "scope": "花卉产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [
+            "原文“高稀释比1:1000比例”（基准未说明，不换算g/L）；；叶面喷施或根部浇灌"
+          ],
+          "substrate": [],
+          "notes": [
+            "不是美乐棵或花多多同号配方；不从1号/2号/10号推断NPK。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵大量元素水溶肥 2号 促进开花型250g",
+          "target": "花卉",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "原文“高稀释比1:1000比例”（基准未说明，不换算g/L）",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "entry_key": "meiyike-soluble-10-250",
+      "brand": "美益棵",
+      "name": "美益棵大量元素水溶肥 10号 观叶植物专用型250g",
+      "target": "观叶植物",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "evidence_level": "manufacturer_brochure",
+      "back_label_verified": false,
+      "missing": [
+        "N–P2O5–K2O保证分析",
+        "质量/体积分数基准",
+        "中微量元素逐项含量"
+      ],
+      "detail": {
+        "entry_key": "meiyike-soluble-10-250",
+        "category": "product",
+        "author": "茂施农业科技有限公司",
+        "source_title": "美益棵大量元素水溶肥 10号 观叶植物专用型250g",
+        "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+        "source_type": "manufacturer",
+        "credibility": "茂施展商原始画册实物图，含品牌及公司署名；产品功能为厂家声明而非独立试验。",
+        "species": "观叶植物",
+        "plants": [
+          "general"
+        ],
+        "scope": "观叶植物产品信息",
+        "limitations": "未取得完整可读实物背标；NPK元素/氧化物和质量/体积口径不明，不作转换。不外推其他版本。",
+        "status": "partial",
+        "fields": {
+          "light": "",
+          "temperature": "",
+          "water": "",
+          "air": "",
+          "npk": "",
+          "ec": "",
+          "additives": "",
+          "substrate": ""
+        },
+        "table": {
+          "light": [],
+          "temperature": [],
+          "water": [],
+          "air": [],
+          "fertilizer": [
+            "原文“高稀释比1:1000比例”（基准未说明，不换算g/L）；；叶面喷施或根部浇灌"
+          ],
+          "substrate": [],
+          "notes": [
+            "不是美乐棵或花多多同号配方；不从1号/2号/10号推断NPK。"
+          ]
+        },
+        "product": {
+          "brand": "美益棵",
+          "name": "美益棵大量元素水溶肥 10号 观叶植物专用型250g",
+          "target": "观叶植物",
+          "label_npk": "",
+          "notation": "unknown",
+          "percentage_basis": "unknown",
+          "dose": "原文“高稀释比1:1000比例”（基准未说明，不换算g/L）",
+          "frequency": "",
+          "analysis": {}
+        },
+        "image_url": ""
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "浓缩营养液 通用型",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "浓缩营养液 花卉型",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "浓缩营养液 玫瑰月季型",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "浓缩营养液 喜酸植物型",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "浓缩营养液 绣球型",
+      "source_url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e52d7bfe-aa6d-4372-95ad-0adba12442f3/93a03596-a88f-4641-a88a-f35dca8899b8.pdf",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "锦化植物专用营养液",
+      "source_url": "https://world.taobao.com/dianpu/559282070.htm",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "水培植物专用营养液",
+      "source_url": "https://world.taobao.com/dianpu/559282070.htm",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "brand": "美益棵",
+      "name": "通用型营养喷雾",
+      "source_url": "https://world.taobao.com/dianpu/559282070.htm",
+      "status": "partial",
+      "back_label_verified": false,
+      "notes": "仅确认系列/商品存在；容量与配方未从标题外推。"
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "entry_id": "db-338cb6e80cdc",
+      "name": "Maya 11.1 有机植物养料 缓释颗粒 天南星科配方",
+      "status": "existing",
+      "action": "已库不重复；本轮未补获匹配背标，原未核验字段不改",
+      "product": {
+        "brand": "MAYA / Mayaoganic 马雅奥甘尼克",
+        "name": "Maya 11.1 有机植物养料 缓释颗粒 天南星科配方",
+        "target": "天南星科（花烛、龟背竹、海芋等；非球兰专用）",
+        "form": "未核验",
+        "label_npk": "未核验",
+        "basis": "unknown",
+        "analysis": {},
+        "dose": "未核验",
+        "ec": "未提供",
+        "micro": "未提供",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "未另作单位或元素比例换算；按原来源和地区版本读取。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "entry_id": "db-137b3253e1cb",
+      "name": "Maya 11.11 有机植物养料 缓释颗粒 五彩芋专用配方",
+      "status": "existing",
+      "action": "已库不重复；本轮未补获匹配背标，原未核验字段不改",
+      "product": {
+        "brand": "MAYA / Mayaoganic 马雅奥甘尼克",
+        "name": "Maya 11.11 有机植物养料 缓释颗粒 五彩芋专用配方",
+        "target": "彩叶芋 / 五彩芋",
+        "form": "未核验",
+        "label_npk": "未核验",
+        "basis": "unknown",
+        "analysis": {},
+        "dose": "未核验",
+        "ec": "未提供",
+        "micro": "未提供",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "未另作单位或元素比例换算；按原来源和地区版本读取。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "entry_id": "db-949bb4136b3c",
+      "name": "Maya 15 矿物有机肥 缓释颗粒 通用型",
+      "status": "existing",
+      "action": "已库不重复；本轮未补获匹配背标，原未核验字段不改",
+      "product": {
+        "brand": "MAYA / Mayaoganic 马雅奥甘尼克",
+        "name": "Maya 15 矿物有机肥 缓释颗粒 通用型",
+        "target": "通用植物",
+        "form": "未核验",
+        "label_npk": "未核验",
+        "basis": "unknown",
+        "analysis": {},
+        "dose": "未核验",
+        "ec": "未提供",
+        "micro": "未提供",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "未另作单位或元素比例换算；按原来源和地区版本读取。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "entry_id": "db-310947939a54",
+      "name": "美乐棵 控释营养粒·兰花型",
+      "status": "existing",
+      "action": "已库不重复；本轮未补获匹配背标，原未核验字段不改",
+      "product": {
+        "brand": "美乐棵 / Miracle-Gro",
+        "name": "美乐棵 控释营养粒·兰花型",
+        "target": "兰科植物",
+        "form": "未核验",
+        "label_npk": "未核验",
+        "basis": "unknown",
+        "analysis": {},
+        "dose": "未核验",
+        "ec": "未提供",
+        "micro": "未提供",
+        "notation": "unknown",
+        "concentration_basis": "unknown",
+        "element_analysis": {
+          "N": null,
+          "P": null,
+          "K": null
+        },
+        "element_ratio": null,
+        "conversion_note": "未另作单位或元素比例换算；按原来源和地区版本读取。"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "bucket": "nurseries.json",
+      "gap": {
+        "source_url": "https://ecuagenera.com/products/anthurium-cabrerense-seedling",
+        "reason": "提取正文省略了定量栽培段，直接HTML提取也未恢复可核引文；未纳入25条，以同商家clavigerum完整正文替代。"
+      }
+    },
+    {
+      "bucket": "nurseries.json",
+      "gap": {
+        "source_url": "https://www.carnivero.com/pages/about-us",
+        "reason": "身份页提取未找到；身份改由官方Aroid Care的苗圃自述实践支撑。"
+      }
+    },
+    {
+      "bucket": "nurseries.json",
+      "gap": {
+        "source_url": "https://logees.com/pages/about-us",
+        "reason": "身份页提取未找到；Rex指南有明确署名Owner and Horticulturist。"
+      }
+    },
+    {
+      "bucket": "nurseries.json",
+      "gap": {
+        "source_url": "https://stevesleaves.com/pages/about-us",
+        "reason": "身份页提取失败；Novella官网正文明确本温室育种者及杂交亲本。"
+      }
+    },
+    {
+      "bucket": "creators.json",
+      "gap": {
+        "source_url": "https://mrhouseplant.com/blog/how-to-grow-and-care-for-a-peace-lily-plant-spathiphyllum",
+        "reason": "检索返回维护页面，未作为实践证据。"
+      }
+    },
+    {
+      "bucket": "creators.json",
+      "gap": {
+        "source_url": "https://vermonthoyas.com/cultivation/temperature-tolerance-guide/",
+        "reason": "页面明示依据David Liddle目录整理，不计入本批原创个人操作条目；存档保留。"
+      }
+    },
+    {
+      "bucket": "creators.json",
+      "gap": {
+        "source_url": "https://herebutnot.com/begonia-pavonina-care-culture/",
+        "reason": "提取正文带省略号且植株身份存疑；只采实际读到的个人介质、湿度、水肥段，标partial。"
+      }
+    },
+    {
+      "bucket": "creators.json",
+      "gap": {
+        "source_url": "https://herebutnot.com/anthurium-recavum-care-culture/",
+        "reason": "作者明确承认植物死亡，作为失败记录保留，标partial，不当作成功配方。"
+      }
+    },
+    {
+      "bucket": "creators.json",
+      "gap": {
+        "source_url": "https://www.ohiotropics.com/",
+        "reason": "直接HTML备份请求403，但web_extract已取得各所引原文并存档；不把403页面作为正文。"
+      }
+    },
+    {
+      "bucket": "forums-ubc.json",
+      "gap": {
+        "issue": "部分Aroid-L存档姓名和邮箱经过匿名化；只保留正文签名或同线程引文可证明的名字，不推断完整身份或专家资历。"
+      }
+    },
+    {
+      "bucket": "forums-ubc.json",
+      "gap": {
+        "issue": "hort.net直连后半批连接超时；通过web_extract合法重试取得所引用页面，未以搜索摘要补写正文。"
+      }
+    },
+    {
+      "bucket": "forums-ubc.json",
+      "gap": {
+        "issue": "未计入重复的Bluewing水苔衬里铁篮多帖；未计入不相干的块根秋海棠花卉指南、纯鉴定和纯外链回复。"
+      }
+    },
+    {
+      "bucket": "forums-ubc.json",
+      "gap": {
+        "issue": "原文播种温度29C后印为(84C)，保留29°C并标明排印问题；没有换算出虚构数值。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "https://www.palmtalk.org/forum/topic/72365-birds-nest-anthurium-soil-mix/",
+        "issue": "PalmTalk 403；提取器仅得到bar单条回复，未充分恢复作者与全帖，未计入25条。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "https://www.palmtalk.org/forum/topic/79512-anthurium-luxurians-what-am-i-doing-wrong/",
+        "issue": "提取内容仅论坛壳和标题，无实质回复；未计数。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "https://www.palmtalk.org/forum/topic/58797-help-me-figure-this-out-guys/",
+        "issue": "HTTP失败且直取403；未计数。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "https://houzz.com/discussions/6080272/what-to-do-with-mathilde",
+        "issue": "Mathilde为尚未生根的探索，结果不足，未计数。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "https://houzz.com/discussions/4427238/reviving-a-dying-hoya-retusa",
+        "issue": "作者明确无retusa经验，主要转述，未计数。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "https://www.dendroboard.com/threads/begonia-cutting-how-small-is-too-small.82894/",
+        "issue": "HTML406，提取正文为片段；采用可核实#2第一手操作，标partial。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "https://www.dendroboard.com/threads/melting-begonias.366462/",
+        "issue": "HTML406；非www提取恢复OP与署名统计但末尾截断，标partial。"
+      }
+    },
+    {
+      "bucket": "forums-other.json",
+      "gap": {
+        "source_url": "",
+        "issue": "中文论坛与IAS非Aroid-L档案本批未取得可计数记录；球兰/秋海棠占比较高，无鹿角蕨记录。"
+      }
+    },
+    {
+      "bucket": "creators-asia-hpj.json",
+      "gap": {
+        "source": "WebIQ",
+        "issue": "原生工具本会话未暴露；依据技能读取已存schema并尝试HTTP MCP SDK，initialize返回Server returned an error response；依技能停止修复，回退公开搜索及第一方HTML直接获取。未声称已读取小红书/B站登录内容。"
+      }
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "官方链接淘宝店登录墙阻止完整当前在售目录核验；已观测22型号不等于品牌完整SKU数。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "植物专用产品目前可核验11.1、11.11、91.1、91.11及92.5；未发现可核验球兰、鹿角蕨、秋海棠专用配方，不推演号码。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "91.11单品广告获得每5mL兑水1L及7–14天频率；包装本身可读灌根及频率，NPK6-11-9仅图外宣传。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "11.1与11.11图外NPK分别20-10-18、15-20-23；没有现行背标保证分析，不填label_npk，也不标%或氧化物口径。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "91.1与92.5可读包装频率，但稀释量、NPK、EC、微量元素未得。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "90的旧小黑瓶、当前通用双口瓶、带S标志小黑瓶应分辨版本；仅90〔S〕匹配图支持挤1下兑1–3L，不可套用所有90/90s页面。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "低分辨率联系表曾误读92.4，原图复核实际92.5，故不将92.4列为已存在SKU。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "部分Alibaba图片经vision_analyze可读取，但requests下载返回420；保留实际原图URL、视觉转录与下载失败日志，不捏造本地图片；已保存官方目录与部分原始图片。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "所有SKU的EC、百分比质量/体积口径以及完整保证分析未获可靠证据；无跨SKU借用配比。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "真实host CDP连接失败：172.25.160.1:29222 HTTP握手Connection reset by peer；29223/29224/29225探测超时。agent-browser connect失败后自动生成localhost匿名会话（reused:false），未用于浏览任何网页。需要用户恢复真实host调试会话，并在该浏览器登录淘宝后复核。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "公开淘宝商品详情pcdetail.taobao.com/R3ZlSzliL3lENXQxRG5aRkRlU3VYUT09.html提取返回密码登录/短信登录/手机扫码登录；未猜凭据。没有把公开聚合页或搜索索引认定为淘宝当前在售库存。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "WebIQ技能已加载，但本会话工具目录未暴露WebIQ原生工具；使用内置web_search/web_extract和公开HTTP替代，未伪称调用WebIQ。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "100的160 g底层动力广告NPK2-2-9与390 g通用型广告/正面5-5-10不同；不将容量简单当成相同配方。无版本日期，未确认现行背标；label_npk仍留空。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "85确认为浓缩腐殖质/土壤伴侣；虹越53885是15+85组合销售页且库存0，2020路径旧图片，仅支持历史销售详情推荐。图中485 g与API组合300/800 g有规格差异，不能把485 g当当前在售规格。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "85用量图不印型号，归属来自同一商品descpt顺序和alt=详情页Maya85_05.jpg；不是包装背标。完整保证分析、原料、安全/贮存说明及现行剂量仍待用户提供背标或登录淘宝核验。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "本轮新增91.2秋海棠专用已由清晰原图核实；不得把先前体验装编号91.2自动视为同容量/同版本配方。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "球兰/鹿角蕨专用：多轮公开检索未取得能对应MAYA且可读型号的真实包装，不猜编号；搜索无证据不代表不存在。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "天南星科91.1、兰花92.5已补匹配图外用量/NPK；不是保证分析。11.1、11.11、91.11本轮未取得更完整背标。"
+    },
+    {
+      "bucket": "products-maya.json",
+      "gap": "所有产品仍partial。EC、NPK元素/氧化物口径、百分比w/w或w/v、认证有效性均未补猜；没有90/90S/100串用剂量，没有引入温度°F数据。"
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "topic": "percentage_basis",
+        "details": "20款资料均未明确w/w或w/v，保持unknown。基线Grower/Finisher的w/w声明不能由本次资料重新确认，不沿用。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "topic": "original_sources",
+        "details": "中国3个短HTML页通过厂家PDF链接抽取找回分析和剂量；直接原站请求403，已保存真实抽取文本而非伪造原站HTML。美国3款下载到真实PDF并完整提取。国际若干页面抽取不完整，已保存含数值的原文片段与无斜线替代抽取；未取得分析则标partial。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "topic": "regions",
+        "details": "中国9、国际7、美国4为地区独立记录；不代表全部中国在售。中国紧凑型13-5-20不借用国际14-5-21；高磷型9-40-25不借用国际9-41-25。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "topic": "missing_ec",
+        "details": "仅3个美国SKU保留厂家100 ppm N条件电导率；不推算其他SKU EC，不当根区或叶面阈值。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "topic": "scope",
+        "details": "未纳入草坪/蔬菜专用肥充数；5-11-26因明确请求水培目录且厂家同时列通用盆栽用途而条件纳入，其蔬菜水培示例不能外推观叶植物最优处方。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "topic": "baseline_inventory",
+        "details": "先前研究3款加站点Grower/Finisher共5款为已有增强；其余15款为本次新配方记录；产品均不计100条植物实践配额。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "number": "1",
+        "issue": "编号与20-20-20原配方已核实；宣传图包装仅能读到Peters Professional，未读到Allrounder。与现有通用型是候选对应，但不能仅凭相同NPK证明准确SKU，暂不新增重复产品，也不自动赋予该官方名。",
+        "source_url": "http://www.runjor.com/h-pd-69.html?m998pageno=1",
+        "next_action": "索取与编号同框的清晰原袋正反面标签及制造商对应产品资料；未核实前不补标准化数值。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "number": "10",
+        "issue": "编号页面及包装可读Hi-Nitro、30-10-10+TE、荷兰；既有国际Hi-Nitro是31-11-11，不是同一配方；既有美国30-10-10是美国版且微量元素分析不同，不合并为同版。新增中国销售的荷兰包装版本，氧化物和质量基准未清晰读出，NPK标准化栏留空。",
+        "source_url": "http://www.runjor.com/h-pd-74.html",
+        "next_action": "索取与编号同框的清晰原袋正反面标签及制造商对应产品资料；未核实前不补标准化数值。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "number": "23",
+        "issue": "编号与商品页15-5-15+7CaO+3MgO+TE已核实；但包装图为Peters Professional 15-5-15+3MgO+TE，未明确CalMag Grower；成分表水溶性磷15%又与标题配方中间5冲突。不能认定准确对应现有钙镁生长型，亦不把冲突图修成5%。不新增疑似重复SKU。",
+        "source_url": "https://www.runjor.com/h-pd-103.html",
+        "next_action": "索取与编号同框的清晰原袋正反面标签及制造商对应产品资料；未核实前不补标准化数值。"
+      }
+    },
+    {
+      "bucket": "products-peters.json",
+      "gap": {
+        "number": "226",
+        "issue": "编号页面明确13-5-20+7CaO+2MgO+TE，包装可读Peters Excel CalMag Finisher，匹配既有中国钙镁紧凑型；但宣传图成分表氧化镁3%与配方2MgO冲突，仅确认编号别名，不导入该图分析表。",
+        "source_url": "http://www.runjor.com/h-pd-79.html",
+        "next_action": "索取与编号同框的清晰原袋正反面标签及制造商对应产品资料；未核实前不补标准化数值。"
+      }
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "gap": {
+        "topic": "中国标签缺口",
+        "details": "中国12个候选为产品名/用途层面的partial，未用搜索营销NPK填补；官方主页当前返回webserver is functioning normally。"
+      }
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "gap": {
+        "topic": "大陆配方覆盖边界",
+        "details": "10条大陆候选（绿萝、兰花、喜酸、红掌、水培、通用液、兰花控释、通用水溶、通用营养棒、天南星科），均只核验产品存在/用途，未证明各自化学配方不同。秋海棠/洋兰仅目录命名，留inventory不计findings。不能宣称完成12–20个已知独立配方。"
+      }
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "gap": {
+        "topic": "地区与香港零售文字污染",
+        "details": "香港中文兰花浓缩液照片不能支撑正文美国水溶粉肥30-10-10；水培g/L分析亦不跨大陆版本。香港证据仅包装外观佐证，相关数字不入分析字段。"
+      }
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "gap": {
+        "topic": "英国兰花泵/滴灌配方",
+        "details": "两款官网下载包装PDF均为单页图像，已渲染；可核验施用法，未见NPK。不得凭产品剂型宣称独立配方，也不从其他地区兰花肥补值。泵版网页1泵/周而包装按盆大小1/2/3泵，保留差异。"
+      }
+    },
+    {
+      "bucket": "products-miraclegro.json",
+      "gap": {
+        "topic": "定量边界",
+        "details": "所有EC留空；没有EC灌溉/根区/叶喷口径混用。所有percentage_basis=unknown，因为未见明确w/w/w/v。不把量勺mL、瓶盖、泵、支等换算为g/L或ppm。英国标签RoI元素表达是同一配方另种记法，不另计SKU。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "保证分析完整性",
+        "detail": "所有条目partial。取得1款天南星热植600mL清晰说明图及剂量，未取得任何完整背标保证分析表；不得把30-20-17当成百分数或强制归为氧化物。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "球兰与海芋精确SKU",
+        "detail": "未确认球兰独立SKU；搜索的兰花/球兰混合标题不是球兰独立配方证据。海芋只见天南星科系列适用声明，未确认海芋独立配方。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "女王鹿角蕨",
+        "detail": "发现淘宝聚合索引标题，但未确认独立于鹿角蕨250mL配方，未拆成SKU。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "花烛/秋海棠可疑NPK",
+        "detail": "bk.taobao.com生成式推广文声称花烛30-20-17、秋海棠20-13-27，未有背标支持，全部不采入产品参数。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "系列扫描边界",
+        "detail": "旗舰店第一页公开数据声明395条商品、7页；本次实际保存第一页60条商品卡（包含重复商品/套装/介质，不是60种配方）。后续6页返回泛淘宝分类页，未取得商品，不能声称完整395条扫描。",
+        "raw_inventory_file": "[内部证据快照]"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "host浏览器阻塞",
+        "detail": "agent-browser仅列about:blank，无法证明真实host会话；真实host CDP端点探测失败。未启用匿名浏览器，未要求用户在子任务登录。淘宝公开页显示你好请登入，仅保留公开可读内容。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "WebIQ",
+        "detail": "已加载webiq；native工具未暴露，直连MCP检索脚本失败，随后改用允许的web_search与直接公开HTTP。不重配用户基础设施。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "视觉歧义",
+        "detail": "低分辨率正面图片有视觉误读（曾将Magical-Gro读为Miracle-Gro、将热植读为蕨植）；未采纳这些歧义为身份或配方事实。采用高清厂家画册及清晰天南星热植宣传图确认。"
+      }
+    },
+    {
+      "bucket": "products-meiyike.json",
+      "gap": {
+        "topic": "厂家宣传安全话术",
+        "detail": "无毒无害、宠物儿童安全、不烧苗等是广告声明且说明图要求远离儿童宠物；未当成无条件安全结论。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "gap": {
+        "topic": "爱贝施品牌关系",
+        "status": "partial",
+        "finding": "虹越原代理资料明确爱贝施=APEX并称POLYON包膜；不是Osmocote奥绿的中文别名。取得18-6-12 Flower & Foliage历史型号，但无可核验g/L/盆剂量和释放标定温度，故未充作第13个完整产品。",
+        "source_url": "https://web.hongyue.com/index.php/news/info/72.html",
+        "note": "历史中国代理页面不是当前全部APEX产品的技术说明，不把老POLYON配方与美国现售GAL-Xe ONE混同。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "gap": {
+        "topic": "中国编号A2、318S等",
+        "status": "partial",
+        "finding": "未获得厂家标签把中国A2/318S与本轮ICL英文Exact Standard三个SKU逐一对应。不得以相同NPK或月数自动匹配，不建立假别名。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "gap": {
+        "topic": "Osmocote=奥绿",
+        "status": "verified",
+        "finding": "ICL官方中文同一路径品牌页明确精准奥绿标准型；英文页为Osmocote Exact Standard。只确认品牌/系列翻译，不证明各国具体配方相同。",
+        "source_url": "https://icl-growingsolutions.com/zh-cn/ornamental-horticulture/brands/osmocote-exact-standard/"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "gap": {
+        "topic": "Magamp家用/业务用释放时长",
+        "status": "partial",
+        "finding": "业务用页三粒径约1年/半年/1.5个月；厂家现行家用中粒约1年、大粒约2年、小粒约2个月。本轮仅建立业务用3行，家用页另留快照，不把释放期互相补齐或凑6行。",
+        "source_urls": [
+          "https://www.hyponex.co.jp/products/products-520/",
+          "https://www.hyponex.co.jp/products/products-633/",
+          "https://www.hyponex.co.jp/products/products-634/",
+          "https://www.hyponex.co.jp/products/products-631/"
+        ]
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "gap": {
+        "topic": "美乐棵及MAYA缓释",
+        "status": "partial",
+        "finding": "MAYA三款缓释颗粒、美乐棵兰花型控释营养粒已库，已列inventory。未找到匹配大陆实物标签的新配方/肥效期证据，本轮不复制或以瓶重拆SKU。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "gap": {
+        "topic": "百分比质量基础",
+        "status": "partial",
+        "finding": "产品原页/标签写百分数但未逐一明示w/w或w/v；percentage_basis均保留unknown。未按颗粒形态擅填w/w。"
+      }
+    },
+    {
+      "bucket": "products-controlled-release.json",
+      "gap": {
+        "topic": "FAMIC快照提取截断",
+        "status": "partial",
+        "finding": "source-15-famic.txt为提取服务返回的前50000字符快照，末尾注明截断；本轮所需P2O5/K2O/MgO术语对应表在保留正文中，可逐字核验，不宣称该文件为整本试验法。"
+      }
+    }
+  ]
+}

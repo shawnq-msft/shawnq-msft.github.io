@@ -1,0 +1,524 @@
+{
+  "entries": 272,
+  "table_rows": 272,
+  "ratios_converted": 42,
+  "ratios_pending": 80,
+  "temperature_unparsed": 7,
+  "issues": [
+    {
+      "location": "db-38957199a801.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "推荐含微量元素的2:1:2或3:1:2配比肥料，液肥优于预混缓释肥以便随灌溉调整；施用量2.9 pounds of actual nitrogen /1000 square feet/month。这是实际N质量/生产面积/月，不是每盆产品克数，不是g/L或N ppm；原文未明确NPK配比中的P、K按元素还是氧化物口径，未给肥料品牌、EC或施水体积。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-3ea6d964cf2e.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "生长季每月一次平衡液肥；NPK、剂量、EC均未给。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-077e9873fbcd.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "生长季每月一次平衡液肥；NPK、剂量、EC均未给。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-3762ecc77deb.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "春夏每两周左右一次平衡兰花肥、最好无尿素；秋冬减至每月一次；换盆后5–6周不施肥，每数月清水冲盆防积盐。未给NPK数值、g/L、N ppm或EC。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-34b79c571ada.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "Foliage-Pro 1/2茶匙/加仑；活跃生长期“三轮肥、一轮清水”。只是种植者用量，NPK口径见厂家标签。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-bb2d587fef41.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "说明链接Feed Me! Orchid Fertilizer Mist；未给NPK、用量或EC，未核验字幕。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-c2fb3505548b.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：3-2-3；未说明（已读正文仅NPK 3-2-3）。 元素比信息不足，不换算。 用量：50ml/10L浇灌；幼苗/插穗或长期连续使用减半；未提供称重剂量或固定频率。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-7be9d7810898.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：4-2-3；未说明（正文仅NPK Fertiliser solution 4-2-3；不据此判定元素或氧化物、w/w或w/v）。 元素比信息不足，不换算。 用量：慢生2ml/L；快生3-5ml/L；叶喷1ml/L；每月1-4次，仅生长/开花期；光越少肥越少；无称重剂量。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-1c6b9c461524.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：4-2-3；未说明（已读正文仅NPK Fertiliser 4-2-3）。 元素比信息不足，不换算。 用量：慢生1-2ml/L；快生3-5ml/L；叶喷1ml/L；每月1-4次，休眠期停；未提供称重剂量。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-9591d818d8db.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：9-3-6；未说明；原厂旧资料比较表仅称Phosphorus/Potassium，未展示保证分析氧化物表头，不擅自认作元素。 元素比信息不足，不换算。 用量：养护每次浇水1/4 tsp./gallon (1:3000)；生产1/2-1 tsp./gallon每周；无称重剂量。",
+      "kind": "npk"
+    },
+    {
+      "fragment": "可最快出成品，低于14°C会促块茎形成并延迟。浇水用高于18°C的温水。原文DIF的°C/°F差值标注有问题，此处不采用该换算。",
+      "reason": "无法安全解析华氏温度以统一°C；保留原值待审计",
+      "location": "db-448603a73224.fields.temperature"
+    },
+    {
+      "location": "db-448603a73224.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "穴盘增大阶段14-4-14或15-5-15钙基肥与17-5-17铵基肥交替，50–100 ppm N，每2–3次浇水施一次；后期可逐渐到连续100 ppm。高光长日下该阶段另可用20-10-20、50–100 ppm。不要与移栽后更高浓度混用。\n移栽后14-4-14钙基肥与17-5-17铵基肥交替100–150 ppm（这句未标明N）；同段明确高光长日下20-10-20为100–150 ppm nitrogen。移栽后这段未另给每周次数，不能从穴盘阶段复制。配方数字按原标签保留，不改写为元素N:P:K。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-066df191d065.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "生产建议2.5–3.0 lb N/1,000 ft²/月，是面积氮施用量，不是ppm N。原文明示N–P2O5–K2O标签比例：初期3–1–2，促花转1–2–2；不是元素N:P:K，也不是观叶水晶花烛应使用高磷肥的证据。\n观花商业品种室内维护：20–20–20水溶肥，50 ppm N，每月一次。是根部供肥建议，不能当叶喷配方。\n无常规叶喷肥EC建议。指南建议滴灌/底部灌溉并避免肥液溅叶；缺镁时提及硝酸镁喷施，缺锰时硫酸锰喷施，但没有浓度/频率。喷水除尘不是叶喷肥。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-179c59d28380.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "原文称N:P:K=3:1:2或3:1:3，但未说明元素/氧化物标签基础；建议3 lb N/1,000 ft²/月，可用缓释、水溶或结合。没有可直接给家庭的ppm N及每周频率。\n没有日常叶喷肥EC/ppm N最佳试验。EP150 PDF表3警告液肥在卷叶中干燥可灼伤，并给20–20–20≤2lb/100gal的情景性避免药肥害建议；这不是叶喷最佳配方，不能以EC换算后推广。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-c4a410aa6f0b.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "UConn：新英格兰活跃生长期5–9月可规律施肥；高土壤盐分易灼伤。未给NPK、ppm N或施肥频率。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-27f8c1a2300e.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "佛罗里达多数砂土地轻施肥1–2次/生长季即可；较肥沃土壤可能无需施肥。以低磷缓释肥维持叶色。没有给出N ppm或商品配方，不能自行补为20-20-20。\n过肥会让叶片变绿、失去红白色；肥直接接触叶片可灼伤。因此不能据此提出任何叶喷EC安全阈值。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-33fbc8733584.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "同一旧综述列Osmocote 14-14-14预混6 kg/m³介质；液肥原文为“constant feed of 100–200 ppm nitrogen and potassium weekly”，同时出现constant和weekly、频率表述有歧义，只能保留为历史生产参考，不解释成每次浇水也不照搬家庭；高氮会导致不希望的绿叶。",
+      "kind": "npk"
+    },
+    {
+      "fragment": "P. bifurcatum为主：普通室温高于12.778°C表现较好；春季夜温稳定在40s°F后才逐步移出，秋季夜温降入40s°F前搬回室内。虽提及短时可存活mid-20s°F，不作推",
+      "reason": "无法安全解析华氏温度以统一°C；保留原值待审计",
+      "location": "db-899697bec8ce.fields.temperature"
+    },
+    {
+      "fragment": "室温高于12.778°C表现较好；春季夜温稳定在40s°F后才逐步移出，秋季夜温降入40s°F前搬回室内。虽提及短时可存活mid-20s°F，不作推荐低温或全属耐寒保证。",
+      "reason": "无法安全解析华氏温度以统一°C；保留原值待审计",
+      "location": "db-899697bec8ce.fields.temperature"
+    },
+    {
+      "fragment": "在40s°F后才逐步移出，秋季夜温降入40s°F前搬回室内。虽提及短时可存活mid-20s°F，不作推荐低温或全属耐寒保证。",
+      "reason": "无法安全解析华氏温度以统一°C；保留原值待审计",
+      "location": "db-899697bec8ce.fields.temperature"
+    },
+    {
+      "location": "db-0c883be9b7d4.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "Rex旧生产文章写150–250 ppm liquid feed或中等缓释肥；原文没有明确ppm以N还是成品肥计、没有配方或施用频率，不能擅自记为150–250 ppm N。介质为商业peat-lite、避免重及排水差配土，pH 5.8–6.8；高EC会矮化及叶缘灼伤，但文中无EC数值/方法。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-dcf3d5fdde1f.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "春夏每月用NPK比例1-1-1的均衡肥；秋冬每隔月。过大过快可减到每年1–2次。没有品牌、配液浓度、EC。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-1044571ac4ec.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "1 mS/cm = 1 dS/m = 1,000 µS/cm；EC不能不问配方就换算成N ppm。Purdue只允许对新配制肥液，利用同配方100 ppm N的标签EC并扣除原水EC来计算；根区旧液不能用这个逻辑反算氮浓度。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-b4190d718894.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "UF/IFAS推荐标签配比1:1:1肥料，按商品说明用量；幼株暖月每月一次、凉月生长放缓时每两月一次，成熟株每年1–2次即可。没有N ppm、稀释倍数或叶喷EC，1:1:1是肥料标签比例而不是溶液元素分析。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-39977dd95b3e.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "UF佛州地栽：新生长开始后完整干肥113g，每8周一次用于第一年；之后随长大增至227/341/454g但降至每年2–3次；20%–30%的氮来自有机源。该文未给具体NPK标签；不能据肥料总克数推算Nppm，更不能给室内小盆照用。\nUF仅就高石灰性高pH7–8.5土壤：Zn/Mn/Mg叶面施用比土施更有效；微量元素生长期每年2–3次。没有喷液EC、浓度及常规NPK叶喷方案；铁另以适配土壤pH的螯合铁土壤灌施。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-61a4eafba07a.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "生长时用含N/P/K均衡肥，标签建议浓度的一半、施肥频率为标签的两倍。这个方案依赖商品标签，并非固定每周或固定N ppm。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-76385721a2ee.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "每次需要浇水时用1/4 strength 肥；未指定品牌、标签原液强度、NPK、绝对浓度或 EC。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-1980d2054750.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "Johnson全浓度作者声明元素浓度(mM)：N14、P2、K6、Ca4、Mg1；不是肥料袋标签比。若按作者14mM N计算，25%–50%约49–98 ppm N；盐配方与N声明有计量矛盾，见下方证据缺口。\n肥液试验每周一次、不额外浇水：上浇300mL/盆；底灌3–4cm液深浸1–2h后回收。应连同温度、盆容积、介质解释，不直接变成家庭一周一次浇水日历。\n本次大学指南、‘Bambino’试验和供苗商原文没有日常叶喷肥的量化方案，尤其没有叶喷EC目标。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-fc772c5fbef4.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "同作者 weakly weekly 液肥；所取配方页不提供剂量、NPK 或 EC。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-d06a07131ea6.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "快生组 Hesi TNT Complex 35ml/10L；较慢天南星组20–25ml/10L；初建立/慢生敏感组5–10ml/10L。未给 EC、NPK、施用频次，不自行换算。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-693a3973bcd9.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "Oglesby的特定商品品系：液肥150–200 ppm N，每周2次，17–5–17或20–10–20（商品肥料标签，非元素比）。每第3或4次施肥加硫酸镁1 lb/100 Gallons。50%–70%遮阴；介质轻、排水良好，pH5.8–6.2。商业建议与‘Bambino’试验不同，不能合并成统一最优值。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-3739f16e88a0.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：未披露；未提供保证分析NPK与百分数基准。 元素比信息不足，不换算。 用量：无需自行配制；官方Guide每周2–3次、低光细雾、不喷至湿透",
+      "kind": "npk"
+    },
+    {
+      "location": "db-77b02def1a68.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：0,1+0,1+0,1；官方NPK等级原样；未给百分数质量/体积基准；不推导施用液mg/L。 元素比信息不足，不换算。 用量：不再稀释；每株每周1满盖；5–8月较暖时另加1盖低钙自来水/周",
+      "kind": "npk"
+    },
+    {
+      "location": "db-1dcb4fc9f74c.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：3+4,2+5；官网NPK等级原样；非元素P/K；页面未给完整保证分析和质量/体积基准，analysis空置。 元素比信息不足，不换算。 用量：瓶盖I兑1 L（原文Wasster）；II兑2 L；III兑3 L；1–12月每月2次",
+      "kind": "npk"
+    },
+    {
+      "location": "db-85df281951c1.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "标签：6+3+6；官方NPK等级原样；页面未逐项展开百分数与质量/体积基准，analysis保留空值。 元素比信息不足，不换算。 用量：1 pump / 1 L水；每次浇水；泵mL未给",
+      "kind": "npk"
+    },
+    {
+      "location": "db-f94e096a0599.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "持续供肥 200 ppm N，N-P-K 比 3-1-2；包含镁和微量元素。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-0e78e1d583ae.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "N-P-K 比例 3:1:2，可缓释肥或液肥。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-bb738e907c1f.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "肥料配方可用 17-5-17、14-4-14 或 20-10-20，100 ppm N；每第二次施肥配合清水灌溉，避免尿素及高铵态氮。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-e2c38ef12854.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "初期 N、K 为 70–90 ppm；根系发育良好后（3–4 周）N 提高到 150–200 ppm；幼苗每周施肥 2 次，约 10–12 周后提高到每周 3–4 次。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-f2ac8be55824.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "持续供肥 20-20-20 或 20-10-20，125–175 ppm（原文未说明按哪个元素计）；偶尔补硫源如硫酸镁。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-e2b6ea1e845b.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "防苞片蓝变/透明化，供给K:Ca比1.2–1.3:1；来源未注明质量比或摩尔比。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-b25c93f9bd38.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "k-lite MSU配方，每次50–100 ppm氮。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-18134f5bbd92.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "建议将单纯叶面施肥改为随浇水施用常规高氮液肥，未给NPK或剂量。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-338cb6e80cdc.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-137b3253e1cb.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-c7626b9bdcee.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "每5 mL营养液兑水1 L，搅匀后浇灌根部至充分湿润（匹配SKU图外使用说明，非背标）；7–14天一次，早晨/傍晚施用（匹配SKU图外说明）",
+      "kind": "npk"
+    },
+    {
+      "location": "db-fcbc132f5470.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "每5 mL营养液兑水1 L，搅匀后浇灌根部至充分湿润（匹配SKU图外使用说明，非背标）；7–14天一次，早晨/傍晚施用（匹配SKU图外说明）",
+      "kind": "npk"
+    },
+    {
+      "location": "db-735bcab91f51.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-3ff5566d80c3.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-02c51ff927d1.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-08beb93e55b1.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "每1勺约1 g兑水1 L，搅匀灌根至充分湿润（390 g通用型商品图外说明，非背标）；7–14天一次，早晨/傍晚施用（390 g商品图外说明）",
+      "kind": "npk"
+    },
+    {
+      "location": "db-949bb4136b3c.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-8d1f11e4a759.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "盆土参考容积1/2/4/8/12 L分别用4.5/9/18/36/54 g；混土每1 m³营养土4–5 kg；旧土表面撒施或浅埋（虹越旧版85销售详情说明，非现行背标）；建议每3个月一次，根据植物所需正常浇水（虹越旧版85销售详情说明；非现行背标）",
+      "kind": "npk"
+    },
+    {
+      "location": "db-0420c62bffe3.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-b152dac24183.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-536570009679.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "每5 mL营养液兑水1 L，搅匀灌根至充分湿润（图外说明）；7–14天一次，早晨/傍晚施用（图外说明）",
+      "kind": "npk"
+    },
+    {
+      "location": "db-0ed3ef56b7ee.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "每1勺约1 g兑水1 L，灌根至充分湿润（160 g底层动力商品图外说明，非背标）；7–14天一次，早晨/傍晚施用（160 g商品图外说明）",
+      "kind": "npk"
+    },
+    {
+      "location": "db-f43d94f75378.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-453ca7465ee3.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-f3af815366a2.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-73252093e29f.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-a5771a7bd4bb.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-fde5d4b1d685.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-7785c1126609.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-310947939a54.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-1e971347ec15.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-ce0b19647a3d.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-2ff4c2123874.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-12a0d97ca826.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-05e100329f41.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-03a9232537e2.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "原文氮磷钾配比 30-20-17；元素/氧化物及百分比口径未标明。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-21ed43ea32ea.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-9619e7cf4761.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-28abeb9cf071.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-8f7621df30bb.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-835b43b6b0d3.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-13f300a5f04b.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-f61e6039e4ee.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "未提供",
+      "kind": "npk"
+    },
+    {
+      "location": "db-ac02ae31c0ed.npk",
+      "reason": "元素/氧化物口径未知，待核验；不推断标签",
+      "fragment": "原文氮磷钾配比 8:3:8；元素/氧化物及百分比口径未标明。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-87be3b5dd690.npk",
+      "reason": "无可靠完整N/P/K分析或单一数值标签，待核验",
+      "fragment": "N–P₂O₅–K₂O=6–40–6（其中P/K为枸溶性保证值，不是全水溶）；盆栽基肥2–3 g/L基质；洋兰表施1 g/L基质；洋兰树皮基质预混1–2 g/L（禁混水苔）。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-80fa7434a706.npk",
+      "reason": "无可靠完整N/P/K分析或单一数值标签，待核验",
+      "fragment": "N–P₂O₅–K₂O=6–40–6（其中P/K为枸溶性保证值，不是全水溶）；盆栽基肥2–3 g/L基质；洋兰树皮基质预混1–2 g/L（禁混水苔）。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-d1c08a12efda.npk",
+      "reason": "无可靠完整N/P/K分析或单一数值标签，待核验",
+      "fragment": "N–P₂O₅–K₂O=6–40–6（其中P/K为枸溶性保证值，不是全水溶）；穴盘苗基肥1–1.5 g/L基质；已有肥调整泥炭用量约减半。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-ff4e97369995.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "定植约6–8周、根系充分发育后，24-8-16或20-10-20液肥150–200 ppm N；原文肥液EC约1–1.5、土壤EC约1.0，未注明EC单位及基质浸提方法，不能标为已核验mS/cm。",
+      "kind": "npk"
+    },
+    {
+      "location": "db-e6364b2ec544.npk",
+      "reason": "未可靠识别同处理、同单位的完整元素N/P/K浓度；待审计",
+      "fragment": "持续液肥不超过250 ppm N；成熟株偶尔400 ppm N须与清水交替。频繁300–400 ppm N被报告导致慢长、花色变浅和厚畸形叶。",
+      "kind": "npk"
+    },
+    {
+      "fragment": "春季夜温稳定在40s°F后渐进移出；秋夜温降入40s°F前移回（季节管理，非最适）",
+      "reason": "无法安全解析华氏温度以统一°C；保留原值待审计",
+      "location": "db-899697bec8ce.table.temperature[1]"
+    },
+    {
+      "fragment": "春季夜温稳定在40s°F后渐进移出；秋夜温降入40s°F前移回（季节管理，非最适）",
+      "reason": "无法安全解析华氏温度以统一°C；保留原值待审计",
+      "location": "db-899697bec8ce.table.temperature[1]"
+    },
+    {
+      "fragment": "浇湿盾叶基部与介质，两浇间一定干燥；暖季多、冷季少。可另用缓释颗粒；短时存活mid-20s°F非推荐低温。",
+      "reason": "无法安全解析华氏温度以统一°C；保留原值待审计",
+      "location": "db-899697bec8ce.table.notes[1]"
+    }
+  ]
+}

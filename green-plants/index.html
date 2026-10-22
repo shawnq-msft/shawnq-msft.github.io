@@ -1,14 +1,17 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>绿植养护数据库</title><meta name="description" content="按植物、信息来源和介质筛选养护记录：图片、光照、温度、水分、NPK、EC、肥料用量及添加剂。"><link rel="stylesheet" href="database.css"></head><body>
-<header><div><h1>绿植养护数据库</h1><p>按来源查参数；缺项不占位，点击封面放大、展开查看原文。</p></div><a href="database.json" download>下载数据 ↗</a></header>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>绿植养护参数表</title><meta name="description" content="按物种和来源对照光、温、水、气、肥、土；量化值优先，保留EC方法与NPK口径。"><link rel="stylesheet" href="database.css"></head><body>
+<header><div><h1>绿植养护参数表</h1><p>按物种与来源逐行对照；量化优先，定性描述和证据放备注。</p></div><a href="table-cells.json" download>下载表格数据 ↗</a></header>
 <main>
 <form id="filters" aria-label="数据库筛选器" onsubmit="return false">
 <label>植物种类<select id="plant" aria-label="植物种类"></select></label>
 <label>信息来源<select id="source" aria-label="信息来源"></select></label>
 <label>介质类型<select id="medium" aria-label="介质类型"></select></label>
-<label class="search">搜索<input id="search" type="search" placeholder="品种 / 品牌 / 添加剂" autocomplete="off"></label>
+<label>搜索<input id="search" type="search" placeholder="品种 / 品牌 / 参数" autocomplete="off"></label>
 </form>
 <div class="status"><span id="count" aria-live="polite">读取数据库…</span><button id="reset">清除筛选</button></div>
-<div id="entries"></div><button id="more" hidden>加载更多</button>
+<p class="legend">— 无量化值，不是零；定性信息见备注。介质保留组成。筛选项数字随其他筛选条件联动。产品资料含待核验线索，条目数不等于已核验配方数。<span class="scroll-hint">表头与物种列固定 · 左右滚动查看全部列 ↔</span></p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="可横向与纵向滚动的养护参数表"><table><caption>按物种和信息来源列出的量化养护参数，缺少量化值用破折号标记。</caption><colgroup><col class="species"><col class="source"><col class="light"><col class="temperature"><col class="water"><col class="air"><col class="fertilizer"><col class="substrate"><col class="remark"></colgroup><thead><tr><th scope="col">物种 / 品种<small>适用情境</small></th><th scope="col">信息来源<small>封面可点开放大</small></th><th scope="col">光<small>强度 · 时长 · DLI</small></th><th scope="col">温<small>°C · 阶段</small></th><th scope="col">水<small>浇水 · 含水量</small></th><th scope="col">气<small>湿度 · 通风</small></th><th scope="col">肥<small>N–P₂O₅–K₂O · EC · 剂量</small></th><th scope="col">土<small>介质 · 配比 · pH</small></th><th scope="col">备注</th></tr></thead><tbody id="entries"></tbody></table></div>
 <noscript>请启用JavaScript使用筛选器，或阅读<a href="evidence.md">完整资料与来源</a>。</noscript>
-</main><footer><p><strong>NPK口径：</strong>“标签”与“元素质量比”分开，%w/w与%w/v分开；EC保留原测量方法。未提供的参数不补猜。<a href="reference.html#reading">口径说明与换算工具</a></p><p><span id="total"></span> · <a href="evidence.md" download>完整证据</a> · <a href="v1.html">原七类综述</a>。图片仅用于识别来源，版权归原权利人。厂家或博主建议不等于独立最优试验。</p></footer>
-<script src="database-data.js"></script><script src="database.js"></script></body></html>
+</main>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-head"><h2 id="detail-title">备注与原始参数</h2><button id="detail-close" aria-label="关闭备注">关闭 ×</button></div><div id="detail-content"></div></dialog>
+<footer><p><strong>口径：</strong>N–P₂O₅–K₂O 与元素 N:P:K、%w/w 与 %w/v 分开；EC保留根区/浇入液/叶喷及测量方法。试验处理、商业生产条件与博主个案不等于家庭最优处方。<a href="reference.html#reading">口径与换算</a></p><p><span id="total"></span> · <a href="database.json" download>原始记录</a> · <a href="catalog.html">产品目录与缺项</a> · <a href="video-audit.html">Gemini视频核查</a> · <a href="evidence.md" download>完整证据</a> · <a href="v1.html">七类综述</a>。图片用于识别来源，版权归原权利人。</p></footer>
+<script src="database-data.js"></script><script src="table-data.js"></script><script src="database.js"></script></body></html>

@@ -1,0 +1,204 @@
+{
+  "checked": "2026-10-22",
+  "summary": "8条提交的片长全部不符；所报完整字幕覆盖及口述时码未获验证。时长差本身不证明每条内容为假；将其隔离。仅Pretty in Green作者说明中的配方另行按description-only证据入库，并保留可选项。",
+  "videos": [
+    {
+      "video_id": "9rBp3bqCnw0",
+      "url": "https://www.youtube.com/watch?v=9rBp3bqCnw0",
+      "title": "My Aroid mix for Monsteras, Philodendron, Anthuriums etc #tutorial",
+      "channel": "Sydney Plant Guy",
+      "submitted_duration_seconds": 544,
+      "actual_duration_seconds": 783,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "substrate",
+          "start_seconds": 0,
+          "end_seconds": 544,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review.",
+      "additional_issue": "粗颗粒80%无法从4份+若干把计算：handful体积未给。"
+    },
+    {
+      "video_id": "bN4ew7mKfug",
+      "url": "https://www.youtube.com/watch?v=bN4ew7mKfug",
+      "title": "How to get your first Monstera fenestrations",
+      "channel": "Kill This Plant",
+      "submitted_duration_seconds": 600,
+      "actual_duration_seconds": 592,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "light",
+          "start_seconds": 120,
+          "end_seconds": null,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review."
+    },
+    {
+      "video_id": "ByKOvCg4hBM",
+      "url": "https://www.youtube.com/watch?v=ByKOvCg4hBM",
+      "title": "Fertiliser/Plant Nutrients - everything you need to know",
+      "channel": "Sydney Plant Guy",
+      "submitted_duration_seconds": 1553,
+      "actual_duration_seconds": 2323,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "fertilizer",
+          "start_seconds": 212,
+          "end_seconds": 800,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review.",
+      "submitted_channel_conflict": false
+    },
+    {
+      "video_id": "kIl_Cib37xA",
+      "url": "https://www.youtube.com/watch?v=kIl_Cib37xA",
+      "title": "Potting Mix for Monstera | Aroid Potting Mix Recipe | How to Ep 41",
+      "channel": "Pretty in Green",
+      "submitted_duration_seconds": 600,
+      "actual_duration_seconds": 177,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "substrate",
+          "start_seconds": 60,
+          "end_seconds": null,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review.",
+      "corrected_description_imported": true,
+      "description_evidence": "5/3/1/1/0.25配方可在作者视频说明中独立核实；泥炭/盆栽土/椰糠项是可选项，因此不导入Gemini的固定百分比或口述时码。"
+    },
+    {
+      "video_id": "CQmY9BNu16s",
+      "url": "https://www.youtube.com/watch?v=CQmY9BNu16s",
+      "title": "Houseplant 101: Complete Guide to Fertilizing Houseplants — Ep 122",
+      "channel": "Summer Rayne Oakes",
+      "submitted_duration_seconds": 2119,
+      "actual_duration_seconds": 2280,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "fertilizer",
+          "start_seconds": 1432,
+          "end_seconds": 1800,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review."
+    },
+    {
+      "video_id": "mRfO5W9NYo8",
+      "url": "https://www.youtube.com/watch?v=mRfO5W9NYo8",
+      "title": "What Happens When You Over or Under-Fertilize Hoyas",
+      "channel": "Unsolicited Plant Talks",
+      "submitted_duration_seconds": 1200,
+      "actual_duration_seconds": 1101,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "fertilizer",
+          "start_seconds": 60,
+          "end_seconds": 600,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review."
+    },
+    {
+      "video_id": "B9CGl_JiZB4",
+      "url": "https://www.youtube.com/watch?v=B9CGl_JiZB4",
+      "title": "A general soil mix for (most) Aroids!",
+      "channel": "Kaylee Ellen",
+      "submitted_duration_seconds": 1625,
+      "actual_duration_seconds": 848,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "substrate",
+          "start_seconds": 180,
+          "end_seconds": 720,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review."
+    },
+    {
+      "video_id": "OZy-djeyKZc",
+      "url": "https://www.youtube.com/watch?v=OZy-djeyKZc",
+      "title": "The Complete Fertilizer Guide for Houseplants (PON, Semi-Hydro & Soil)",
+      "channel": "Lupita Rios",
+      "submitted_duration_seconds": 1380,
+      "actual_duration_seconds": 1833,
+      "duration_matches": false,
+      "submitted_full_coverage_verified": false,
+      "findings_imported": false,
+      "caption_response_bytes": 0,
+      "claim_checks": [
+        {
+          "index": 0,
+          "topic": "fertilizer",
+          "start_seconds": 240,
+          "end_seconds": 900,
+          "timecode_within_actual_duration": true,
+          "status": "quarantined_no_verified_transcript",
+          "reason": "没有可复核完整字幕/逐段视听证据；不将所报口述或时码当已验证。"
+        }
+      ],
+      "method": "YouTube watch player metadata + yt-dlp metadata; subtitle endpoint returned an empty body; not a full-video review."
+    }
+  ],
+  "full_video_claims_imported": 0,
+  "independent_description_records_imported": 1
+}
